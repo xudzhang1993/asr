@@ -1,0 +1,3781 @@
+2017-11-26 16:01:47.546044: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2017-11-26 16:01:47.977879: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Graphics Device major: 6 minor: 1 memoryClockRate(GHz): 1.531
+pciBusID: 0000:8b:00.0
+totalMemory: 22.38GiB freeMemory: 22.22GiB
+2017-11-26 16:01:47.977919: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Graphics Device, pci bus id: 0000:8b:00.0, compute capability: 6.1)
+<tensorflow.python.ops.tensor_array_ops.TensorArray object at 0x704b950>
+None
+encoder_layer_0/rnn/gru_cell/gates/kernel:0
+encoder_layer_0/rnn/gru_cell/gates/bias:0
+encoder_layer_0/rnn/gru_cell/candidate/kernel:0
+encoder_layer_0/rnn/gru_cell/candidate/bias:0
+encoder_layer_1/rnn/gru_cell/gates/kernel:0
+encoder_layer_1/rnn/gru_cell/gates/bias:0
+encoder_layer_1/rnn/gru_cell/candidate/kernel:0
+encoder_layer_1/rnn/gru_cell/candidate/bias:0
+encoder_layer_2/rnn/gru_cell/gates/kernel:0
+encoder_layer_2/rnn/gru_cell/gates/bias:0
+encoder_layer_2/rnn/gru_cell/candidate/kernel:0
+encoder_layer_2/rnn/gru_cell/candidate/bias:0
+decoder/memory_layer/kernel:0
+decoder/train/decoder/attention_wrapper/gru_cell/gates/kernel:0
+decoder/train/decoder/attention_wrapper/gru_cell/gates/bias:0
+decoder/train/decoder/attention_wrapper/gru_cell/candidate/kernel:0
+decoder/train/decoder/attention_wrapper/gru_cell/candidate/bias:0
+decoder/train/decoder/attention_wrapper/bahdanau_attention/query_layer/kernel:0
+decoder/train/decoder/attention_wrapper/bahdanau_attention/attention_v:0
+decoder/train/decoder/attention_wrapper/bahdanau_attention/attention_g:0
+decoder/train/decoder/attention_wrapper/bahdanau_attention/attention_b:0
+decoder/train/decoder/attention_wrapper/attention_layer/kernel:0
+decoder/train/decoder/dense/kernel:0
+decoder/train/beta1_power:0
+decoder/train/beta2_power:0
+decoder/train/encoder_layer_0/rnn/gru_cell/gates/kernel/Adam:0
+decoder/train/encoder_layer_0/rnn/gru_cell/gates/kernel/Adam_1:0
+decoder/train/encoder_layer_0/rnn/gru_cell/gates/bias/Adam:0
+decoder/train/encoder_layer_0/rnn/gru_cell/gates/bias/Adam_1:0
+decoder/train/encoder_layer_0/rnn/gru_cell/candidate/kernel/Adam:0
+decoder/train/encoder_layer_0/rnn/gru_cell/candidate/kernel/Adam_1:0
+decoder/train/encoder_layer_0/rnn/gru_cell/candidate/bias/Adam:0
+decoder/train/encoder_layer_0/rnn/gru_cell/candidate/bias/Adam_1:0
+decoder/train/encoder_layer_1/rnn/gru_cell/gates/kernel/Adam:0
+decoder/train/encoder_layer_1/rnn/gru_cell/gates/kernel/Adam_1:0
+decoder/train/encoder_layer_1/rnn/gru_cell/gates/bias/Adam:0
+decoder/train/encoder_layer_1/rnn/gru_cell/gates/bias/Adam_1:0
+decoder/train/encoder_layer_1/rnn/gru_cell/candidate/kernel/Adam:0
+decoder/train/encoder_layer_1/rnn/gru_cell/candidate/kernel/Adam_1:0
+decoder/train/encoder_layer_1/rnn/gru_cell/candidate/bias/Adam:0
+decoder/train/encoder_layer_1/rnn/gru_cell/candidate/bias/Adam_1:0
+decoder/train/encoder_layer_2/rnn/gru_cell/gates/kernel/Adam:0
+decoder/train/encoder_layer_2/rnn/gru_cell/gates/kernel/Adam_1:0
+decoder/train/encoder_layer_2/rnn/gru_cell/gates/bias/Adam:0
+decoder/train/encoder_layer_2/rnn/gru_cell/gates/bias/Adam_1:0
+decoder/train/encoder_layer_2/rnn/gru_cell/candidate/kernel/Adam:0
+decoder/train/encoder_layer_2/rnn/gru_cell/candidate/kernel/Adam_1:0
+decoder/train/encoder_layer_2/rnn/gru_cell/candidate/bias/Adam:0
+decoder/train/encoder_layer_2/rnn/gru_cell/candidate/bias/Adam_1:0
+decoder/train/decoder/memory_layer/kernel/Adam:0
+decoder/train/decoder/memory_layer/kernel/Adam_1:0
+decoder/train/decoder/train/decoder/attention_wrapper/gru_cell/gates/kernel/Adam:0
+decoder/train/decoder/train/decoder/attention_wrapper/gru_cell/gates/kernel/Adam_1:0
+decoder/train/decoder/train/decoder/attention_wrapper/gru_cell/gates/bias/Adam:0
+decoder/train/decoder/train/decoder/attention_wrapper/gru_cell/gates/bias/Adam_1:0
+decoder/train/decoder/train/decoder/attention_wrapper/gru_cell/candidate/kernel/Adam:0
+decoder/train/decoder/train/decoder/attention_wrapper/gru_cell/candidate/kernel/Adam_1:0
+decoder/train/decoder/train/decoder/attention_wrapper/gru_cell/candidate/bias/Adam:0
+decoder/train/decoder/train/decoder/attention_wrapper/gru_cell/candidate/bias/Adam_1:0
+decoder/train/decoder/train/decoder/attention_wrapper/bahdanau_attention/query_layer/kernel/Adam:0
+decoder/train/decoder/train/decoder/attention_wrapper/bahdanau_attention/query_layer/kernel/Adam_1:0
+decoder/train/decoder/train/decoder/attention_wrapper/bahdanau_attention/attention_v/Adam:0
+decoder/train/decoder/train/decoder/attention_wrapper/bahdanau_attention/attention_v/Adam_1:0
+decoder/train/decoder/train/decoder/attention_wrapper/bahdanau_attention/attention_g/Adam:0
+decoder/train/decoder/train/decoder/attention_wrapper/bahdanau_attention/attention_g/Adam_1:0
+decoder/train/decoder/train/decoder/attention_wrapper/bahdanau_attention/attention_b/Adam:0
+decoder/train/decoder/train/decoder/attention_wrapper/bahdanau_attention/attention_b/Adam_1:0
+decoder/train/decoder/train/decoder/attention_wrapper/attention_layer/kernel/Adam:0
+decoder/train/decoder/train/decoder/attention_wrapper/attention_layer/kernel/Adam_1:0
+decoder/train/decoder/train/decoder/dense/kernel/Adam:0
+decoder/train/decoder/train/decoder/dense/kernel/Adam_1:0
+epoch: 0 batch: 0 loss: 2.407865
+epoch: 0 batch: 1 loss: 2.222237
+epoch: 0 batch: 2 loss: 2.439155
+epoch: 0 batch: 3 loss: 2.321525
+epoch: 0 batch: 4 loss: 2.731436
+epoch: 0 batch: 5 loss: 2.281547
+epoch: 0 batch: 6 loss: 2.432190
+epoch: 0 batch: 7 loss: 2.456419
+epoch: 0 batch: 8 loss: 2.194397
+epoch: 0 batch: 9 loss: 2.548948
+epoch: 0 batch: 10 loss: 2.470168
+epoch: 0 batch: 11 loss: 2.299418
+epoch: 0 batch: 12 loss: 2.130634
+epoch: 0 batch: 13 loss: 2.236043
+epoch: 0 batch: 14 loss: 2.385967
+epoch: 0 batch: 15 loss: 2.278855
+epoch: 0 batch: 16 loss: 2.197255
+epoch: 0 batch: 17 loss: 2.292075
+epoch: 0 batch: 18 loss: 2.072268
+epoch: 0 batch: 19 loss: 2.025561
+epoch: 0 batch: 20 loss: 2.043656
+epoch: 0 batch: 21 loss: 2.142218
+epoch: 0 batch: 22 loss: 2.187172
+epoch: 0 batch: 23 loss: 2.331944
+epoch: 0 batch: 24 loss: 2.337899
+epoch: 0 batch: 25 loss: 2.127378
+epoch: 0 batch: 26 loss: 2.361556
+epoch: 0 batch: 27 loss: 2.003563
+epoch: 0 batch: 28 loss: 2.215846
+epoch: 0 batch: 29 loss: 2.092839
+epoch: 0 batch: 30 loss: 2.315573
+epoch: 0 batch: 31 loss: 2.296282
+epoch: 0 batch: 32 loss: 2.209925
+epoch: 0 batch: 33 loss: 2.417471
+epoch: 0 batch: 34 loss: 2.106170
+epoch: 0 batch: 35 loss: 2.273787
+epoch: 0 batch: 36 loss: 2.202756
+epoch: 0 batch: 37 loss: 2.291210
+epoch: 0 batch: 38 loss: 2.303258
+epoch: 0 batch: 39 loss: 2.426615
+epoch: 0 batch: 40 loss: 2.375465
+epoch: 0 batch: 41 loss: 2.224709
+epoch: 0 batch: 42 loss: 2.679011
+epoch: 0 batch: 43 loss: 2.004678
+epoch: 0 batch: 44 loss: 2.178476
+epoch: 0 batch: 45 loss: 2.186246
+epoch: 0 batch: 46 loss: 2.150697
+epoch: 0 batch: 47 loss: 2.012548
+epoch: 0 batch: 48 loss: 2.291624
+epoch: 0 batch: 49 loss: 2.189877
+epoch: 0 batch: 50 loss: 2.217859
+epoch: 0 batch: 51 loss: 2.208412
+epoch: 0 batch: 52 loss: 2.264012
+epoch: 0 batch: 53 loss: 2.169927
+epoch: 0 batch: 54 loss: 2.177902
+epoch: 0 batch: 55 loss: 2.141408
+epoch: 0 batch: 56 loss: 2.116446
+epoch: 0 batch: 57 loss: 1.992558
+epoch: 0 batch: 58 loss: 2.156075
+epoch: 0 batch: 59 loss: 2.304635
+epoch: 0 batch: 60 loss: 1.970517
+epoch: 0 batch: 61 loss: 2.124246
+epoch: 0 batch: 62 loss: 2.292761
+epoch: 0 batch: 63 loss: 2.292650
+epoch: 0 batch: 64 loss: 2.173695
+epoch: 0 batch: 65 loss: 2.103784
+epoch: 0 batch: 66 loss: 2.236344
+epoch: 0 batch: 67 loss: 2.136208
+epoch: 0 batch: 68 loss: 2.238095
+epoch: 0 batch: 69 loss: 2.121335
+epoch: 0 batch: 70 loss: 2.351367
+epoch: 0 batch: 71 loss: 2.040767
+epoch: 0 batch: 72 loss: 2.084772
+epoch: 0 batch: 73 loss: 2.085608
+epoch: 0 batch: 74 loss: 2.166152
+epoch: 0 batch: 75 loss: 1.951095
+epoch: 0 batch: 76 loss: 1.974490
+epoch: 0 batch: 77 loss: 2.188811
+epoch: 0 batch: 78 loss: 2.119439
+epoch: 0 batch: 79 loss: 2.088034
+epoch: 0 batch: 80 loss: 1.704418
+epoch: 0 batch: 81 loss: 1.793545
+epoch: 0 batch: 82 loss: 1.869437
+epoch: 0 batch: 83 loss: 2.247413
+epoch: 0 batch: 84 loss: 2.092199
+epoch: 0 batch: 85 loss: 2.090312
+epoch: 0 batch: 86 loss: 2.061451
+epoch: 0 batch: 87 loss: 1.827892
+epoch: 0 batch: 88 loss: 1.834891
+epoch: 0 batch: 89 loss: 2.022897
+epoch: 0 batch: 90 loss: 1.832372
+epoch: 0 batch: 91 loss: 1.905541
+epoch: 0 batch: 92 loss: 1.910015
+epoch: 0 batch: 93 loss: 1.777059
+epoch: 0 batch: 94 loss: 1.854514
+epoch: 0 batch: 95 loss: 2.000090
+epoch: 0 batch: 96 loss: 1.998120
+epoch: 0 batch: 97 loss: 1.765111
+epoch: 0 batch: 98 loss: 1.998520
+epoch: 0 batch: 99 loss: 1.861840
+epoch: 0 batch: 100 loss: 1.810898
+epoch: 0 batch: 101 2017-11-26 16:05:16.651764: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+2017-11-26 16:05:16.652635: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+loss: 1.920546
+epoch: 0 batch: 102 loss: 1.938983
+epoch: 0 batch: 103 loss: 1.912961
+epoch: 0 batch: 104 loss: 1.740190
+epoch: 0 batch: 105 loss: 2.034059
+epoch: 0 batch: 106 loss: 1.770386
+epoch: 0 batch: 107 loss: 1.846024
+epoch: 0 batch: 108 loss: 1.749601
+epoch: 0 batch: 109 loss: 1.767641
+epoch_loss: 2.134843
+Traceback (most recent call last):
+  File "timit.py", line 57, in <module>
+    sess.run(iterator.initializer({rf: os.path.join(hparams.data_dir, 'dev.record')}))
+TypeError: 'Operation' object is not callable
+2017-11-26 16:19:43.227697: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2017-11-26 16:19:43.645612: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Graphics Device major: 6 minor: 1 memoryClockRate(GHz): 1.531
+pciBusID: 0000:8b:00.0
+totalMemory: 22.38GiB freeMemory: 22.22GiB
+2017-11-26 16:19:43.645683: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Graphics Device, pci bus id: 0000:8b:00.0, compute capability: 6.1)
+<tensorflow.python.ops.tensor_array_ops.TensorArray object at 0x81d4950>
+None
+encoder_layer_0/rnn/gru_cell/gates/kernel:0
+encoder_layer_0/rnn/gru_cell/gates/bias:0
+encoder_layer_0/rnn/gru_cell/candidate/kernel:0
+encoder_layer_0/rnn/gru_cell/candidate/bias:0
+encoder_layer_1/rnn/gru_cell/gates/kernel:0
+encoder_layer_1/rnn/gru_cell/gates/bias:0
+encoder_layer_1/rnn/gru_cell/candidate/kernel:0
+encoder_layer_1/rnn/gru_cell/candidate/bias:0
+encoder_layer_2/rnn/gru_cell/gates/kernel:0
+encoder_layer_2/rnn/gru_cell/gates/bias:0
+encoder_layer_2/rnn/gru_cell/candidate/kernel:0
+encoder_layer_2/rnn/gru_cell/candidate/bias:0
+decoder/memory_layer/kernel:0
+decoder/train/decoder/attention_wrapper/gru_cell/gates/kernel:0
+decoder/train/decoder/attention_wrapper/gru_cell/gates/bias:0
+decoder/train/decoder/attention_wrapper/gru_cell/candidate/kernel:0
+decoder/train/decoder/attention_wrapper/gru_cell/candidate/bias:0
+decoder/train/decoder/attention_wrapper/bahdanau_attention/query_layer/kernel:0
+decoder/train/decoder/attention_wrapper/bahdanau_attention/attention_v:0
+decoder/train/decoder/attention_wrapper/bahdanau_attention/attention_g:0
+decoder/train/decoder/attention_wrapper/bahdanau_attention/attention_b:0
+decoder/train/decoder/attention_wrapper/attention_layer/kernel:0
+decoder/train/decoder/dense/kernel:0
+decoder/train/beta1_power:0
+decoder/train/beta2_power:0
+decoder/train/encoder_layer_0/rnn/gru_cell/gates/kernel/Adam:0
+decoder/train/encoder_layer_0/rnn/gru_cell/gates/kernel/Adam_1:0
+decoder/train/encoder_layer_0/rnn/gru_cell/gates/bias/Adam:0
+decoder/train/encoder_layer_0/rnn/gru_cell/gates/bias/Adam_1:0
+decoder/train/encoder_layer_0/rnn/gru_cell/candidate/kernel/Adam:0
+decoder/train/encoder_layer_0/rnn/gru_cell/candidate/kernel/Adam_1:0
+decoder/train/encoder_layer_0/rnn/gru_cell/candidate/bias/Adam:0
+decoder/train/encoder_layer_0/rnn/gru_cell/candidate/bias/Adam_1:0
+decoder/train/encoder_layer_1/rnn/gru_cell/gates/kernel/Adam:0
+decoder/train/encoder_layer_1/rnn/gru_cell/gates/kernel/Adam_1:0
+decoder/train/encoder_layer_1/rnn/gru_cell/gates/bias/Adam:0
+decoder/train/encoder_layer_1/rnn/gru_cell/gates/bias/Adam_1:0
+decoder/train/encoder_layer_1/rnn/gru_cell/candidate/kernel/Adam:0
+decoder/train/encoder_layer_1/rnn/gru_cell/candidate/kernel/Adam_1:0
+decoder/train/encoder_layer_1/rnn/gru_cell/candidate/bias/Adam:0
+decoder/train/encoder_layer_1/rnn/gru_cell/candidate/bias/Adam_1:0
+decoder/train/encoder_layer_2/rnn/gru_cell/gates/kernel/Adam:0
+decoder/train/encoder_layer_2/rnn/gru_cell/gates/kernel/Adam_1:0
+decoder/train/encoder_layer_2/rnn/gru_cell/gates/bias/Adam:0
+decoder/train/encoder_layer_2/rnn/gru_cell/gates/bias/Adam_1:0
+decoder/train/encoder_layer_2/rnn/gru_cell/candidate/kernel/Adam:0
+decoder/train/encoder_layer_2/rnn/gru_cell/candidate/kernel/Adam_1:0
+decoder/train/encoder_layer_2/rnn/gru_cell/candidate/bias/Adam:0
+decoder/train/encoder_layer_2/rnn/gru_cell/candidate/bias/Adam_1:0
+decoder/train/decoder/memory_layer/kernel/Adam:0
+decoder/train/decoder/memory_layer/kernel/Adam_1:0
+decoder/train/decoder/train/decoder/attention_wrapper/gru_cell/gates/kernel/Adam:0
+decoder/train/decoder/train/decoder/attention_wrapper/gru_cell/gates/kernel/Adam_1:0
+decoder/train/decoder/train/decoder/attention_wrapper/gru_cell/gates/bias/Adam:0
+decoder/train/decoder/train/decoder/attention_wrapper/gru_cell/gates/bias/Adam_1:0
+decoder/train/decoder/train/decoder/attention_wrapper/gru_cell/candidate/kernel/Adam:0
+decoder/train/decoder/train/decoder/attention_wrapper/gru_cell/candidate/kernel/Adam_1:0
+decoder/train/decoder/train/decoder/attention_wrapper/gru_cell/candidate/bias/Adam:0
+decoder/train/decoder/train/decoder/attention_wrapper/gru_cell/candidate/bias/Adam_1:0
+decoder/train/decoder/train/decoder/attention_wrapper/bahdanau_attention/query_layer/kernel/Adam:0
+decoder/train/decoder/train/decoder/attention_wrapper/bahdanau_attention/query_layer/kernel/Adam_1:0
+decoder/train/decoder/train/decoder/attention_wrapper/bahdanau_attention/attention_v/Adam:0
+decoder/train/decoder/train/decoder/attention_wrapper/bahdanau_attention/attention_v/Adam_1:0
+decoder/train/decoder/train/decoder/attention_wrapper/bahdanau_attention/attention_g/Adam:0
+decoder/train/decoder/train/decoder/attention_wrapper/bahdanau_attention/attention_g/Adam_1:0
+decoder/train/decoder/train/decoder/attention_wrapper/bahdanau_attention/attention_b/Adam:0
+decoder/train/decoder/train/decoder/attention_wrapper/bahdanau_attention/attention_b/Adam_1:0
+decoder/train/decoder/train/decoder/attention_wrapper/attention_layer/kernel/Adam:0
+decoder/train/decoder/train/decoder/attention_wrapper/attention_layer/kernel/Adam_1:0
+decoder/train/decoder/train/decoder/dense/kernel/Adam:0
+decoder/train/decoder/train/decoder/dense/kernel/Adam_1:0
+epoch: 0 batch: 0 loss: 2.431938
+epoch: 0 batch: 1 loss: 2.533358
+epoch: 0 batch: 2 loss: 2.178624
+epoch: 0 batch: 3 loss: 2.408526
+epoch: 0 batch: 4 loss: 2.334144
+epoch: 0 batch: 5 loss: 2.222006
+epoch: 0 batch: 6 loss: 2.331781
+epoch: 0 batch: 7 loss: 2.158696
+epoch: 0 batch: 8 loss: 2.181356
+epoch: 0 batch: 9 loss: 2.098630
+epoch: 0 batch: 10 loss: 2.294732
+epoch: 0 batch: 11 loss: 2.336826
+epoch: 0 batch: 12 loss: 2.345539
+epoch: 0 batch: 13 loss: 2.099795
+epoch: 0 batch: 14 loss: 2.186704
+epoch: 0 batch: 15 loss: 2.119421
+epoch: 0 batch: 16 loss: 2.232613
+epoch: 0 batch: 17 loss: 2.280204
+epoch: 0 batch: 18 loss: 2.361309
+epoch: 0 batch: 19 loss: 2.409976
+epoch: 0 batch: 20 loss: 2.307744
+epoch: 0 batch: 21 loss: 2.371116
+epoch: 0 batch: 22 loss: 2.365599
+epoch: 0 batch: 23 loss: 2.050921
+epoch: 0 batch: 24 loss: 2.273547
+epoch: 0 batch: 25 loss: 2.330722
+epoch: 0 batch: 26 loss: 2.254102
+epoch: 0 batch: 27 loss: 2.220714
+epoch: 0 batch: 28 loss: 2.180006
+epoch: 0 batch: 29 loss: 2.195837
+epoch: 0 batch: 30 loss: 2.400130
+epoch: 0 batch: 31 loss: 2.134169
+epoch: 0 batch: 32 loss: 2.378924
+epoch: 0 batch: 33 loss: 2.161204
+epoch: 0 batch: 34 loss: 2.326294
+epoch: 0 batch: 35 loss: 2.318111
+epoch: 0 batch: 36 loss: 2.311108
+epoch: 0 batch: 37 loss: 2.292819
+epoch: 0 batch: 38 loss: 1.993047
+epoch: 0 batch: 39 loss: 2.032007
+epoch: 0 batch: 40 loss: 2.103392
+epoch: 0 batch: 41 loss: 2.303599
+epoch: 0 batch: 42 loss: 2.204812
+epoch: 0 batch: 43 loss: 2.355621
+epoch: 0 batch: 44 loss: 2.138644
+epoch: 0 batch: 45 loss: 2.325557
+epoch: 0 batch: 46 loss: 2.272805
+epoch: 0 batch: 47 loss: 2.030857
+epoch: 0 batch: 48 loss: 2.155217
+epoch: 0 batch: 49 loss: 2.240503
+epoch: 0 batch: 50 loss: 2.074836
+epoch: 0 batch: 51 loss: 2.084940
+epoch: 0 batch: 52 loss: 1.937490
+epoch: 0 batch: 53 loss: 1.980278
+epoch: 0 batch: 54 loss: 1.992096
+epoch: 0 batch: 55 loss: 2.124151
+epoch: 0 batch: 56 loss: 2.091934
+epoch: 0 batch: 57 loss: 2.094346
+epoch: 0 batch: 58 loss: 2.372768
+epoch: 0 batch: 59 loss: 2.078260
+epoch: 0 batch: 60 loss: 2.184660
+epoch: 0 batch: 61 loss: 2.237953
+epoch: 0 batch: 62 loss: 2.131339
+epoch: 0 batch: 63 loss: 2.345005
+epoch: 0 batch: 64 loss: 2.184748
+epoch: 0 batch: 65 loss: 2.203330
+epoch: 0 batch: 66 loss: 2.070957
+epoch: 0 batch: 67 loss: 2.096664
+epoch: 0 batch: 68 loss: 2.125872
+epoch: 0 batch: 69 loss: 2.184554
+epoch: 0 batch: 70 loss: 2.182710
+epoch: 0 batch: 71 loss: 2.368830
+epoch: 0 batch: 72 loss: 1.960564
+epoch: 0 batch: 73 loss: 2.205681
+epoch: 0 batch: 74 loss: 1.910543
+epoch: 0 batch: 75 loss: 2.044719
+epoch: 0 batch: 76 loss: 2.163205
+epoch: 0 batch: 77 loss: 2.029000
+epoch: 0 batch: 78 loss: 1.947181
+epoch: 0 batch: 79 loss: 1.915683
+epoch: 0 batch: 80 loss: 2.043093
+epoch: 0 batch: 81 loss: 2.017106
+epoch: 0 batch: 82 loss: 1.989096
+epoch: 0 batch: 83 loss: 2.066085
+epoch: 0 batch: 84 loss: 2.100946
+epoch: 0 batch: 85 loss: 2.229218
+epoch: 0 batch: 86 loss: 1.994118
+epoch: 0 batch: 87 loss: 1.959517
+epoch: 0 batch: 88 loss: 2.391868
+epoch: 0 batch: 89 loss: 1.926783
+epoch: 0 batch: 90 loss: 1.630574
+epoch: 0 batch: 91 loss: 2.063360
+epoch: 0 batch: 92 loss: 1.996807
+epoch: 0 batch: 93 loss: 2.004447
+epoch: 0 batch: 94 loss: 1.759143
+epoch: 0 batch: 95 loss: 2.106050
+epoch: 0 batch: 96 loss: 1.976482
+epoch: 0 batch: 97 loss: 2.128046
+epoch: 0 batch: 98 loss: 1.720405
+epoch: 0 batch: 99 loss: 1.768435
+epoch: 0 batch: 100 loss: 1.672832
+epoch: 0 batch: 101 2017-11-26 16:23:09.285494: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+2017-11-26 16:23:09.286232: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+loss: 2.043124
+epoch: 0 batch: 102 loss: 1.761002
+epoch: 0 batch: 103 loss: 1.842536
+epoch: 0 batch: 104 loss: 1.898899
+epoch: 0 batch: 105 loss: 1.836495
+epoch: 0 batch: 106 loss: 1.759095
+epoch: 0 batch: 107 loss: 1.847621
+epoch: 0 batch: 108 loss: 1.725423
+epoch: 0 batch: 109 loss: 1.892116
+epoch_loss: 2.127730
+epoch
+average per : 0.877897
+target : 
+['h#' 'w' 'ay' 'l' 'ae' 's' 'er' 'ey' 'h#' 'dh' 'ax' 'h#' 'k' 'ao' 'ng'
+ 'er' 'h#' 'g' 'ey' 'zh' 'ix' 'n' 'h#']
+predict: 
+['h#' 'dh' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n'
+ 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n'
+ 'h#' 't' 'h#']
+epoch
+average per : 0.877306
+target : 
+['h#' 'm' 'ae' 's' 'h#' 'k' 'er' 'ey' 'h#' 'p' 'ao' 'r' 'dx' 'ix' 'z' 'h#'
+ 't' 'ae' 'h#' 's' 'h#' 'w' 'ax' 'n' 'z' 'ix' 'm' 'ae' 'h#' 'jh' 'ix' 'n'
+ 'ey' 'zh' 'n' 'h#']
+predict: 
+['h#' 'dh' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n'
+ 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n'
+ 'h#' 't' 'h#']
+epoch
+average per : 0.848530
+target : 
+['h#' 'dh' 'ix' 'h#' 'k' 'ao' 'iy' 'er' 'w' 'ax' 'z' 'ax' 'h#' 'd' 'ax' 'w'
+ 'ao' 'r' 'f' 'h#']
+predict: 
+['h#' 'dh' 'ax' 'm' 'ix' 'n' 'h#' 't' 'r' 'r' 'r' 'ix' 'n' 'h#' 't' 'r' 'r'
+ 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'h#']
+epoch
+average per : 0.844185
+target : 
+['h#' 'b' 'r' 'ey' 'h#' 's' 'ax' 'n' 'h#' 't' 'zh' 'ay' 'n' 'h#' 't' 'zh'
+ 'ix' 'm' 'er' 'z' 'ao' 'n' 'ix' 'ow' 'zh' 'n' 'h#']
+predict: 
+['h#' 'dh' 'ix' 's' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n'
+ 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n'
+ 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'h#']
+epoch
+average per : 0.932740
+target : 
+['h#' 'w' 'iy' 'ix' 'h#' 'p' 'l' 'ay' 'h#' 'ao' 'dx' 'ix' 'h#' 't' 'ao' 'r'
+ 'iy' 'm' 'ao' 'h#' 'd' 'l' 'iy' 'ng' 'h#' 't' 'ix' 'h#' 'k' 'ax' 'm' 'h#'
+ 'p' 'y' 'uw' 'dx' 'er' 's' 'h#' 'p' 'iy' 'h#' 'ch' 'h#' 'r' 'eh' 'h#' 'k'
+ 'ix' 'h#' 'n' 'ix' 'zh' 'ax' 'n' 'ax' 'h#']
+predict: 
+['h#' 'dh' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n'
+ 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n'
+ 'h#' 't' 'ix' 'n' 'h#' 't' 'h#']
+epoch_per: 0.876132
+best_per: 100.000000
+we has a better model
+Traceback (most recent call last):
+  File "timit.py", line 82, in <module>
+    with open(os.path.join(save_path, 'best_score.txt'), 'a') as f:
+IOError: [Errno 2] No such file or directory: './model_save/AttentionModel_realign/best_score.txt'
+2017-11-26 16:25:33.669193: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2017-11-26 16:25:34.117210: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Graphics Device major: 6 minor: 1 memoryClockRate(GHz): 1.531
+pciBusID: 0000:8b:00.0
+totalMemory: 22.38GiB freeMemory: 22.22GiB
+2017-11-26 16:25:34.117271: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Graphics Device, pci bus id: 0000:8b:00.0, compute capability: 6.1)
+<tensorflow.python.ops.tensor_array_ops.TensorArray object at 0x6f47950>
+model_checkpoint_path: "./model_save/-0"
+all_model_checkpoint_paths: "./model_save/-0"
+
+encoder_layer_0/rnn/gru_cell/gates/kernel:0
+encoder_layer_0/rnn/gru_cell/gates/bias:0
+encoder_layer_0/rnn/gru_cell/candidate/kernel:0
+encoder_layer_0/rnn/gru_cell/candidate/bias:0
+encoder_layer_1/rnn/gru_cell/gates/kernel:0
+encoder_layer_1/rnn/gru_cell/gates/bias:0
+encoder_layer_1/rnn/gru_cell/candidate/kernel:0
+encoder_layer_1/rnn/gru_cell/candidate/bias:0
+encoder_layer_2/rnn/gru_cell/gates/kernel:0
+encoder_layer_2/rnn/gru_cell/gates/bias:0
+encoder_layer_2/rnn/gru_cell/candidate/kernel:0
+encoder_layer_2/rnn/gru_cell/candidate/bias:0
+decoder/memory_layer/kernel:0
+decoder/train/decoder/attention_wrapper/gru_cell/gates/kernel:0
+decoder/train/decoder/attention_wrapper/gru_cell/gates/bias:0
+decoder/train/decoder/attention_wrapper/gru_cell/candidate/kernel:0
+decoder/train/decoder/attention_wrapper/gru_cell/candidate/bias:0
+decoder/train/decoder/attention_wrapper/bahdanau_attention/query_layer/kernel:0
+decoder/train/decoder/attention_wrapper/bahdanau_attention/attention_v:0
+decoder/train/decoder/attention_wrapper/bahdanau_attention/attention_g:0
+decoder/train/decoder/attention_wrapper/bahdanau_attention/attention_b:0
+decoder/train/decoder/attention_wrapper/attention_layer/kernel:0
+decoder/train/decoder/dense/kernel:0
+decoder/train/beta1_power:0
+decoder/train/beta2_power:0
+decoder/train/encoder_layer_0/rnn/gru_cell/gates/kernel/Adam:0
+decoder/train/encoder_layer_0/rnn/gru_cell/gates/kernel/Adam_1:0
+decoder/train/encoder_layer_0/rnn/gru_cell/gates/bias/Adam:0
+decoder/train/encoder_layer_0/rnn/gru_cell/gates/bias/Adam_1:0
+decoder/train/encoder_layer_0/rnn/gru_cell/candidate/kernel/Adam:0
+decoder/train/encoder_layer_0/rnn/gru_cell/candidate/kernel/Adam_1:0
+decoder/train/encoder_layer_0/rnn/gru_cell/candidate/bias/Adam:0
+decoder/train/encoder_layer_0/rnn/gru_cell/candidate/bias/Adam_1:0
+decoder/train/encoder_layer_1/rnn/gru_cell/gates/kernel/Adam:0
+decoder/train/encoder_layer_1/rnn/gru_cell/gates/kernel/Adam_1:0
+decoder/train/encoder_layer_1/rnn/gru_cell/gates/bias/Adam:0
+decoder/train/encoder_layer_1/rnn/gru_cell/gates/bias/Adam_1:0
+decoder/train/encoder_layer_1/rnn/gru_cell/candidate/kernel/Adam:0
+decoder/train/encoder_layer_1/rnn/gru_cell/candidate/kernel/Adam_1:0
+decoder/train/encoder_layer_1/rnn/gru_cell/candidate/bias/Adam:0
+decoder/train/encoder_layer_1/rnn/gru_cell/candidate/bias/Adam_1:0
+decoder/train/encoder_layer_2/rnn/gru_cell/gates/kernel/Adam:0
+decoder/train/encoder_layer_2/rnn/gru_cell/gates/kernel/Adam_1:0
+decoder/train/encoder_layer_2/rnn/gru_cell/gates/bias/Adam:0
+decoder/train/encoder_layer_2/rnn/gru_cell/gates/bias/Adam_1:0
+decoder/train/encoder_layer_2/rnn/gru_cell/candidate/kernel/Adam:0
+decoder/train/encoder_layer_2/rnn/gru_cell/candidate/kernel/Adam_1:0
+decoder/train/encoder_layer_2/rnn/gru_cell/candidate/bias/Adam:0
+decoder/train/encoder_layer_2/rnn/gru_cell/candidate/bias/Adam_1:0
+decoder/train/decoder/memory_layer/kernel/Adam:0
+decoder/train/decoder/memory_layer/kernel/Adam_1:0
+decoder/train/decoder/train/decoder/attention_wrapper/gru_cell/gates/kernel/Adam:0
+decoder/train/decoder/train/decoder/attention_wrapper/gru_cell/gates/kernel/Adam_1:0
+decoder/train/decoder/train/decoder/attention_wrapper/gru_cell/gates/bias/Adam:0
+decoder/train/decoder/train/decoder/attention_wrapper/gru_cell/gates/bias/Adam_1:0
+decoder/train/decoder/train/decoder/attention_wrapper/gru_cell/candidate/kernel/Adam:0
+decoder/train/decoder/train/decoder/attention_wrapper/gru_cell/candidate/kernel/Adam_1:0
+decoder/train/decoder/train/decoder/attention_wrapper/gru_cell/candidate/bias/Adam:0
+decoder/train/decoder/train/decoder/attention_wrapper/gru_cell/candidate/bias/Adam_1:0
+decoder/train/decoder/train/decoder/attention_wrapper/bahdanau_attention/query_layer/kernel/Adam:0
+decoder/train/decoder/train/decoder/attention_wrapper/bahdanau_attention/query_layer/kernel/Adam_1:0
+decoder/train/decoder/train/decoder/attention_wrapper/bahdanau_attention/attention_v/Adam:0
+decoder/train/decoder/train/decoder/attention_wrapper/bahdanau_attention/attention_v/Adam_1:0
+decoder/train/decoder/train/decoder/attention_wrapper/bahdanau_attention/attention_g/Adam:0
+decoder/train/decoder/train/decoder/attention_wrapper/bahdanau_attention/attention_g/Adam_1:0
+decoder/train/decoder/train/decoder/attention_wrapper/bahdanau_attention/attention_b/Adam:0
+decoder/train/decoder/train/decoder/attention_wrapper/bahdanau_attention/attention_b/Adam_1:0
+decoder/train/decoder/train/decoder/attention_wrapper/attention_layer/kernel/Adam:0
+decoder/train/decoder/train/decoder/attention_wrapper/attention_layer/kernel/Adam_1:0
+decoder/train/decoder/train/decoder/dense/kernel/Adam:0
+decoder/train/decoder/train/decoder/dense/kernel/Adam_1:0
+epoch: 0 batch: 0 loss: 2.263212
+epoch: 0 batch: 1 loss: 2.457438
+epoch: 0 batch: 2 loss: 2.200627
+epoch: 0 batch: 3 loss: 2.362398
+epoch: 0 batch: 4 loss: 2.394238
+epoch: 0 batch: 5 loss: 2.530575
+epoch: 0 batch: 6 loss: 2.412237
+epoch: 0 batch: 7 loss: 2.432787
+epoch: 0 batch: 8 loss: 2.571219
+epoch: 0 batch: 9 loss: 2.396108
+epoch: 0 batch: 10 loss: 2.288553
+epoch: 0 batch: 11 loss: 2.270691
+epoch: 0 batch: 12 loss: 2.076659
+epoch: 0 batch: 13 loss: 2.358168
+epoch: 0 batch: 14 loss: 2.579746
+epoch: 0 batch: 15 loss: 2.159962
+epoch: 0 batch: 16 loss: 2.222191
+epoch: 0 batch: 17 loss: 2.241384
+epoch: 0 batch: 18 loss: 2.356735
+epoch: 0 batch: 19 loss: 2.188053
+epoch: 0 batch: 20 loss: 2.288919
+epoch: 0 batch: 21 loss: 2.259681
+epoch: 0 batch: 22 loss: 2.073232
+epoch: 0 batch: 23 loss: 2.346634
+epoch: 0 batch: 24 loss: 2.216507
+epoch: 0 batch: 25 loss: 2.224935
+epoch: 0 batch: 26 loss: 2.339057
+epoch: 0 batch: 27 loss: 2.195599
+epoch: 0 batch: 28 loss: 2.310519
+epoch: 0 batch: 29 loss: 2.006155
+epoch: 0 batch: 30 loss: 2.226371
+epoch: 0 batch: 31 loss: 2.153470
+epoch: 0 batch: 32 loss: 2.432713
+epoch: 0 batch: 33 loss: 2.456872
+epoch: 0 batch: 34 loss: 2.311677
+epoch: 0 batch: 35 loss: 2.315438
+epoch: 0 batch: 36 loss: 2.127903
+epoch: 0 batch: 37 loss: 2.014961
+epoch: 0 batch: 38 loss: 2.130403
+epoch: 0 batch: 39 loss: 2.033393
+epoch: 0 batch: 40 loss: 2.266345
+epoch: 0 batch: 41 loss: 2.153725
+epoch: 0 batch: 42 loss: 2.219233
+epoch: 0 batch: 43 loss: 2.233287
+epoch: 0 batch: 44 loss: 2.309025
+epoch: 0 batch: 45 loss: 2.447551
+epoch: 0 batch: 46 loss: 2.240457
+epoch: 0 batch: 47 loss: 2.262096
+epoch: 0 batch: 48 loss: 2.357784
+epoch: 0 batch: 49 loss: 2.117857
+epoch: 0 batch: 50 loss: 2.273060
+epoch: 0 batch: 51 loss: 2.323597
+epoch: 0 batch: 52 loss: 2.639899
+epoch: 0 batch: 53 loss: 2.157811
+epoch: 0 batch: 54 loss: 2.073203
+epoch: 0 batch: 55 loss: 2.250048
+epoch: 0 batch: 56 loss: 2.117510
+epoch: 0 batch: 57 loss: 2.148533
+epoch: 0 batch: 58 loss: 2.029532
+epoch: 0 batch: 59 loss: 2.037913
+epoch: 0 batch: 60 loss: 2.303789
+epoch: 0 batch: 61 loss: 2.019944
+epoch: 0 batch: 62 loss: 2.102212
+epoch: 0 batch: 63 loss: 2.151904
+epoch: 0 batch: 64 loss: 1.896913
+epoch: 0 batch: 65 loss: 1.962902
+epoch: 0 batch: 66 loss: 2.076718
+epoch: 0 batch: 67 loss: 2.107489
+epoch: 0 batch: 68 loss: 1.958347
+epoch: 0 batch: 69 loss: 2.084029
+epoch: 0 batch: 70 loss: 2.142300
+epoch: 0 batch: 71 loss: 2.347492
+epoch: 0 batch: 72 loss: 1.987707
+epoch: 0 batch: 73 loss: 1.943654
+epoch: 0 batch: 74 loss: 1.987173
+epoch: 0 batch: 75 loss: 1.940241
+epoch: 0 batch: 76 loss: 2.114796
+epoch: 0 batch: 77 loss: 1.725320
+epoch: 0 batch: 78 loss: 1.972267
+epoch: 0 batch: 79 loss: 2.002352
+epoch: 0 batch: 80 loss: 1.961152
+epoch: 0 batch: 81 loss: 1.851523
+epoch: 0 batch: 82 loss: 2.016657
+epoch: 0 batch: 83 loss: 2.150312
+epoch: 0 batch: 84 loss: 2.144671
+epoch: 0 batch: 85 loss: 1.848780
+epoch: 0 batch: 86 loss: 2.057123
+epoch: 0 batch: 87 loss: 1.840261
+epoch: 0 batch: 88 loss: 1.854427
+epoch: 0 batch: 89 loss: 1.998984
+epoch: 0 batch: 90 loss: 1.751149
+epoch: 0 batch: 91 loss: 2.018356
+epoch: 0 batch: 92 loss: 2.025888
+epoch: 0 batch: 93 loss: 2.041695
+epoch: 0 batch: 94 loss: 1.949415
+epoch: 0 batch: 95 loss: 1.989394
+epoch: 0 batch: 96 loss: 2.086559
+epoch: 0 batch: 97 loss: 1.882153
+epoch: 0 batch: 98 loss: 1.795965
+epoch:2017-11-26 16:29:10.600984: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+ 0 batch: 99 loss: 1.992166
+epoch: 0 batch: 100 loss: 1.802328
+epoch: 0 batch: 101 loss: 1.870491
+epoch: 0 batch: 102 loss: 1.871584
+epoch: 0 batch: 103 loss: 1.749227
+epoch: 0 batch: 104 loss: 1.866913
+epoch: 0 batch: 105 loss: 1.694885
+epoch: 0 batch: 106 loss: 1.959012
+epoch: 0 batch: 107 loss: 1.925328
+epoch: 0 batch: 108 loss: 1.799006
+epoch: 0 batch: 109 loss: 1.869019
+epoch_loss: 2.130708
+epoch
+average per : 0.794561
+target : 
+['h#' 'h#' 'ax' 'm' 'ao' 'th' 'z' 'ix' 'h#' 'g' 'z' 'ae' 'h#' 'd' 'ax' 'l'
+ 'ao' 'ng' 'dh' 'ax' 'h#' 'p' 'ae' 'th' 'r' 'uw' 'h#' 'ao' 't' 'ow' 'z'
+ 'h#' 'ao' 'r' 'dx' 'n' 'h#']
+predict: 
+['h#' 'h#' 'ao' 'r' 'ow' 'l' 'iy' 'z' 'ix' 'n' 'h#' 't' 'r' 'l' 'z' 'h#'
+ 't' 'ix' 'n' 'h#' 't' 'r' 'l' 'z' 'h#']
+epoch
+average per : 0.780900
+target : 
+['h#' 'h#' 'ae' 'r' 'iy' 's' 'iy' 'v' 'h#' 'd' 'ix' 'h#' 'jh' 'oy' 'n' 'h#'
+ 't' 'ix' 'h#' 'p' 'oy' 'n' 'm' 'ax' 'n' 'h#' 'h#' 'ix' 'n' 'dh' 'ix' 'h#'
+ 'b' 'ay' 'ax' 'l' 'ax' 'h#' 'jh' 'iy' 'h#' 'eh' 'n' 'dh' 'iy' 'h#' 'ix'
+ 'n' 'h#' 'jh' 'ix' 'n' 'ix' 'r' 'ix' 'n' 'h#' 'd' 'ix' 'h#' 'p' 'ao' 'r'
+ 'h#' 'm' 'n' 'h#' 't' 's' 'h#']
+predict: 
+['h#' 'h#' 'iy' 'm' 'ix' 'n' 'h#' 't' 'r' 'iy' 'h#' 'k' 'r' 'iy' 'h#' 'k'
+ 'r' 'iy' 'h#' 'k' 'r' 'iy' 'h#' 'k' 'r' 'iy' 'h#' 'k' 'r' 'iy' 'h#' 'k'
+ 'r' 'iy' 'h#' 'k' 'r' 'iy' 'h#' 'k' 'r' 'iy' 'h#' 'k' 'r' 'iy' 'h#' 'k'
+ 'r' 'iy']
+epoch
+average per : 0.805852
+target : 
+['h#' 'm' 'uw' 'v' 'iy' 'z' 'h#' 'n' 'eh' 'v' 'er' 'hh' 'ae' 'v' 'ax' 'n'
+ 'ax' 'f' 'h#' 'v' 'ix' 'l' 'ix' 'n' 'h#' 'z' 'h#']
+predict: 
+['h#' 'dh' 'iy' 'm' 'ix' 'n' 'h#' 't' 'r' 'iy' 'h#' 'k' 'r' 'iy' 'h#' 'k'
+ 'r' 'iy' 'h#' 'k' 'r' 'iy' 'h#' 'k' 'r' 'iy' 'h#' 'k' 'r' 'iy' 'h#' 'k'
+ 'r' 'iy' 'h#' 'k' 'h#']
+epoch
+average per : 0.896244
+target : 
+['h#' 't' 'ix' 'h#' 'b' 'iy' 'h#' 'p' 'ae' 's' 'ix' 'v' 'h#' 't' 'ix' 'h#'
+ 'b' 'iy' 'h#' 'g' 'er' 'l' 'ix' 'zh' 'l' 'iy' 'zh' 'ay' 'h#' 'w' 'uh' 'z'
+ 'h#' 'p' 'ae' 'l' 'h#' 'p' 'l' 'ax' 'h#' 'b' 'l' 'iy' 'ix' 'h#' 'b' 's'
+ 'er' 'h#' 'd' 'h#']
+predict: 
+['h#' 'h#' 'ix' 'm' 'ix' 's' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't'
+ 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't'
+ 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't'
+ 'h#']
+epoch
+average per : 0.857681
+target : 
+['h#' 'b' 'ax' 'dx' 'er' 's' 'h#' 'k' 'ao' 'h#' 'ch' 'f' 'ax' 'h#' 'jh'
+ 'h#' 'g' 'ow' 'z' 'h#' 'w' 'eh' 'l' 'w' 'ax' 'th' 'f' 'ax' 'n' 'eh' 'l'
+ 'ax' 'h#' 'ay' 's' 'h#' 'k' 'r' 'ix' 'm' 'h#']
+predict: 
+['h#' 'h#' 'iy' 'm' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'r' 'iy' 'h#' 'k'
+ 'r' 'iy' 'h#' 'k' 'r' 'iy' 'h#' 'k' 'r' 'iy' 'h#' 'k' 'r' 'iy' 'h#' 'k'
+ 'r' 'iy' 'h#' 'k' 'r' 'iy' 'h#' 'k' 'r' 'iy' 'h#' 'k' 'r' 'iy' 'h#' 'k'
+ 'r' 'iy']
+epoch_per: 0.827048
+best_per: 100.000000
+we has a better model
+Traceback (most recent call last):
+  File "timit.py", line 83, in <module>
+    f.write(best_eval_score + '\n')
+TypeError: ufunc 'add' did not contain a loop with signature matching types dtype('S32') dtype('S32') dtype('S32')
+2017-11-26 16:31:14.107487: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2017-11-26 16:31:14.517113: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Graphics Device major: 6 minor: 1 memoryClockRate(GHz): 1.531
+pciBusID: 0000:8b:00.0
+totalMemory: 22.38GiB freeMemory: 22.22GiB
+2017-11-26 16:31:14.517172: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Graphics Device, pci bus id: 0000:8b:00.0, compute capability: 6.1)
+<tensorflow.python.ops.tensor_array_ops.TensorArray object at 0x889d950>
+model_checkpoint_path: "./model_save/-0"
+all_model_checkpoint_paths: "./model_save/-0"
+
+encoder_layer_0/rnn/gru_cell/gates/kernel:0
+encoder_layer_0/rnn/gru_cell/gates/bias:0
+encoder_layer_0/rnn/gru_cell/candidate/kernel:0
+encoder_layer_0/rnn/gru_cell/candidate/bias:0
+encoder_layer_1/rnn/gru_cell/gates/kernel:0
+encoder_layer_1/rnn/gru_cell/gates/bias:0
+encoder_layer_1/rnn/gru_cell/candidate/kernel:0
+encoder_layer_1/rnn/gru_cell/candidate/bias:0
+encoder_layer_2/rnn/gru_cell/gates/kernel:0
+encoder_layer_2/rnn/gru_cell/gates/bias:0
+encoder_layer_2/rnn/gru_cell/candidate/kernel:0
+encoder_layer_2/rnn/gru_cell/candidate/bias:0
+decoder/memory_layer/kernel:0
+decoder/train/decoder/attention_wrapper/gru_cell/gates/kernel:0
+decoder/train/decoder/attention_wrapper/gru_cell/gates/bias:0
+decoder/train/decoder/attention_wrapper/gru_cell/candidate/kernel:0
+decoder/train/decoder/attention_wrapper/gru_cell/candidate/bias:0
+decoder/train/decoder/attention_wrapper/bahdanau_attention/query_layer/kernel:0
+decoder/train/decoder/attention_wrapper/bahdanau_attention/attention_v:0
+decoder/train/decoder/attention_wrapper/bahdanau_attention/attention_g:0
+decoder/train/decoder/attention_wrapper/bahdanau_attention/attention_b:0
+decoder/train/decoder/attention_wrapper/attention_layer/kernel:0
+decoder/train/decoder/dense/kernel:0
+decoder/train/beta1_power:0
+decoder/train/beta2_power:0
+decoder/train/encoder_layer_0/rnn/gru_cell/gates/kernel/Adam:0
+decoder/train/encoder_layer_0/rnn/gru_cell/gates/kernel/Adam_1:0
+decoder/train/encoder_layer_0/rnn/gru_cell/gates/bias/Adam:0
+decoder/train/encoder_layer_0/rnn/gru_cell/gates/bias/Adam_1:0
+decoder/train/encoder_layer_0/rnn/gru_cell/candidate/kernel/Adam:0
+decoder/train/encoder_layer_0/rnn/gru_cell/candidate/kernel/Adam_1:0
+decoder/train/encoder_layer_0/rnn/gru_cell/candidate/bias/Adam:0
+decoder/train/encoder_layer_0/rnn/gru_cell/candidate/bias/Adam_1:0
+decoder/train/encoder_layer_1/rnn/gru_cell/gates/kernel/Adam:0
+decoder/train/encoder_layer_1/rnn/gru_cell/gates/kernel/Adam_1:0
+decoder/train/encoder_layer_1/rnn/gru_cell/gates/bias/Adam:0
+decoder/train/encoder_layer_1/rnn/gru_cell/gates/bias/Adam_1:0
+decoder/train/encoder_layer_1/rnn/gru_cell/candidate/kernel/Adam:0
+decoder/train/encoder_layer_1/rnn/gru_cell/candidate/kernel/Adam_1:0
+decoder/train/encoder_layer_1/rnn/gru_cell/candidate/bias/Adam:0
+decoder/train/encoder_layer_1/rnn/gru_cell/candidate/bias/Adam_1:0
+decoder/train/encoder_layer_2/rnn/gru_cell/gates/kernel/Adam:0
+decoder/train/encoder_layer_2/rnn/gru_cell/gates/kernel/Adam_1:0
+decoder/train/encoder_layer_2/rnn/gru_cell/gates/bias/Adam:0
+decoder/train/encoder_layer_2/rnn/gru_cell/gates/bias/Adam_1:0
+decoder/train/encoder_layer_2/rnn/gru_cell/candidate/kernel/Adam:0
+decoder/train/encoder_layer_2/rnn/gru_cell/candidate/kernel/Adam_1:0
+decoder/train/encoder_layer_2/rnn/gru_cell/candidate/bias/Adam:0
+decoder/train/encoder_layer_2/rnn/gru_cell/candidate/bias/Adam_1:0
+decoder/train/decoder/memory_layer/kernel/Adam:0
+decoder/train/decoder/memory_layer/kernel/Adam_1:0
+decoder/train/decoder/train/decoder/attention_wrapper/gru_cell/gates/kernel/Adam:0
+decoder/train/decoder/train/decoder/attention_wrapper/gru_cell/gates/kernel/Adam_1:0
+decoder/train/decoder/train/decoder/attention_wrapper/gru_cell/gates/bias/Adam:0
+decoder/train/decoder/train/decoder/attention_wrapper/gru_cell/gates/bias/Adam_1:0
+decoder/train/decoder/train/decoder/attention_wrapper/gru_cell/candidate/kernel/Adam:0
+decoder/train/decoder/train/decoder/attention_wrapper/gru_cell/candidate/kernel/Adam_1:0
+decoder/train/decoder/train/decoder/attention_wrapper/gru_cell/candidate/bias/Adam:0
+decoder/train/decoder/train/decoder/attention_wrapper/gru_cell/candidate/bias/Adam_1:0
+decoder/train/decoder/train/decoder/attention_wrapper/bahdanau_attention/query_layer/kernel/Adam:0
+decoder/train/decoder/train/decoder/attention_wrapper/bahdanau_attention/query_layer/kernel/Adam_1:0
+decoder/train/decoder/train/decoder/attention_wrapper/bahdanau_attention/attention_v/Adam:0
+decoder/train/decoder/train/decoder/attention_wrapper/bahdanau_attention/attention_v/Adam_1:0
+decoder/train/decoder/train/decoder/attention_wrapper/bahdanau_attention/attention_g/Adam:0
+decoder/train/decoder/train/decoder/attention_wrapper/bahdanau_attention/attention_g/Adam_1:0
+decoder/train/decoder/train/decoder/attention_wrapper/bahdanau_attention/attention_b/Adam:0
+decoder/train/decoder/train/decoder/attention_wrapper/bahdanau_attention/attention_b/Adam_1:0
+decoder/train/decoder/train/decoder/attention_wrapper/attention_layer/kernel/Adam:0
+decoder/train/decoder/train/decoder/attention_wrapper/attention_layer/kernel/Adam_1:0
+decoder/train/decoder/train/decoder/dense/kernel/Adam:0
+decoder/train/decoder/train/decoder/dense/kernel/Adam_1:0
+epoch: 0 batch: 0 loss: 2.277139
+epoch: 0 batch: 1 loss: 2.500492
+epoch: 0 batch: 2 loss: 2.219670
+epoch: 0 batch: 3 loss: 2.221843
+epoch: 0 batch: 4 loss: 2.335225
+epoch: 0 batch: 5 loss: 2.252934
+epoch: 0 batch: 6 loss: 2.293086
+epoch: 0 batch: 7 loss: 2.249802
+epoch: 0 batch: 8 loss: 2.466148
+epoch: 0 batch: 9 loss: 2.198666
+epoch: 0 batch: 10 loss: 2.191613
+epoch: 0 batch: 11 loss: 2.394471
+epoch: 0 batch: 12 loss: 2.328197
+epoch: 0 batch: 13 loss: 2.123146
+epoch: 0 batch: 14 loss: 2.079597
+epoch: 0 batch: 15 loss: 2.161179
+epoch: 0 batch: 16 loss: 2.271927
+epoch: 0 batch: 17 loss: 2.463175
+epoch: 0 batch: 18 loss: 2.288836
+epoch: 0 batch: 19 loss: 2.160752
+epoch: 0 batch: 20 loss: 2.517676
+epoch: 0 batch: 21 loss: 2.395363
+epoch: 0 batch: 22 loss: 2.405184
+epoch: 0 batch: 23 loss: 2.185726
+epoch: 0 batch: 24 loss: 2.113207
+epoch: 0 batch: 25 loss: 2.175697
+epoch: 0 batch: 26 loss: 2.404772
+epoch: 0 batch: 27 loss: 2.178149
+epoch: 0 batch: 28 loss: 2.022436
+epoch: 0 batch: 29 loss: 2.152116
+epoch: 0 batch: 30 loss: 2.357881
+epoch: 0 batch: 31 loss: 2.203554
+epoch: 0 batch: 32 loss: 2.193502
+epoch: 0 batch: 33 loss: 2.200299
+epoch: 0 batch: 34 loss: 2.379591
+epoch: 0 batch: 35 loss: 2.060444
+epoch: 0 batch: 36 loss: 1.990388
+epoch: 0 batch: 37 loss: 2.257919
+epoch: 0 batch: 38 loss: 2.099110
+epoch: 0 batch: 39 loss: 2.185800
+epoch: 0 batch: 40 loss: 2.077450
+epoch: 0 batch: 41 loss: 2.226895
+epoch: 0 batch: 42 loss: 2.162140
+epoch: 0 batch: 43 loss: 2.429181
+epoch: 0 batch: 44 loss: 2.274799
+epoch: 0 batch: 45 loss: 2.126323
+epoch: 0 batch: 46 loss: 1.991691
+epoch: 0 batch: 47 loss: 2.218993
+epoch: 0 batch: 48 loss: 2.277133
+epoch: 0 batch: 49 loss: 2.251924
+epoch: 0 batch: 50 loss: 2.260641
+epoch: 0 batch: 51 loss: 2.082143
+epoch: 0 batch: 52 loss: 2.261003
+epoch: 0 batch: 53 loss: 2.073309
+epoch: 0 batch: 54 loss: 2.154305
+epoch: 0 batch: 55 loss: 2.253851
+epoch: 0 batch: 56 loss: 2.083765
+epoch: 0 batch: 57 loss: 1.957381
+epoch: 0 batch: 58 loss: 2.259816
+epoch: 0 batch: 59 loss: 2.207858
+epoch: 0 batch: 60 loss: 2.102421
+epoch: 0 batch: 61 loss: 1.942048
+epoch: 0 batch: 62 loss: 2.164892
+epoch: 0 batch: 63 loss: 2.157480
+epoch: 0 batch: 64 loss: 2.199433
+epoch: 0 batch: 65 loss: 2.101601
+epoch: 0 batch: 66 loss: 2.192292
+epoch: 0 batch: 67 loss: 2.168604
+epoch: 0 batch: 68 loss: 1.918629
+epoch: 0 batch: 69 loss: 2.130917
+epoch: 0 batch: 70 loss: 2.052829
+epoch: 0 batch: 71 loss: 2.269990
+epoch: 0 batch: 72 loss: 2.042906
+epoch: 0 batch: 73 loss: 2.151815
+epoch: 0 batch: 74 loss: 2.071528
+epoch: 0 batch: 75 loss: 1.926150
+epoch: 0 batch: 76 loss: 1.856093
+epoch: 0 batch: 77 loss: 1.685029
+epoch: 0 batch: 78 loss: 2.071152
+epoch: 0 batch: 79 loss: 2.088821
+epoch: 0 batch: 80 loss: 1.881095
+epoch: 0 batch: 81 loss: 1.962201
+epoch: 0 batch: 82 loss: 2.164353
+epoch: 0 batch: 83 loss: 1.887405
+epoch: 0 batch: 84 loss: 2.009043
+epoch: 0 batch: 85 loss: 1.887504
+epoch: 0 batch: 86 loss: 1.798661
+epoch: 0 batch: 87 loss: 2.194005
+epoch: 0 batch: 88 loss: 1.901513
+epoch: 0 batch: 89 loss: 2.023411
+epoch: 0 batch: 90 loss: 1.954306
+epoch: 0 batch: 91 loss: 2.329562
+epoch: 0 batch: 92 loss: 1.899446
+epoch: 0 batch: 93 loss: 1.907424
+epoch: 0 batch: 94 loss: 1.844132
+epoch: 0 batch: 95 loss: 1.722959
+epoch: 0 batch: 96 loss: 1.875915
+epoch: 0 batch: 97 loss: 1.919199
+epoch: 0 batch: 98 loss: 1.965133
+epoch:2017-11-26 16:34:58.451678: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+2017-11-26 16:34:58.452524: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+ 0 batch: 99 loss: 1.677927
+epoch: 0 batch: 100 loss: 1.856742
+epoch: 0 batch: 101 loss: 1.834718
+epoch: 0 batch: 102 loss: 1.854395
+epoch: 0 batch: 103 loss: 1.799676
+epoch: 0 batch: 104 loss: 1.913709
+epoch: 0 batch: 105 loss: 1.630956
+epoch: 0 batch: 106 loss: 1.688787
+epoch: 0 batch: 107 loss: 2.026182
+epoch: 0 batch: 108 loss: 1.890822
+epoch: 0 batch: 109 loss: 1.826975
+epoch_loss: 2.109183
+epoch
+average per : 0.999961
+target : 
+['h#' 'v' 'eh' 'r' 'ix' 'h#' 'p' 'ix' 'h#' 'k' 'y' 'uw' 'y' 'er' 'r' 'eh'
+ 'h#' 'ch' 'er' 'h#' 'b' 'y' 'uw' 'zh' 'h#' 'n' 'ix' 'n' 'h#' 'd' 'iy' 'h#'
+ 's' 'iy' 'm' 'z' 'h#' 't' 'uw' 'ow' 'v' 'er' 'h#' 't' 'ey' 'h#' 'k' 's'
+ 'h#' 'ax' 'h#' 'ch' 'h#' 'jh' 'ow' 'h#' 'k' 'er' 's' 'h#']
+predict: 
+['h#' 'dh' 'iy' 's' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n'
+ 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n'
+ 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n'
+ 'h#' 't']
+epoch
+average per : 0.982494
+target : 
+['h#' 's' 'ax' 'h#' 'p' 'ow' 'z' 'hh' 'iy' 'r' 'ae' 'n' 'ax' 'h#' 'dh' 'ax'
+ 'w' 'ey' 'h#' 'f' 'l' 'ae' 'h#' 'ao' 'l' 'dx' 'ix' 'h#' 'g' 'eh' 'dh' 'er'
+ 'h#']
+predict: 
+['h#' 'dh' 'ix' 's' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n'
+ 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n'
+ 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'h#']
+epoch
+average per : 1.038158
+target : 
+['h#' 's' 'ay' 'ix' 'n' 'h#' 't' 'ix' 'f' 'ix' 'h#' 'p' 'r' 'ao' 'h#' 'g'
+ 'r' 'eh' 's' 'h#' 'k' 'ax' 'm' 'z' 'zh' 'h#' 'ax' 'm' 'dh' 'ix' 'h#' 'd'
+ 'ix' 'v' 'eh' 'l' 'ax' 'h#' 'm' 'ix' 'n' 'h#' 'h#' 'ax' 'v' 'n' 'uw' 'h#'
+ 't' 'eh' 'h#' 'k' 'n' 'iy' 'h#' 'k' 's' 'h#']
+predict: 
+['h#' 'dh' 'ax' 's' 'h#' 't' 'r' 'iy' 's' 'h#' 't' 'r' 'ix' 'n' 'h#' 't'
+ 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't'
+ 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't'
+ 'ix' 'n']
+epoch
+average per : 1.063040
+target : 
+['h#' 'w' 'ay' 'l' 'ae' 's' 'er' 'ey' 'h#' 'dh' 'ax' 'h#' 'k' 'ao' 'ng'
+ 'er' 'h#' 'g' 'ey' 'zh' 'ix' 'n' 'h#']
+predict: 
+['h#' 'dh' 'ax' 's' 'h#' 't' 'r' 'iy' 'z' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#'
+ 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#'
+ 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'h#']
+epoch
+average per : 1.036318
+target : 
+['h#' 'm' 'uw' 'v' 'iy' 'z' 'h#' 'n' 'eh' 'v' 'er' 'hh' 'ae' 'v' 'ax' 'n'
+ 'ax' 'f' 'h#' 'v' 'ix' 'l' 'ix' 'n' 'h#' 'z' 'h#']
+predict: 
+['h#' 'dh' 'ax' 's' 'h#' 't' 'r' 'iy' 'z' 'ix' 'n' 'h#' 't' 'r' 'r' 'ix'
+ 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix'
+ 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix'
+ 'n' 'h#']
+epoch_per: 1.023994
+best_per: 100.000000
+we has a better model
+best model has been saved
+epoch: 1 batch: 0 loss: 1.878575
+epoch: 1 batch: 1 loss: 1.841451
+epoch: 1 batch: 2 loss: 1.693930
+epoch: 1 batch: 3 loss: 1.854513
+epoch: 1 batch: 4 loss: 1.785744
+epoch: 1 batch: 5 loss: 1.691566
+epoch: 1 batch: 6 loss: 1.739850
+epoch: 1 batch: 7 loss: 1.601757
+epoch: 1 batch: 8 loss: 1.976440
+epoch: 1 batch: 9 loss: 1.580501
+epoch: 1 batch: 10 loss: 1.718592
+epoch: 1 batch: 11 loss: 1.670040
+epoch: 1 batch: 12 loss: 1.733719
+epoch: 1 batch: 13 loss: 1.571847
+epoch: 1 batch: 14 loss: 1.840508
+epoch: 1 batch: 15 loss: 1.650476
+epoch: 1 batch: 16 loss: 1.722296
+epoch: 1 batch: 17 loss: 1.611400
+epoch: 1 batch: 18 loss: 1.586933
+epoch: 1 batch: 19 loss: 1.627237
+epoch: 1 batch: 20 loss: 1.693268
+epoch: 1 batch: 21 loss: 1.754384
+epoch: 1 batch: 22 loss: 1.761000
+epoch: 1 batch: 23 loss: 1.634335
+epoch: 1 batch: 24 loss: 1.655548
+epoch: 1 batch: 25 loss: 1.773139
+epoch: 1 batch: 26 loss: 1.726834
+epoch: 1 batch: 27 loss: 1.784178
+epoch: 1 batch: 28 loss: 1.782670
+epoch: 1 batch: 29 loss: 1.846284
+epoch: 1 batch: 30 loss: 1.707028
+epoch: 1 batch: 31 loss: 1.688862
+epoch: 1 batch: 32 loss: 1.617787
+epoch: 1 batch: 33 loss: 1.738614
+epoch: 1 batch: 34 loss: 1.796078
+epoch: 1 batch: 35 loss: 1.792039
+epoch: 1 batch: 36 loss: 1.840404
+epoch: 1 batch: 37 loss: 1.654751
+epoch: 1 batch: 38 loss: 1.822017-11-26 16:38:37.319911: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+2017-11-26 16:38:37.320782: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+3894
+epoch: 1 batch: 39 loss: 1.796190
+epoch: 1 batch: 40 loss: 1.566561
+epoch: 1 batch: 41 loss: 1.746175
+epoch: 1 batch: 42 loss: 1.618275
+epoch: 1 batch: 43 loss: 1.703158
+epoch: 1 batch: 44 loss: 1.898598
+epoch: 1 batch: 45 loss: 1.646628
+epoch: 1 batch: 46 loss: 1.704387
+epoch: 1 batch: 47 loss: 1.641960
+epoch: 1 batch: 48 loss: 1.661469
+epoch: 1 batch: 49 loss: 1.474623
+epoch: 1 batch: 50 loss: 1.776725
+epoch: 1 batch: 51 loss: 1.545947
+epoch: 1 batch: 52 loss: 1.614772
+epoch: 1 batch: 53 loss: 1.574088
+epoch: 1 batch: 54 loss: 1.750018
+epoch: 1 batch: 55 loss: 2.014684
+epoch: 1 batch: 56 loss: 1.727932
+epoch: 1 batch: 57 loss: 1.638245
+epoch: 1 batch: 58 loss: 1.487940
+epoch: 1 batch: 59 loss: 1.658266
+epoch: 1 batch: 60 loss: 1.619067
+epoch: 1 batch: 61 loss: 1.733799
+epoch: 1 batch: 62 loss: 1.573643
+epoch: 1 batch: 63 loss: 1.621704
+epoch: 1 batch: 64 loss: 1.702102
+epoch: 1 batch: 65 loss: 1.738948
+epoch: 1 batch: 66 loss: 1.645531
+epoch: 1 batch: 67 loss: 1.816680
+epoch: 1 batch: 68 loss: 1.559375
+epoch: 1 batch: 69 loss: 1.833541
+epoch: 1 batch: 70 loss: 1.722437
+epoch: 1 batch: 71 loss: 1.644834
+epoch: 1 batch: 72 loss: 1.588854
+epoch: 1 batch: 73 loss: 1.670996
+epoch: 1 batch: 74 loss: 1.639152
+epoch: 1 batch: 75 loss: 1.541914
+epoch: 1 batch: 76 loss: 1.567285
+epoch: 1 batch: 77 loss: 1.628268
+epoch: 1 batch: 78 loss: 1.576184
+epoch: 1 batch: 79 loss: 1.522034
+epoch: 1 batch: 80 loss: 1.521834
+epoch: 1 batch: 81 loss: 1.576858
+epoch: 1 batch: 82 loss: 1.706394
+epoch: 1 batch: 83 loss: 1.467206
+epoch: 1 batch: 84 loss: 1.463116
+epoch: 1 batch: 85 loss: 1.502896
+epoch: 1 batch: 86 loss: 1.694791
+epoch: 1 batch: 87 loss: 1.533010
+epoch: 1 batch: 88 loss: 1.655512
+epoch: 1 batch: 89 loss: 1.675598
+epoch: 1 batch: 90 loss: 1.637419
+epoch: 1 batch: 91 loss: 1.689356
+epoch: 1 batch: 92 loss: 1.579499
+epoch: 1 batch: 93 loss: 1.665559
+epoch: 1 batch: 94 loss: 1.523056
+epoch: 1 batch: 95 loss: 1.468958
+epoch: 1 batch: 96 loss: 1.769798
+epoch: 1 batch: 97 loss: 1.628685
+epoch: 1 batch: 98 loss: 1.651029
+epoch: 1 batch: 99 loss: 1.525819
+epoch: 1 batch: 100 loss: 1.694233
+epoch: 1 batch: 101 loss: 1.618902
+epoch: 1 batch: 102 loss: 1.494964
+epoch: 1 batch: 103 loss: 1.691637
+epoch: 1 batch: 104 loss: 1.373817
+epoch: 1 batch: 105 loss: 1.673016
+epoch: 1 batch: 106 loss: 1.477955
+epoch: 1 batch: 107 loss: 1.659388
+epoch: 1 batch: 108 loss: 1.784232
+epoch: 1 batch: 109 loss: 1.632256
+epoch_loss: 1.669802
+epoch
+average per : 0.845667
+target : 
+['h#' 'dh' 'iy' 'ow' 'v' 'er' 'w' 'ey' 'h#' 'ch' 'ao' 'r' 'm' 'er' 'h#' 'k'
+ 'ix' 'h#' 's' 'l' 'ix' 'h#' 'p' 'oy' 'z' 'n' 'ix' 'n' 'h#' 't' 'uw' 'eh'
+ 'n' 'iy' 'w' 'ax' 'n' 'z' 'h#' 't' 'iy' 'h#']
+predict: 
+['h#' 'h#' 'ao' 'r' 'm' 'ix' 'n' 'h#' 't' 'r' 'iy' 'z' 'ix' 'n' 'h#' 't'
+ 'r' 'iy' 'z' 'ix' 'n' 'h#' 't' 'r' 'iy' 'z' 'ix' 'n' 'h#' 't' 'r' 'iy' 'z'
+ 'ix' 'n' 'h#' 't' 'r' 'iy' 'z' 'ix' 'n' 'h#' 't' 'r' 'iy' 'z' 'h#']
+epoch
+average per : 0.879983
+target : 
+['h#' 'hh' 'iy' 'h#' 'p' 'ix' 'h#' 't' 'ax' 'h#' 'n' 'ay' 'n' 'h#' 'p' 'eh'
+ 'r' 'z' 'ax' 's' 'ao' 'h#' 'k' 's' 'f' 'er' 'h#' 'iy' 'h#' 'ch' 'h#' 'b'
+ 'r' 'ax' 'dh' 'er' 'h#']
+predict: 
+['h#' 'dh' 'ax' 'l' 'eh' 'n' 'h#' 'd' 'ix' 'n' 'h#' 'd' 'ix' 'n' 'h#' 'd'
+ 'ix' 'n' 'h#' 't' 'r' 'iy' 'h#' 'd' 'ix' 'n' 'h#' 't' 'ix' 'n' 'ix' 'n'
+ 'h#' 't' 'r' 'iy' 'ix' 'n' 'h#' 't' 'r' 'iy' 'h#']
+epoch
+average per : 0.853120
+target : 
+['h#' 'b' 'ax' 'dx' 'ao' 'r' 'zh' 'h#' 't' 'ax' 'm' 'h#' 'p' 'ix' 'ng' 'h#'
+ 't' 'uh' 'r' 'ix' 'v' 'dh' 'ax' 's' 'aw' 'th' 'w' 'ax' 'z' 'n' 'h#' 't'
+ 'h#' 'ao' 'l' 'm' 'ix' 'z' 'r' 'iy' 'h#']
+predict: 
+['h#' 'h#' 'ao' 'r' 'm' 'ix' 'n' 'h#' 'd' 'ix' 'n' 'h#' 'd' 'ix' 'n' 'h#'
+ 't' 'r' 'iy' 'z' 'ix' 'n' 'h#' 't' 'r' 'iy' 'z' 'ix' 'n' 'h#' 't' 'r' 'iy'
+ 'z' 'ix' 'n' 'h#' 't' 'r' 'iy' 'z' 'h#']
+epoch
+average per : 0.908225
+target : 
+['h#' 'k' 'ao' 'dx' 'ix' 'zh' 'h#' 'ch' 'iy' 'z' 'w' 'ix' 'dh' 'h#' 'ch'
+ 'ay' 'z' 'ax' 'z' 'h#' 'd' 'ax' 'l' 'ix' 'zh' 'ix' 's' 'h#']
+predict: 
+['h#' 'dh' 'ix' 's' 'h#' 't' 'r' 'iy' 'z' 'ix' 'n' 'h#' 't' 'r' 'iy' 'z'
+ 'ix' 'n' 'h#' 't' 'r' 'iy' 'z' 'ix' 'n' 'h#' 't' 'r' 'iy' 'z' 'ix' 2017-11-26 16:38:41.282566: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+'n'
+ 'h#' 't' 'r' 'iy' 'z' 'ix' 'n' 'h#' 't' 'r' 'iy' 'z' 'h#']
+epoch
+average per : 0.823421
+target : 
+['h#' 'ax' 'f' 'r' 'ey' 'h#' 'd' 'ix' 'h#' 'y' 'uh' 'l' 'uw' 'z' 'h#' 'y'
+ 'ao' 'r' 'h#' 'jh' 'ao' 'h#' 'b' 'h#' 'ix' 'f' 'y' 'uw' 'h#' 'd' 'ow' 'n'
+ 'h#' 'k' 'iy' 'h#' 'p' 'y' 'ao' 'r' 'm' 'aw' 'th' 'zh' 'ax' 'h#' 't' 'h#']
+predict: 
+['h#' 'h#' 'ao' 'r' 'iy' 'h#' 'd' 'ix' 'n' 'h#' 'd' 'ix' 'n' 'h#' 'd' 'ix'
+ 'n' 'h#' 'd' 'ix' 'n' 'h#' 'd' 'ix' 'n' 'h#' 'd' 'ix' 'n' 'ix' 'n' 'h#'
+ 'd' 'ix' 'n' 'ix' 'n' 'h#' 'd' 'ix' 'n' 'ix' 'n' 'h#' 't' 'r' 'iy' 'ix'
+ 'n' 'ix']
+epoch_per: 0.862083
+best_per: 1.023994
+we has a better model
+best model has been saved
+epoch: 2 batch: 0 loss: 1.784902
+epoch: 2 batch: 1 loss: 1.602148
+epoch: 2 batch: 2 loss: 1.810387
+epoch: 2 batch: 3 loss: 1.481725
+epoch: 2 batch: 4 loss: 1.595962
+epoch: 2 batch: 5 loss: 1.704298
+epoch: 2 batch: 6 loss: 1.677821
+epoch: 2 batch: 7 loss: 1.612794
+epoch: 2 batch: 8 loss: 1.628444
+epoch: 2 batch: 9 loss: 1.589556
+epoch: 2 batch: 10 loss: 1.656596
+epoch: 2 batch: 11 loss: 1.484620
+epoch: 2 batch: 12 loss: 1.489745
+epoch: 2 batch: 13 loss: 1.451409
+epoch: 2 batch: 14 loss: 1.622217
+epoch: 2 batch: 15 loss: 1.632976
+epoch: 2 batch: 16 loss: 1.518745
+epoch: 2 batch: 17 loss: 1.478524
+epoch: 2 batch: 18 loss: 1.528510
+epoch: 2 batch: 19 loss: 1.524581
+epoch: 2 batch: 20 loss: 1.593711
+epoch: 2 batch: 21 loss: 1.659272
+epoch: 2 batch: 22 loss: 1.526302
+epoch: 2 batch: 23 loss: 1.489599
+epoch: 2 batch: 24 loss: 1.692541
+epoch: 2 batch: 25 loss: 1.588310
+epoch: 2 batch: 26 loss: 1.635703
+epoch: 2 batch: 27 loss: 1.675097
+epoch: 2 batch: 28 loss: 1.703339
+epoch: 2 batch: 29 loss: 1.507023
+epoch: 2 batch: 30 loss: 1.601448
+epoch: 2 batch: 31 loss: 1.458091
+epoch: 2 batch: 32 loss: 1.711012
+epoch: 2 batch: 33 loss: 1.644046
+epoch: 2 batch: 34 loss: 1.590379
+epoch: 2 batch: 35 loss: 1.597679
+epoch: 2 batch: 36 loss: 1.711682
+epoch: 2 batch: 37 loss: 1.526151
+epoch: 2 batch: 38 loss: 1.612071
+epoch: 2 batch: 39 loss: 1.421025
+epoch: 2 batch: 40 loss: 1.401787
+epoch: 2 batch: 41 loss: 1.630079
+epoch: 2 batch: 42 loss: 1.675063
+epoch: 2 batch: 43 loss: 1.642821
+epoch: 2 batch: 44 loss: 1.766742
+epoch: 2 batch: 45 loss: 1.526434
+epoch: 2 batch: 46 loss: 1.601192
+epoch: 2 batch: 47 loss: 1.629169
+epoch: 2 batch: 48 loss: 1.620447
+epoch: 2 batch: 49 loss: 1.514749
+epoch: 2 batch: 50 loss: 1.437214
+epoch: 2 batch: 51 loss: 1.640742
+epoch: 2 batch: 52 loss: 1.560626
+epoch: 2 batch: 53 loss: 1.694961
+epoch: 2 batch: 54 loss: 1.541275
+epoch: 2 batch: 55 loss: 1.630199
+epoch: 2 batch: 56 loss: 1.478981
+epoch: 2 batch: 57 loss: 1.343959
+epoch: 2 batch: 58 loss: 1.581791
+epoch: 2 batch: 59 loss: 1.542775
+epoch: 2 batch: 60 loss: 1.473236
+epoch: 2 batch: 61 loss: 1.676637
+epoch: 2 batch: 62 loss: 1.646870
+epoch: 2 batch: 63 loss: 1.751622
+epoch: 2 batch: 64 loss: 1.477047
+epoch: 2 batch: 65 loss: 1.439901
+epoch: 2 batch: 66 loss: 1.557844
+epoch: 2 batch: 67 loss: 1.618736
+epoch: 2 batch: 68 loss: 1.531281
+epoch: 2 batch: 69 loss: 1.746106
+epoch: 2 batch: 70 loss: 1.563492
+epoch: 2 batch: 71 loss: 1.648702
+epoch: 2 batch: 72 loss: 1.923694
+epoch: 2 batch: 73 loss: 1.535719
+epoch: 2 batch: 74 loss: 1.545952
+epoch: 2 batch: 75 loss: 1.515408
+epoch: 2 batch: 76 loss: 1.451203
+epoch: 2 batch: 77 loss: 1.479475
+epoch: 2 batch: 78 loss: 1.493277
+epoch: 2 batch: 79 loss: 1.670539
+epoch: 2 batch: 80 loss: 1.650866
+epoch: 2 batch: 81 loss: 1.646848
+epoch: 2 batch: 82 loss: 1.641078
+epoch: 2 batch: 83 loss: 1.475370
+epoch: 2 batch: 84 loss: 1.599867
+epoch: 2 batch: 85 loss: 1.616814
+epoch: 2 batch: 86 loss: 1.738668
+epoch: 2 batch: 87 loss: 1.533286
+epoch: 2 batch: 88 loss: 1.601976
+epoch: 2 batch: 89 loss: 1.526756
+epoch: 2 batch: 90 loss: 1.707530
+epoch: 2 batch: 91 loss: 1.607558
+epoch: 2 batch: 92 loss: 1.509878
+epoch: 2 batch: 93 loss: 1.620658
+epoch: 2 batch: 94 loss: 1.500702
+epoch: 2 batch: 95 loss: 1.483595
+epoch: 2 batch: 96 loss: 1.514407
+epoch: 2 batch: 97 loss: 1.530279
+epoch: 2 batch: 98 loss: 1.539179
+epoch: 2 batch: 99 loss: 1.631122
+epoch: 2 batch: 100 loss: 1.392343
+epoch: 2 batch2017-11-26 16:42:15.665034: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+2017-11-26 16:42:15.665825: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+: 101 loss: 1.591802
+epoch: 2 batch: 102 loss: 1.498767
+epoch: 2 batch: 103 loss: 1.519970
+epoch: 2 batch: 104 loss: 1.458540
+epoch: 2 batch: 105 loss: 1.482872
+epoch: 2 batch: 106 loss: 1.408518
+epoch: 2 batch: 107 loss: 1.643188
+epoch: 2 batch: 108 loss: 1.560146
+epoch: 2 batch: 109 loss: 1.639320
+epoch_loss: 1.580910
+epoch
+average per : 0.760988
+target : 
+['h#' 'dh' 'ax' 'hh' 'ao' 'n' 'eh' 'h#' 'ax' 'hh' 'aw' 's' 'w' 'ix' 'z'
+ 'ix' 'hh' 'ix' 'h#' 'd' 'uw' 'h#' 't' 'uw' 'aw' 'h#' 's' 'h#' 't' 'ae' 'n'
+ 'ix' 'ng' 'ao' 'dx' 'iy' 'ow' 'v' 'ix' 'zh' 'uw' 'l' 'f' 'eh' 'h#' 'k' 's'
+ 'h#']
+predict: 
+['h#' 'dh' 'ax' 'm' 'ay' 'l' 'iy' 'ix' 'n' 'h#' 't' 'r' 'iy' 'm' 'ay' 'n'
+ 'h#' 't' 'r' 'iy' 'm' 'ay' 'n' 'h#' 't' 'r' 'iy' 'm' 'ay' 'n' 'h#' 't' 'r'
+ 'iy' 'm' 'ay' 'n' 'h#' 't' 'h#']
+epoch
+average per : 0.761253
+target : 
+['h#' 'h#' 'ax' 'r' 'ow' 'l' 'ax' 'v' 'w' 'ay' 'er' 'l' 'ey' 'n' 'iy' 'er'
+ 'dh' 'ax' 'w' 'ao' 'l' 'h#']
+predict: 
+['h#' 'dh' 'ax' 'w' 'ay' 'l' 'iy' 'h#' 'd' 'r' 'iy' 'h#' 'ay' 'n' 'h#' 'd'
+ 'r' 'iy' 'm' 'ay' 'n' 'h#' 'd' 'h#']
+epoch
+average per : 0.779185
+target : 
+['h#' 'h#' 'ay' 'r' 'ao' 'n' 'ix' 'h#' 'k' 'l' 'iy' 'ax' 'n' 'ax' 'f' 'h#'
+ 'h#' 'ix' 'n' 'dh' 'ix' 's' 'ix' 'n' 's' 'h#' 't' 'ix' 'n' 's' 'ax' 'h#'
+ 'ch' 'h#' 'p' 'er' 's' 'n' 'l' 'v' 'er' 'h#' 'ch' 'uw' 'z' 'h#' 'w' 'er'
+ 'ax' 'l' 'ax' 'h#' 'k' 'zh' 'er' 'r' 'iy' 'h#']
+predict: 
+['h#' 'dh' 'ax' 's' 'eh' 'l' 'iy' 'ix' 'n' 'h#' 't' 'r' 'iy' 'm' 'ay' 'n'
+ 'h#' 't' 'r' 'iy' 'm' 'ay' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#'
+ 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#'
+ 't' 'ix']
+epoch
+average per : 0.783877
+target : 
+['h#' 'd' 'ow' 'n' 'h#' 'l' 'uh' 'h#' 'f' 'er' 'h#' 'g' 'r' 'uw' 'h#' 'v'
+ 'ae' 'l' 'y' 'ix' 'h#' 'l' 'z' 'ix' 'n' 'ix' 'h#' 'b' 'ae' 'ng' 'h#' 'k'
+ 'v' 'ao' 'l' 'h#' 'h#']
+predict: 
+['h#' 'dh' 'ax' 'w' 'ay' 'l' 'iy' 'h#' 'd' 'ix' 'n' 'h#' 't' 'r' 'iy' 'm'
+ 'ay' 'n' 'h#' 'd' 'h#']
+epoch
+average per : 0.782429
+target : 
+['h#' 't' 'w' 'eh' 'n' 'h#' 't' 'iy' 'f' 'ay' 'v' 'h#' 'dh' 'ix' 'zh' 'iy'
+ 'h#' 'k' 'r' 'ix' 'h#' 'p' 'l' 'ay' 'h#' 'd' 'h#']
+predict: 
+['h#' 'dh' 'ax' 's' 'ay' 'h#' 'k' 'r' 'iy' 's' 'h#' 't' 'r' 'iy' 'z' 'ix'
+ 'n' 'h#' 't' 'r' 'iy' 'm' 'ay' 'n' 'h#' 't' 'h#']
+epoch_per: 0.773546
+best_per: 0.862083
+we has a better model
+best model has been saved
+epoch: 3 batch: 0 loss: 1.436540
+epoch: 3 batch: 1 loss: 1.484585
+epoch: 3 batch: 2 loss: 1.626966
+epoch: 3 batch: 3 loss: 1.523587
+epoch: 3 batch: 4 loss: 1.626772
+epoch: 3 batch: 5 loss: 1.604372
+epoch: 3 batch: 6 loss: 1.574492
+epoch: 3 batch: 7 loss: 1.577905
+epoch: 3 batch: 8 loss: 1.440471
+epoch: 3 batch: 9 loss: 1.399959
+epoch: 3 batch: 10 loss: 1.452275
+epoch: 3 batch: 11 loss: 1.546448
+epoch: 3 batch: 12 loss: 1.616238
+epoch: 3 batch: 13 loss: 1.652596
+epoch: 3 batch: 14 loss: 1.454753
+epoch: 3 batch: 15 loss: 1.599125
+epoch: 3 batch: 16 loss: 1.459794
+epoch: 3 batch: 17 loss: 1.552139
+epoch: 3 batch: 18 loss: 1.632213
+epoch: 3 batch: 19 loss: 1.530959
+epoch: 3 batch: 20 loss: 1.564338
+epoch: 3 batch: 21 loss: 1.448138
+epoch: 3 batch: 22 loss: 1.627672
+epoch: 3 batch: 23 loss: 1.549228
+epoch: 3 batch: 24 loss: 1.442499
+epoch: 3 batch: 25 loss: 1.592003
+epoch: 3 batch: 26 loss: 1.544590
+epoch: 3 batch: 27 loss: 1.413374
+epoch: 3 batch: 28 loss: 1.663977
+epoch: 3 batch: 29 loss: 1.620769
+epoch: 3 batch: 30 loss: 1.505345
+epoch: 3 batch: 31 loss: 1.501556
+epoch: 3 batch: 32 loss: 1.486371
+epoch: 3 batch: 33 loss: 1.538859
+epoch: 3 batch: 34 loss: 1.445576
+epoch: 3 batch: 35 loss: 1.719998
+epoch: 3 batch: 36 loss: 1.430144
+epoch: 3 batch: 37 loss: 1.596398
+epoch: 3 batch: 38 loss: 1.619820
+epoch: 3 batch: 39 loss: 1.570923
+epoch: 3 batch: 40 loss: 1.522135
+epoch: 3 batch: 41 loss: 1.554497
+epoch: 3 batch: 42 loss: 1.506933
+epoch: 3 batch: 43 loss: 1.463805
+epoch: 3 batch: 44 loss: 1.513261
+epoch: 3 batch: 45 loss: 1.378182
+epoch: 3 batch: 46 loss: 1.465423
+epoch: 3 batch: 47 loss: 1.587782
+epoch: 3 batch: 48 loss: 1.503129
+epoch: 3 batch: 49 loss: 1.558838
+epoch: 3 batch: 50 loss: 1.570046
+epoch: 3 batch: 51 loss: 1.411429
+epoch: 3 batch: 52 loss:2017-11-26 16:45:54.258752: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+ 1.880696
+epoch: 3 batch: 53 loss: 1.694945
+epoch: 3 batch: 54 loss: 1.445410
+epoch: 3 batch: 55 loss: 1.594465
+epoch: 3 batch: 56 loss: 1.649600
+epoch: 3 batch: 57 loss: 1.486859
+epoch: 3 batch: 58 loss: 1.653124
+epoch: 3 batch: 59 loss: 1.453100
+epoch: 3 batch: 60 loss: 1.541685
+epoch: 3 batch: 61 loss: 1.513123
+epoch: 3 batch: 62 loss: 1.708510
+epoch: 3 batch: 63 loss: 1.354909
+epoch: 3 batch: 64 loss: 1.632409
+epoch: 3 batch: 65 loss: 1.611796
+epoch: 3 batch: 66 loss: 1.454244
+epoch: 3 batch: 67 loss: 1.573512
+epoch: 3 batch: 68 loss: 1.531084
+epoch: 3 batch: 69 loss: 1.439456
+epoch: 3 batch: 70 loss: 1.536364
+epoch: 3 batch: 71 loss: 1.438195
+epoch: 3 batch: 72 loss: 1.544181
+epoch: 3 batch: 73 loss: 1.527493
+epoch: 3 batch: 74 loss: 1.574690
+epoch: 3 batch: 75 loss: 1.485588
+epoch: 3 batch: 76 loss: 1.710660
+epoch: 3 batch: 77 loss: 1.523410
+epoch: 3 batch: 78 loss: 1.429294
+epoch: 3 batch: 79 loss: 1.571207
+epoch: 3 batch: 80 loss: 1.621696
+epoch: 3 batch: 81 loss: 1.569539
+epoch: 3 batch: 82 loss: 1.725215
+epoch: 3 batch: 83 loss: 1.585339
+epoch: 3 batch: 84 loss: 1.452294
+epoch: 3 batch: 85 loss: 1.426579
+epoch: 3 batch: 86 loss: 1.540571
+epoch: 3 batch: 87 loss: 1.465083
+epoch: 3 batch: 88 loss: 1.707933
+epoch: 3 batch: 89 loss: 1.387990
+epoch: 3 batch: 90 loss: 1.496237
+epoch: 3 batch: 91 loss: 1.456715
+epoch: 3 batch: 92 loss: 1.465348
+epoch: 3 batch: 93 loss: 1.584344
+epoch: 3 batch: 94 loss: 1.578219
+epoch: 3 batch: 95 loss: 1.613855
+epoch: 3 batch: 96 loss: 1.634744
+epoch: 3 batch: 97 loss: 1.390375
+epoch: 3 batch: 98 loss: 1.570524
+epoch: 3 batch: 99 loss: 1.367594
+epoch: 3 batch: 100 loss: 1.468468
+epoch: 3 batch: 101 loss: 1.542868
+epoch: 3 batch: 102 loss: 1.591236
+epoch: 3 batch: 103 loss: 1.306473
+epoch: 3 batch: 104 loss: 1.582791
+epoch: 3 batch: 105 loss: 1.487526
+epoch: 3 batch: 106 loss: 1.443956
+epoch: 3 batch: 107 loss: 1.450699
+epoch: 3 batch: 108 loss: 1.383570
+epoch: 3 batch: 109 loss: 1.474071
+epoch_loss: 1.533101
+epoch
+average per : 0.775708
+target : 
+['h#' 'dh' 'ax' 'w' 'ao' 'dx' 'er' 'h#' 'k' 'ax' 'n' 'h#' 't' 'ey' 'n' 'h#'
+ 'd' 'h#' 't' 'uw' 'm' 'ax' 'h#' 'ch' 'h#' 'k' 'l' 'ao' 'r' 'iy' 'n' 'ae'
+ 'n' 's' 'h#' 't' 'ax' 'ng' 'hh' 'ix' 'z' 'ay' 'z' 'h#']
+predict: 
+['h#' 'h#' 'ao' 'r' 'ix' 'n' 's' 'h#' 't' 'r' 'iy' 'm' 'ix' 'n' 'h#' 't'
+ 'ix' 'n' 's' 'h#' 't' 'r' 'ay' 'h#' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't'
+ 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't'
+ 'ix' 'n']
+epoch
+average per : 0.785255
+target : 
+['h#' 'h#' 'ay' 'h#' 't' 'uh' 'h#' 'k' 'hh' 'er' 'w' 'er' 'h#' 'd' 'f' 'ao'
+ 'er' 'h#' 'h#' 'b' 'ax' 'dx' 'ix' 'zh' 'iy' 'r' 'ix' 'l' 'ix' 'h#' 'g'
+ 'ow' 'ix' 'ng' 'w' 'ix' 'th' 'y' 'uw' 'h#']
+predict: 
+['h#' 'h#' 'eh' 'n' 'h#' 't' 'r' 'iy' 'm' 'h#' 'p' 'er' 'r' 'iy' 'n' 'h#'
+ 'd' 'r' 'iy' 'm' 'ay' 'n' 'h#' 'd' 'r' 'ay' 'm' 'h#' 'p' 'er' 'r' 'iy'
+ 'h#']
+epoch
+average per : 0.767745
+target : 
+['h#' 'dh' 'ax' 'hh' 'ao' 'n' 'eh' 'h#' 'ax' 'hh' 'aw' 's' 'w' 'ix' 'z'
+ 'ix' 'hh' 'ix' 'h#' 'd' 'uw' 'h#' 't' 'uw' 'aw' 'h#' 's' 'h#' 't' 'ae' 'n'
+ 'ix' 'ng' 'ao' 'dx' 'iy' 'ow' 'v' 'ix' 'zh' 'uw' 'l' 'f' 'eh' 'h#' 'k' 's'
+ 'h#']
+predict: 
+['h#' 'h#' 'ao' 'r' 'ix' 'n' 's' 'h#' 't' 'r' 'ay' 'm' 'ix' 'n' 'h#' 't'
+ 'ix' 'n' 'h#' 'd' 'ix' 'n' 'h#' 't' 'ix' 'n' 'ix' 'n' 'h#' 't' 'ix' 'n'
+ 'ix' 'n' 'h#' 'd' 'ix' 'n' 'ay' 'n' 'h#' 'd' 'ix' 'n' 'ix' 'n' 'h#' 'd'
+ 'ix' 'n']
+epoch
+average per : 0.790587
+target : 
+['h#' 'jh' 'ao' 'n' 'z' 'h#' 'b' 'r' 'ax' 'dh' 'er' 'r' 'ix' 'h#' 'p' 'ey'
+ 'n' 'ix' 'h#' 'dh' 'ix' 'h#' 'g' 'er' 'ao' 'h#' 'jh' 'h#' 'd' 'ao' 'er'
+ 'h#']
+predict: 
+['h#' 'h#' 'ao' 'r' 'ix' 'n' 'dh' 'ax' 'l' 'ay' 'l' 'iy' 'ng' 'w' 'ax' 'l'
+ 'ay' 'n' 'h#' 'd' 'ix' 'n' 'h#']
+epoch
+average per : 0.761955
+target : 
+['h#' 'r' 'oy' 'ix' 'h#' 'g' 'n' 'ao' 'r' 'h#' 'dh' 'ax' 's' 'h#' 'p' 'er'
+ 'iy' 'ix' 's' 'h#' 'd' 'ey' 'dx' 'ax' 'h#' 'p' 'oy' 'n' 'h#' 't' 's' 'ix'
+ 'n' 'h#' 'd' 'r' 'ao' 'ix' 'ng' 'dh' 'ax' 'h#' 'g' 'r' 'ae' 'f' 'h#']
+predict: 
+['h#' 'dh' 'ax' 'r' 'ay' 'n' 'h#' 'd' 'r' 'ay' 'n' 'z' 'ix' 'n' 's' 'h#'
+ 't' 'r' 'ay' 'm' 'z' 'ix' 'n' 's' 'h#' 't' 'r' 'ay' 'm' 'ix' 'n' 'h#'2017-11-26 16:45:58.130314: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+2017-11-26 16:45:58.130314: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+2017-11-26 16:49:32.898607: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+2017-11-26 16:49:32.899740: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+ 's'
+ 'h#']
+epoch_per: 0.776250
+best_per: 0.773546
+epoch: 4 batch: 0 loss: 1.542514
+epoch: 4 batch: 1 loss: 1.563685
+epoch: 4 batch: 2 loss: 1.493379
+epoch: 4 batch: 3 loss: 1.620574
+epoch: 4 batch: 4 loss: 1.451098
+epoch: 4 batch: 5 loss: 1.551812
+epoch: 4 batch: 6 loss: 1.438192
+epoch: 4 batch: 7 loss: 1.508410
+epoch: 4 batch: 8 loss: 1.521549
+epoch: 4 batch: 9 loss: 1.555405
+epoch: 4 batch: 10 loss: 1.326087
+epoch: 4 batch: 11 loss: 1.650757
+epoch: 4 batch: 12 loss: 1.523160
+epoch: 4 batch: 13 loss: 1.431853
+epoch: 4 batch: 14 loss: 1.511854
+epoch: 4 batch: 15 loss: 1.523987
+epoch: 4 batch: 16 loss: 1.494981
+epoch: 4 batch: 17 loss: 1.419533
+epoch: 4 batch: 18 loss: 1.503414
+epoch: 4 batch: 19 loss: 1.595953
+epoch: 4 batch: 20 loss: 1.433753
+epoch: 4 batch: 21 loss: 1.406358
+epoch: 4 batch: 22 loss: 1.472614
+epoch: 4 batch: 23 loss: 1.517604
+epoch: 4 batch: 24 loss: 1.452707
+epoch: 4 batch: 25 loss: 1.507240
+epoch: 4 batch: 26 loss: 1.390136
+epoch: 4 batch: 27 loss: 1.551405
+epoch: 4 batch: 28 loss: 1.465564
+epoch: 4 batch: 29 loss: 1.359236
+epoch: 4 batch: 30 loss: 1.683545
+epoch: 4 batch: 31 loss: 1.618238
+epoch: 4 batch: 32 loss: 1.477839
+epoch: 4 batch: 33 loss: 1.630941
+epoch: 4 batch: 34 loss: 1.408820
+epoch: 4 batch: 35 loss: 1.398120
+epoch: 4 batch: 36 loss: 1.484235
+epoch: 4 batch: 37 loss: 1.550296
+epoch: 4 batch: 38 loss: 1.568936
+epoch: 4 batch: 39 loss: 1.576872
+epoch: 4 batch: 40 loss: 1.569078
+epoch: 4 batch: 41 loss: 1.591967
+epoch: 4 batch: 42 loss: 1.380254
+epoch: 4 batch: 43 loss: 1.511400
+epoch: 4 batch: 44 loss: 1.534781
+epoch: 4 batch: 45 loss: 1.426880
+epoch: 4 batch: 46 loss: 1.667397
+epoch: 4 batch: 47 loss: 1.607495
+epoch: 4 batch: 48 loss: 1.574636
+epoch: 4 batch: 49 loss: 1.377300
+epoch: 4 batch: 50 loss: 1.470733
+epoch: 4 batch: 51 loss: 1.450644
+epoch: 4 batch: 52 loss: 1.552908
+epoch: 4 batch: 53 loss: 1.508128
+epoch: 4 batch: 54 loss: 1.375777
+epoch: 4 batch: 55 loss: 1.420776
+epoch: 4 batch: 56 loss: 1.547419
+epoch: 4 batch: 57 loss: 1.603977
+epoch: 4 batch: 58 loss: 1.419454
+epoch: 4 batch: 59 loss: 1.491461
+epoch: 4 batch: 60 loss: 1.337840
+epoch: 4 batch: 61 loss: 1.512853
+epoch: 4 batch: 62 loss: 1.526025
+epoch: 4 batch: 63 loss: 1.385547
+epoch: 4 batch: 64 loss: 1.441509
+epoch: 4 batch: 65 loss: 1.335150
+epoch: 4 batch: 66 loss: 1.342638
+epoch: 4 batch: 67 loss: 1.581699
+epoch: 4 batch: 68 loss: 1.589294
+epoch: 4 batch: 69 loss: 1.509086
+epoch: 4 batch: 70 loss: 1.405322
+epoch: 4 batch: 71 loss: 1.779817
+epoch: 4 batch: 72 loss: 1.434089
+epoch: 4 batch: 73 loss: 1.313276
+epoch: 4 batch: 74 loss: 1.525507
+epoch: 4 batch: 75 loss: 1.525487
+epoch: 4 batch: 76 loss: 1.507234
+epoch: 4 batch: 77 loss: 1.447211
+epoch: 4 batch: 78 loss: 1.663787
+epoch: 4 batch: 79 loss: 1.406257
+epoch: 4 batch: 80 loss: 1.380053
+epoch: 4 batch: 81 loss: 1.555745
+epoch: 4 batch: 82 loss: 1.279078
+epoch: 4 batch: 83 loss: 1.419004
+epoch: 4 batch: 84 loss: 1.461157
+epoch: 4 batch: 85 loss: 1.378627
+epoch: 4 batch: 86 loss: 1.536876
+epoch: 4 batch: 87 loss: 1.419643
+epoch: 4 batch: 88 loss: 1.324029
+epoch: 4 batch: 89 loss: 1.547906
+epoch: 4 batch: 90 loss: 1.483598
+epoch: 4 batch: 91 loss: 1.449966
+epoch: 4 batch: 92 loss: 1.536412
+epoch: 4 batch: 93 loss: 1.548787
+epoch: 4 batch: 94 loss: 1.559641
+epoch: 4 batch: 95 loss: 1.467595
+epoch: 4 batch: 96 loss: 1.386902
+epoch: 4 batch: 97 loss: 1.390754
+epoch: 4 batch: 98 loss: 1.384951
+epoch: 4 batch: 99 loss: 1.396693
+epoch: 4 batch: 100 loss: 1.369825
+epoch: 4 batch: 101 loss: 1.529427
+epoch: 4 batch: 102 loss: 1.422612
+epoch: 4 batch: 103 loss: 1.625701
+epoch: 4 batch: 104 loss: 1.333816
+epoch: 4 batch: 105 loss: 1.485972
+epoch: 4 batch: 106 loss: 1.481567
+epoch: 4 batch: 107 loss: 1.370182
+epoch: 4 batch: 108 loss: 1.389893
+epoch: 4 batch: 109 loss: 1.484858
+epoch_loss: 1.483964
+epoch
+average per : 0.790098
+target : 
+['h#' 'dh' 'ax' 'h#' 'g' 'r' 'aw' 'n' 'h#' 'd' 'hh' 'ao' 'h#' 'k' 'l' 'ix'
+ 'r' 'l' 'ix' 's' 'ao' 'ix' 'zh' 'ae' 'dx' 'ao' 'h#' 'b' 'ix' 'h#' 's' 'h#'
+ 't' 'ey' 'dx' 'aw' 'h#' 't' 'h#' 'ow' 'n' 'iy' 'ix' 'm' 'ow' 'm' 'ix' 'h#'
+ 'h#']
+predict: 
+[2017-11-26 16:49:36.811588: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+'h#' 'dh' 'ax' 'r' 'ay' 'm' 'ax' 'n' 'h#' 't' 'er' 'r' 'iy' 'z' 'ix' 'n'
+ 'h#' 't' 'er' 'r' 'iy' 'm' 'ay' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'r' 'ay'
+ 'm' 'ix' 'n' 'h#' 's' 'h#']
+epoch
+average per : 0.787847
+target : 
+['h#' 'd' 'ix' 'h#' 'd' 'iy' 'eh' 'v' 'er' 'v' 'ix' 'z' 'ix' 'h#' 'hh' 'ix'
+ 'r' 'w' 'eh' 'n' 'iy' 'w' 'ix' 'z' 'ax' 'h#' 'k' 'ix' 'h#' 'h#']
+predict: 
+['h#' 'dh' 'eh' 'r' 'iy' 'h#' 'k' 'r' 'iy' 'h#' 't' 'ix' 'n' 'h#' 't' 'r'
+ 'iy' 'z' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'uw' 'm'
+ 'ey' 'zh' 'n' 'h#']
+epoch
+average per : 0.768166
+target : 
+['h#' 's' 'h#' 't' 'ax' 'f' 'h#' 'k' 'uh' 'h#' 'b' 'eh' 'er' 'l' 'iy' 'hh'
+ 'ae' 'n' 'h#' 'd' 'l' 'dh' 'ax' 's' 'ay' 'h#' 'k' 'l' 'ao' 'h#' 'jh' 'ix'
+ 'h#' 'k' 'l' 'h#' 't' 'r' 'ao' 'm' 'ax' 'h#']
+predict: 
+['h#' 'h#' 'ao' 'h#' 't' 'ae' 'h#' 'k' 's' 'h#' 't' 'r' 'iy' 'h#' 't' 'ao'
+ 'r' 'h#' 'jh' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'ay' 'm' 'ax' 'n' 'h#'
+ 't' 'ix' 'n' 'ay' 'h#' 't' 'ay' 'm' 'ax' 'n' 'h#' 't' 'r' 'ay' 'm' 'h#']
+epoch
+average per : 0.806739
+target : 
+['h#' 'hh' 'iy' 'h#' 'p' 'ix' 'h#' 't' 'ax' 'h#' 'n' 'ay' 'n' 'h#' 'p' 'eh'
+ 'r' 'z' 'ax' 's' 'ao' 'h#' 'k' 's' 'f' 'er' 'h#' 'iy' 'h#' 'ch' 'h#' 'b'
+ 'r' 'ax' 'dh' 'er' 'h#']
+predict: 
+['h#' 'dh' 'ix' 'h#' 'g' 'r' 'iy' 'ng' 'h#' 'k' 'l' 'iy' 's' 'h#' 't' 'ix'
+ 'n' 'h#' 'd' 'ix' 's' 'h#' 't' 'r' 'iy' 'h#' 'eh' 'n' 'h#' 't' 'ix' 'n'
+ 'h#' 't' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#']
+epoch
+average per : 0.785836
+target : 
+['h#' 'dh' 'n' 'uw' 's' 'ix' 'h#' 'b' 'er' 'h#' 'b' 'ix' 'n' 'ay' 'h#' 's'
+ 'h#' 'w' 'er' 'h#' 't' 'hh' 'ao' 'r' 'dx' 'ix' 'n' 'r' 'ix' 'f' 'er' 'h#'
+ 'b' 'ix' 'zh' 'ix' 'ng' 'dh' 'eh' 'r' 'ow' 'l' 'h#' 'd' 'er' 'hh' 'ow' 'm'
+ 'h#']
+predict: 
+['h#' 'dh' 'ix' 's' 'ix' 'n' 'h#' 't' 'er' 'm' 'ix' 'n' 'h#' 't' 'r' 'iy'
+ 'm' 'ax' 'n' 'h#' 't' 'er' 'm' 'ay' 'n' 'h#' 't' 'r' 'iy' 'm' 'ax' 'n'
+ 'h#' 't' 'er' 'h#']
+epoch_per: 0.787737
+best_per: 0.773546
+epoch: 5 batch: 0 loss: 1.411262
+epoch: 5 batch: 1 loss: 1.529713
+epoch: 5 batch: 2 loss: 1.472259
+epoch: 5 batch: 3 loss: 1.427940
+epoch: 5 batch: 4 loss: 1.485746
+epoch: 5 batch: 5 loss: 1.300124
+epoch: 5 batch: 6 loss: 1.503786
+epoch: 5 batch: 7 loss: 1.417076
+epoch: 5 batch: 8 loss: 1.497733
+epoch: 5 batch: 9 loss: 1.481099
+epoch: 5 batch: 10 loss: 1.492126
+epoch: 5 batch: 11 loss: 1.346689
+epoch: 5 batch: 12 loss: 1.596748
+epoch: 5 batch: 13 loss: 1.368725
+epoch: 5 batch: 14 loss: 1.495486
+epoch: 5 batch: 15 loss: 1.307767
+epoch: 5 batch: 16 loss: 1.479902
+epoch: 5 batch: 17 loss: 1.443142
+epoch: 5 batch: 18 loss: 1.348363
+epoch: 5 batch: 19 loss: 1.435709
+epoch: 5 batch: 20 loss: 1.479234
+epoch: 5 batch: 21 loss: 1.422920
+epoch: 5 batch: 22 loss: 1.429873
+epoch: 5 batch: 23 loss: 1.482641
+epoch: 5 batch: 24 loss: 1.416949
+epoch: 5 batch: 25 loss: 1.631457
+epoch: 5 batch: 26 loss: 1.439057
+epoch: 5 batch: 27 loss: 1.370237
+epoch: 5 batch: 28 loss: 1.461329
+epoch: 5 batch: 29 loss: 1.474369
+epoch: 5 batch: 30 loss: 1.501842
+epoch: 5 batch: 31 loss: 1.376397
+epoch: 5 batch: 32 loss: 1.346021
+epoch: 5 batch: 33 loss: 1.436630
+epoch: 5 batch: 34 loss: 1.334203
+epoch: 5 batch: 35 loss: 1.603678
+epoch: 5 batch: 36 loss: 1.454350
+epoch: 5 batch: 37 loss: 1.339916
+epoch: 5 batch: 38 loss: 1.563368
+epoch: 5 batch: 39 loss: 1.282409
+epoch: 5 batch: 40 loss: 1.510979
+epoch: 5 batch: 41 loss: 1.476949
+epoch: 5 batch: 42 loss: 1.306587
+epoch: 5 batch: 43 loss: 1.465353
+epoch: 5 batch: 44 loss: 1.472446
+epoch: 5 batch: 45 loss: 1.363981
+epoch: 5 batch: 46 loss: 1.533671
+epoch: 5 batch: 47 loss: 1.508719
+epoch: 5 batch: 48 loss: 1.734681
+epoch: 5 batch: 49 loss: 1.291702
+epoch: 5 batch: 50 loss: 1.390765
+epoch: 5 batch: 51 loss: 1.405913
+epoch: 5 batch: 52 loss: 1.291273
+epoch: 5 batch: 53 loss: 1.419705
+epoch: 5 batch: 54 loss: 1.278057
+epoch: 5 batch: 55 loss: 1.375890
+epoch: 5 batch: 56 loss: 1.358062
+epoch: 5 batch: 57 loss: 1.579572
+epoch: 5 batch: 58 loss: 1.539746
+epoch: 5 batch: 59 loss: 1.521719
+epoch: 5 batch: 60 loss: 1.473723
+epoch: 5 batch: 61 loss: 1.413772
+epoch: 5 batch: 62 loss: 1.393161
+epoch: 5 batch: 63 loss: 1.500902
+epoch: 5 batch: 64 loss2017-11-26 16:53:11.929051: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+2017-11-26 16:53:11.930457: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+2017-11-26 16:53:15.963665: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+: 1.503402
+epoch: 5 batch: 65 loss: 1.428394
+epoch: 5 batch: 66 loss: 1.413732
+epoch: 5 batch: 67 loss: 1.429411
+epoch: 5 batch: 68 loss: 1.263730
+epoch: 5 batch: 69 loss: 1.493300
+epoch: 5 batch: 70 loss: 1.351420
+epoch: 5 batch: 71 loss: 1.384378
+epoch: 5 batch: 72 loss: 1.530504
+epoch: 5 batch: 73 loss: 1.352252
+epoch: 5 batch: 74 loss: 1.383047
+epoch: 5 batch: 75 loss: 1.338134
+epoch: 5 batch: 76 loss: 1.342637
+epoch: 5 batch: 77 loss: 1.509490
+epoch: 5 batch: 78 loss: 1.502396
+epoch: 5 batch: 79 loss: 1.326487
+epoch: 5 batch: 80 loss: 1.349303
+epoch: 5 batch: 81 loss: 1.504008
+epoch: 5 batch: 82 loss: 1.621209
+epoch: 5 batch: 83 loss: 1.506851
+epoch: 5 batch: 84 loss: 1.376342
+epoch: 5 batch: 85 loss: 1.468866
+epoch: 5 batch: 86 loss: 1.380796
+epoch: 5 batch: 87 loss: 1.458659
+epoch: 5 batch: 88 loss: 1.498529
+epoch: 5 batch: 89 loss: 1.528465
+epoch: 5 batch: 90 loss: 1.492172
+epoch: 5 batch: 91 loss: 1.583971
+epoch: 5 batch: 92 loss: 1.398266
+epoch: 5 batch: 93 loss: 1.431409
+epoch: 5 batch: 94 loss: 1.318979
+epoch: 5 batch: 95 loss: 1.365252
+epoch: 5 batch: 96 loss: 1.329996
+epoch: 5 batch: 97 loss: 1.539806
+epoch: 5 batch: 98 loss: 1.464372
+epoch: 5 batch: 99 loss: 1.409764
+epoch: 5 batch: 100 loss: 1.298153
+epoch: 5 batch: 101 loss: 1.431938
+epoch: 5 batch: 102 loss: 1.351166
+epoch: 5 batch: 103 loss: 1.322552
+epoch: 5 batch: 104 loss: 1.310940
+epoch: 5 batch: 105 loss: 1.444784
+epoch: 5 batch: 106 loss: 1.515855
+epoch: 5 batch: 107 loss: 1.350600
+epoch: 5 batch: 108 loss: 1.344068
+epoch: 5 batch: 109 loss: 1.535489
+epoch_loss: 1.434372
+epoch
+average per : 0.771020
+target : 
+['h#' 'g' 'ax' 's' 'ao' 'h#' 'p' 'ay' 'n' 'h#' 't' 'r' 'iy' 'z' 'ix' 'n'
+ 'r' 'eh' 'h#' 'w' 'uh' 'h#' 'z' 'ao' 'n' 'ix' 'z' 'w' 'ao' 'h#' 'th' 'r'
+ 'uw' 's' 'ix' 'h#' 'k' 'oy' 'y' 'ix' 'n' 'ae' 'zh' 'n' 'l' 'f' 'ao' 'r'
+ 'ix' 's' 'h#' 't' 'h#']
+predict: 
+['h#' 'b' 'ao' 'r' 's' 'h#' 'k' 'ao' 'r' 'h#' 'jh' 'ix' 'n' 'h#' 't' 'r'
+ 'ay' 's' 'h#' 't' 'r' 'ay' 'z' 'ix' 'n' 'h#' 't' 'r' 'ay' 'm' 'ix' 'n'
+ 'h#' 't' 'r' 'ay' 'm' 'z' 'ix' 'n' 's' 'h#' 't' 'r' 'ay' 'm' 'z' 'h#']
+epoch
+average per : 0.752246
+target : 
+['h#' 'n' 'ow' 'h#' 'b' 'uh' 'dx' 'iy' 'h#' 'd' 'ax' 'z' 'h#' 'b' 'ax' 'h#'
+ 'dh' 'ey' 'h#' 'g' 'ey' 'v' 'm' 'iy' 'h#' 't' 'eh' 'n' 'l' 'ae' 'zh' 'h#'
+ 'ch' 'y' 'ix' 'er' 'h#']
+predict: 
+['h#' 'b' 'ow' 'h#' 'p' 'er' 'n' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'r'
+ 'iy' 'm' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'uw' 'n' 'h#' 't' 'ix' 'n'
+ 'h#' 't' 'r' 'ey' 'zh' 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'r' 'ey' 'm'
+ 'h#']
+epoch
+average per : 0.754238
+target : 
+['h#' 'b' 'r' 'ey' 'h#' 's' 'ax' 'n' 'h#' 't' 'zh' 'ay' 'n' 'h#' 't' 'zh'
+ 'ix' 'm' 'er' 'z' 'ao' 'n' 'ix' 'ow' 'zh' 'n' 'h#']
+predict: 
+['h#' 'b' 'ay' 'r' 'h#' 'jh' 'ix' 'n' 'h#' 't' 'r' 'ay' 'h#' 'ch' 'er' 'z'
+ 'ix' 'n' 'h#' 't' 'r' 'ay' 's' 'h#']
+epoch
+average per : 0.762283
+target : 
+['h#' 't' 'uw' 'h#' 'g' 'ae' 's' 'l' 'ae' 'm' 'h#' 'p' 's' 'h#' 'w' 'er'
+ 'n' 'ow' 'm' 'ao' 'r' 'dh' 'eh' 'n' 'ix' 'm' 'ix' 's' 'l' 'iy' 'dx' 'iy'
+ 'ng' 'h#' 'g' 'l' 'ow' 'h#']
+predict: 
+['h#' 'dh' 'ix' 'h#' 't' 'uw' 'h#' 'd' 'ix' 'h#' 't' 'ix' 'n' 'h#' 't' 'r'
+ 'iy' 'm' 'ix' 'n' 'h#' 't' 'r' 'iy' 'm' 'h#' 'p' 'er' 'r' 'iy' 'l' 'iy'
+ 'h#']
+epoch
+average per : 0.750105
+target : 
+['h#' 'dh' 'ix' 'f' 'ix' 'er' 'v' 'h#' 'p' 'ax' 'n' 'ix' 'zh' 'h#' 'm' 'ix'
+ 'n' 'h#' 'jh' 'ax' 's' 'h#' 'd' 'ix' 'dx' 'n' 'h#' 'b' 'ao' 'dh' 'er' 'r'
+ 'ix' 'm' 'h#']
+predict: 
+['h#' 'dh' 'ix' 'h#' 't' 'ao' 'r' 'h#' 'k' 'ix' 'n' 's' 'h#' 't' 'r' 'ix'
+ 'm' 'h#' 'p' 'er' 'z' 'h#' 'w' 'ax' 'l' 'ow' 'v' 'er' 'h#']
+epoch_per: 0.757978
+best_per: 0.773546
+we has a better model
+best model has been saved
+epoch: 6 batch: 0 loss: 1.388543
+epoch: 6 batch: 1 loss: 1.309848
+epoch: 6 batch: 2 loss: 1.302391
+epoch: 6 batch: 3 loss: 1.303718
+epoch: 6 batch: 4 loss: 1.340181
+epoch: 6 batch: 5 loss: 1.386385
+epoch: 6 batch: 6 loss: 1.442637
+epoch: 6 batch: 7 loss: 1.435612
+epoch: 6 batch: 8 loss: 1.345574
+epoch: 6 batch: 9 loss: 1.232854
+epoch: 6 batch: 10 loss: 1.381756
+epoch: 6 batch: 11 loss: 1.410835
+epoch: 6 batch: 12 loss: 1.310561
+epoch: 6 batch: 13 lo2017-11-26 16:56:51.769081: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+2017-11-26 16:56:51.769860: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+ss: 1.225579
+epoch: 6 batch: 14 loss: 1.404304
+epoch: 6 batch: 15 loss: 1.367138
+epoch: 6 batch: 16 loss: 1.259172
+epoch: 6 batch: 17 loss: 1.288233
+epoch: 6 batch: 18 loss: 1.351442
+epoch: 6 batch: 19 loss: 1.553873
+epoch: 6 batch: 20 loss: 1.416951
+epoch: 6 batch: 21 loss: 1.330192
+epoch: 6 batch: 22 loss: 1.376638
+epoch: 6 batch: 23 loss: 1.327232
+epoch: 6 batch: 24 loss: 1.397598
+epoch: 6 batch: 25 loss: 1.474852
+epoch: 6 batch: 26 loss: 1.448392
+epoch: 6 batch: 27 loss: 1.417770
+epoch: 6 batch: 28 loss: 1.371139
+epoch: 6 batch: 29 loss: 1.252636
+epoch: 6 batch: 30 loss: 1.338014
+epoch: 6 batch: 31 loss: 1.485660
+epoch: 6 batch: 32 loss: 1.405861
+epoch: 6 batch: 33 loss: 1.441941
+epoch: 6 batch: 34 loss: 1.316740
+epoch: 6 batch: 35 loss: 1.421091
+epoch: 6 batch: 36 loss: 1.434285
+epoch: 6 batch: 37 loss: 1.278959
+epoch: 6 batch: 38 loss: 1.445361
+epoch: 6 batch: 39 loss: 1.268646
+epoch: 6 batch: 40 loss: 1.441139
+epoch: 6 batch: 41 loss: 1.451634
+epoch: 6 batch: 42 loss: 1.454605
+epoch: 6 batch: 43 loss: 1.250189
+epoch: 6 batch: 44 loss: 1.307435
+epoch: 6 batch: 45 loss: 1.447581
+epoch: 6 batch: 46 loss: 1.494665
+epoch: 6 batch: 47 loss: 1.350033
+epoch: 6 batch: 48 loss: 1.208981
+epoch: 6 batch: 49 loss: 1.464815
+epoch: 6 batch: 50 loss: 1.322878
+epoch: 6 batch: 51 loss: 1.526691
+epoch: 6 batch: 52 loss: 1.282908
+epoch: 6 batch: 53 loss: 1.282650
+epoch: 6 batch: 54 loss: 1.401380
+epoch: 6 batch: 55 loss: 1.432822
+epoch: 6 batch: 56 loss: 1.340244
+epoch: 6 batch: 57 loss: 1.387109
+epoch: 6 batch: 58 loss: 1.332685
+epoch: 6 batch: 59 loss: 1.651310
+epoch: 6 batch: 60 loss: 1.286583
+epoch: 6 batch: 61 loss: 1.260213
+epoch: 6 batch: 62 loss: 1.444242
+epoch: 6 batch: 63 loss: 1.340729
+epoch: 6 batch: 64 loss: 1.408600
+epoch: 6 batch: 65 loss: 1.348731
+epoch: 6 batch: 66 loss: 1.469751
+epoch: 6 batch: 67 loss: 1.357118
+epoch: 6 batch: 68 loss: 1.377393
+epoch: 6 batch: 69 loss: 1.282256
+epoch: 6 batch: 70 loss: 1.282397
+epoch: 6 batch: 71 loss: 1.321787
+epoch: 6 batch: 72 loss: 1.405973
+epoch: 6 batch: 73 loss: 1.443482
+epoch: 6 batch: 74 loss: 1.293057
+epoch: 6 batch: 75 loss: 1.453677
+epoch: 6 batch: 76 loss: 1.403804
+epoch: 6 batch: 77 loss: 1.398896
+epoch: 6 batch: 78 loss: 1.215117
+epoch: 6 batch: 79 loss: 1.230500
+epoch: 6 batch: 80 loss: 1.318798
+epoch: 6 batch: 81 loss: 1.274298
+epoch: 6 batch: 82 loss: 1.375867
+epoch: 6 batch: 83 loss: 1.574292
+epoch: 6 batch: 84 loss: 1.425815
+epoch: 6 batch: 85 loss: 1.364474
+epoch: 6 batch: 86 loss: 1.310494
+epoch: 6 batch: 87 loss: 1.379625
+epoch: 6 batch: 88 loss: 1.379004
+epoch: 6 batch: 89 loss: 1.310501
+epoch: 6 batch: 90 loss: 1.366051
+epoch: 6 batch: 91 loss: 1.331894
+epoch: 6 batch: 92 loss: 1.252207
+epoch: 6 batch: 93 loss: 1.313805
+epoch: 6 batch: 94 loss: 1.517821
+epoch: 6 batch: 95 loss: 1.361830
+epoch: 6 batch: 96 loss: 1.441406
+epoch: 6 batch: 97 loss: 1.262775
+epoch: 6 batch: 98 loss: 1.541814
+epoch: 6 batch: 99 loss: 1.423950
+epoch: 6 batch: 100 loss: 1.419025
+epoch: 6 batch: 101 loss: 1.387218
+epoch: 6 batch: 102 loss: 1.458112
+epoch: 6 batch: 103 loss: 1.327734
+epoch: 6 batch: 104 loss: 1.431260
+epoch: 6 batch: 105 loss: 1.398283
+epoch: 6 batch: 106 loss: 1.262761
+epoch: 6 batch: 107 loss: 1.410693
+epoch: 6 batch: 108 loss: 1.304231
+epoch: 6 batch: 109 loss: 1.504171
+epoch_loss: 1.372517
+epoch
+average per : 0.736199
+target : 
+['h#' 'b' 'ax' 'dx' 'ao' 'r' 'zh' 'h#' 't' 'ax' 'm' 'h#' 'p' 'ix' 'ng' 'h#'
+ 't' 'uh' 'r' 'ix' 'v' 'dh' 'ax' 's' 'aw' 'th' 'w' 'ax' 'z' 'n' 'h#' 't'
+ 'h#' 'ao' 'l' 'm' 'ix' 'z' 'r' 'iy' 'h#']
+predict: 
+['h#' 'w' 'ao' 'l' 'th' 'ow' 'z' 'h#' 'k' 'ao' 'l' 'h#' 't' 'ix' 'n' 'z'
+ 'h#' 'w' 'ax' 'l' 'z' 'f' 'ao' 'l' 's' 'h#' 't' 'ey' 'h#' 'b' 'l' 'h#' 'd'
+ 'h#']
+epoch
+average per : 0.745759
+target : 
+['h#' 'h#' 'ay' 'h#' 't' 'uh' 'h#' 'k' 'hh' 'er' 'w' 'er' 'h#' 'd' 'f' 'ao'
+ 'er' 'h#' 'h#' 'b' 'ax' 'dx' 'ix' 'zh' 'iy' 'r' 'ix' 'l' 'ix' 'h#' 'g'
+ 'ow' 'ix' 'ng' 'w' 'ix' 'th' 'y' 'uw' 'h#']
+predict: 
+['h#' 'w' 'eh' 'h#' 'ch' 'h#' 't' 'r' 'ax' 'h#' 'b' 'l' 'ey' 'h#' 't' 'ix'
+ 'n' 'z' 'w' 'eh' 'l' 'h#' 't' 'uw' 'm' 'ey' 'zh' 'ix' 'n' 'h#']
+epoch
+ave2017-11-26 16:56:55.803756: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+2017-11-26 16:56:55.803785: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+rage per : 0.744275
+target : 
+['h#' 'l' 'ix' 'dx' 'l' 'h#' 'jh' 'iy' 'iy' 'ng' 'ax' 'n' 'hh' 'ao' 'ix'
+ 'ng' 'hh' 'ae' 'v' 'h#' 'b' 'ix' 'n' 'eh' 's' 'ix' 's' 'eh' 'r' 'ix' 'h#']
+predict: 
+['h#' 'w' 'ey' 'dx' 'ix' 'n' 'h#' 't' 'iy' 'l' 'iy' 'h#' 't' 'ix' 'n' 'dh'
+ 'ax' 'h#' 'b' 'l' 'ay' 'h#' 's' 'h#' 't' 'ix' 'n' 'h#' 'd' 'ey' 'h#' 't'
+ 's' 'h#']
+epoch
+average per : 0.725531
+target : 
+['h#' 'h#' 'ey' 'l' 'oy' 'er' 'w' 'ix' 'z' 'ix' 'h#' 'p' 'oy' 'n' 'eh' 'h#'
+ 't' 'uw' 'h#' 'eh' 'h#' 'k' 's' 'ix' 'h#' 'k' 'y' 'uw' 'h#' 't' 'hh' 'er'
+ 'w' 'eh' 'l' 'h#']
+predict: 
+['h#' 'dh' 'ey' 'h#' 'ao' 'l' 'h#' 'jh' 'oy' 'l' 'l' 'iy' 's' 'h#' 't' 'r'
+ 'ey' 'h#' 'b' 'l' 'iy' 'h#' 'ix' 'n' 'h#' 't' 'ix' 'h#' 'b' 'l' 'h#' 'g'
+ 'r' 'iy' 'm' 'h#']
+epoch
+average per : 0.741325
+target : 
+['h#' 'ix' 'z' 'dh' 'eh' 'r' 'eh' 'n' 'iy' 'w' 'er' 'h#' 'jh' 'uw' 'w' 'uh'
+ 'h#' 'd' 'l' 'ay' 'h#' 't' 'ax' 'h#' 'ao' 'f' 'er' 'ix' 'n' 'y' 'er' 'ow'
+ 'n' 'h#' 'd' 'ix' 'f' 'eh' 'n' 's' 'h#']
+predict: 
+['h#' 'dh' 'ax' 'h#' 't' 'ay' 'l' 'ao' 'l' 'h#' 'jh' 'ix' 'n' 'h#' 't' 'ao'
+ 'l' 'h#' 't' 'ay' 'n' 'z' 'h#' 'w' 'iy' 'h#' 'ch' 'h#']
+epoch_per: 0.738618
+best_per: 0.757978
+we has a better model
+best model has been saved
+epoch: 7 batch: 0 loss: 1.338628
+epoch: 7 batch: 1 loss: 1.228733
+epoch: 7 batch: 2 loss: 1.348717
+epoch: 7 batch: 3 loss: 1.342854
+epoch: 7 batch: 4 loss: 1.236879
+epoch: 7 batch: 5 loss: 1.202578
+epoch: 7 batch: 6 loss: 1.167492
+epoch: 7 batch: 7 loss: 1.281519
+epoch: 7 batch: 8 loss: 1.365130
+epoch: 7 batch: 9 loss: 1.299322
+epoch: 7 batch: 10 loss: 1.356717
+epoch: 7 batch: 11 loss: 1.427737
+epoch: 7 batch: 12 loss: 1.190208
+epoch: 7 batch: 13 loss: 1.355788
+epoch: 7 batch: 14 loss: 1.346359
+epoch: 7 batch: 15 loss: 1.501611
+epoch: 7 batch: 16 loss: 1.355611
+epoch: 7 batch: 17 loss: 1.290054
+epoch: 7 batch: 18 loss: 1.332361
+epoch: 7 batch: 19 loss: 1.312655
+epoch: 7 batch: 20 loss: 1.270534
+epoch: 7 batch: 21 loss: 1.241785
+epoch: 7 batch: 22 loss: 1.325080
+epoch: 7 batch: 23 loss: 1.191924
+epoch: 7 batch: 24 loss: 1.254588
+epoch: 7 batch: 25 loss: 1.368989
+epoch: 7 batch: 26 loss: 1.316324
+epoch: 7 batch: 27 loss: 1.218720
+epoch: 7 batch: 28 loss: 1.337634
+epoch: 7 batch: 29 loss: 1.304029
+epoch: 7 batch: 30 loss: 1.281658
+epoch: 7 batch: 31 loss: 1.351673
+epoch: 7 batch: 32 loss: 1.307049
+epoch: 7 batch: 33 loss: 1.352957
+epoch: 7 batch: 34 loss: 1.384830
+epoch: 7 batch: 35 loss: 1.232645
+epoch: 7 batch: 36 loss: 1.347398
+epoch: 7 batch: 37 loss: 1.160225
+epoch: 7 batch: 38 loss: 1.320851
+epoch: 7 batch: 39 loss: 1.332729
+epoch: 7 batch: 40 loss: 1.396962
+epoch: 7 batch: 41 loss: 1.333482
+epoch: 7 batch: 42 loss: 1.258816
+epoch: 7 batch: 43 loss: 1.346281
+epoch: 7 batch: 44 loss: 1.338314
+epoch: 7 batch: 45 loss: 1.186031
+epoch: 7 batch: 46 loss: 1.269214
+epoch: 7 batch: 47 loss: 1.254575
+epoch: 7 batch: 48 loss: 1.243505
+epoch: 7 batch: 49 loss: 1.317795
+epoch: 7 batch: 50 loss: 1.349978
+epoch: 7 batch: 51 loss: 1.485141
+epoch: 7 batch: 52 loss: 1.337859
+epoch: 7 batch: 53 loss: 1.484335
+epoch: 7 batch: 54 loss: 1.414533
+epoch: 7 batch: 55 loss: 1.261574
+epoch: 7 batch: 56 loss: 1.184154
+epoch: 7 batch: 57 loss: 1.245773
+epoch: 7 batch: 58 loss: 1.368259
+epoch: 7 batch: 59 loss: 1.404949
+epoch: 7 batch: 60 loss: 1.286932
+epoch: 7 batch: 61 loss: 1.416627
+epoch: 7 batch: 62 loss: 1.327915
+epoch: 7 batch: 63 loss: 1.222200
+epoch: 7 batch: 64 loss: 1.375558
+epoch: 7 batch: 65 loss: 1.177570
+epoch: 7 batch: 66 loss: 1.247828
+epoch: 7 batch: 67 loss: 1.402418
+epoch: 7 batch: 68 loss: 1.302918
+epoch: 7 batch: 69 loss: 1.287184
+epoch: 7 batch: 70 loss: 1.261242
+epoch: 7 batch: 71 loss: 1.142140
+epoch: 7 batch: 72 loss: 1.344856
+epoch: 7 batch: 73 loss: 1.205073
+epoch: 7 batch: 74 loss: 1.366195
+epoch: 7 batch: 75 loss: 1.363866
+epoch: 7 batch: 76 loss: 1.218915
+epoch: 7 batch: 77 loss: 1.405842
+epoch: 7 batch: 78 loss: 1.334231
+epoch: 7 batch: 79 loss: 1.294886
+epoch: 7 batch: 80 loss: 1.316474
+epoch: 7 batch: 81 loss: 1.313844
+epoch: 7 batch: 82 loss: 1.238543
+epoch: 7 batch: 83 loss: 1.206075
+epoch: 7 batch: 84 loss: 1.188381
+epoch: 7 batch: 2017-11-26 17:00:30.300382: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+2017-11-26 17:00:30.301176: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+85 loss: 1.194692
+epoch: 7 batch: 86 loss: 1.336177
+epoch: 7 batch: 87 loss: 1.345346
+epoch: 7 batch: 88 loss: 1.253892
+epoch: 7 batch: 89 loss: 1.415083
+epoch: 7 batch: 90 loss: 1.244136
+epoch: 7 batch: 91 loss: 1.460191
+epoch: 7 batch: 92 loss: 1.237923
+epoch: 7 batch: 93 loss: 1.281296
+epoch: 7 batch: 94 loss: 1.188835
+epoch: 7 batch: 95 loss: 1.390056
+epoch: 7 batch: 96 loss: 1.250502
+epoch: 7 batch: 97 loss: 1.278183
+epoch: 7 batch: 98 loss: 1.230587
+epoch: 7 batch: 99 loss: 1.396996
+epoch: 7 batch: 100 loss: 1.371101
+epoch: 7 batch: 101 loss: 1.243851
+epoch: 7 batch: 102 loss: 1.431696
+epoch: 7 batch: 103 loss: 1.506613
+epoch: 7 batch: 104 loss: 1.252311
+epoch: 7 batch: 105 loss: 1.131627
+epoch: 7 batch: 106 loss: 1.254500
+epoch: 7 batch: 107 loss: 1.241007
+epoch: 7 batch: 108 loss: 1.371279
+epoch: 7 batch: 109 loss: 1.295779
+epoch_loss: 1.304686
+epoch
+average per : 0.741913
+target : 
+['h#' 'dh' 'n' 'uw' 's' 'ix' 'h#' 'b' 'er' 'h#' 'b' 'ix' 'n' 'ay' 'h#' 's'
+ 'h#' 'w' 'er' 'h#' 't' 'hh' 'ao' 'r' 'dx' 'ix' 'n' 'r' 'ix' 'f' 'er' 'h#'
+ 'b' 'ix' 'zh' 'ix' 'ng' 'dh' 'eh' 'r' 'ow' 'l' 'h#' 'd' 'er' 'hh' 'ow' 'm'
+ 'h#']
+predict: 
+['h#' 'dh' 'ix' 'z' 'ix' 'h#' 'g' 'r' 'iy' 'h#' 't' 'r' 'ay' 'h#' 't' 's'
+ 'ay' 'h#' 'k' 'ao' 'r' 'dx' 'er' 'h#' 'd' 'ix' 'n' 'h#' 't' 'r' 'ay' 'h#'
+ 'ix' 'n' 'h#' 't' 'er' 'r' 'iy' 'h#']
+epoch
+average per : 0.750538
+target : 
+['h#' 'w' 'uh' 'dx' 'ix' 'h#' 't' 'ao' 'm' 'h#' 'b' 'oy' 'ao' 'f' 'ax' 'n'
+ 'h#' 'p' 'l' 'ey' 'aw' 'h#' 'd' 'ao' 'r' 'z' 'h#']
+predict: 
+['h#' 'hh' 'aw' 'h#' 't' 'ao' 'l' 'h#' 'p' 'ao' 'r' 'h#' 'b' 'l' 'h#' 'hh'
+ 'aw' 'n' 'z' 'h#']
+epoch
+average per : 0.727069
+target : 
+['h#' 'h#' 'ax' 'r' 'ow' 'l' 'ax' 'v' 'w' 'ay' 'er' 'l' 'ey' 'n' 'iy' 'er'
+ 'dh' 'ax' 'w' 'ao' 'l' 'h#']
+predict: 
+['h#' 'dh' 'ax' 'w' 'ao' 'l' 'ax' 'h#' 'd' 'ay' 'ay' 'h#' 'k' 'ay' 'ay'
+ 'h#' 'dh' 'iy' 'ix' 'n' 'h#' 't' 'ay' 'er' 'h#' 'd' 'h#']
+epoch
+average per : 0.730264
+target : 
+['h#' 'dh' 'ix' 'h#' 'eh' 'er' 's' 'h#' 'm' 'eh' 'l' 'h#' 'd' 'h#' 'w' 'ao'
+ 'r' 'm' 'ix' 'zh' 'ix' 'n' 'f' 'aw' 'l' 'h#']
+predict: 
+['h#' 'dh' 'ey' 'y' 'uw' 'z' 'ix' 'n' 's' 'ao' 'r' 'dx' 'ix' 'h#' 'k' 'ao'
+ 'r' 'h#' 'd' 'ix' 'n' 's' 'eh' 'l' 'f' 'er' 'h#']
+epoch
+average per : 0.763555
+target : 
+['h#' 'b' 'ax' 'dx' 'ao' 'r' 'zh' 'h#' 't' 'ax' 'm' 'h#' 'p' 'ix' 'ng' 'h#'
+ 't' 'uh' 'r' 'ix' 'v' 'dh' 'ax' 's' 'aw' 'th' 'w' 'ax' 'z' 'n' 'h#' 't'
+ 'h#' 'ao' 'l' 'm' 'ix' 'z' 'r' 'iy' 'h#']
+predict: 
+['h#' 'h#' 'ao' 'r' 'h#' 't' 'ix' 'h#' 'k' 'l' 'h#' 't' 'ix' 'n' 'h#' 't'
+ 'r' 'iy' 'h#' 'ch' 'er' 'z' 'h#' 'w' 'ax' 'th' 's' 'ow' 'l' 'h#' 'd' 'ix'
+ 'n' 'h#' 't' 'ao' 'r' 'ix' 'z' 'h#']
+epoch_per: 0.742668
+best_per: 0.738618
+epoch: 8 batch: 0 loss: 1.166039
+epoch: 8 batch: 1 loss: 1.202197
+epoch: 8 batch: 2 loss: 1.242867
+epoch: 8 batch: 3 loss: 1.317960
+epoch: 8 batch: 4 loss: 1.163439
+epoch: 8 batch: 5 loss: 1.214958
+epoch: 8 batch: 6 loss: 1.194042
+epoch: 8 batch: 7 loss: 1.209456
+epoch: 8 batch: 8 loss: 1.343537
+epoch: 8 batch: 9 loss: 1.101936
+epoch: 8 batch: 10 loss: 1.133897
+epoch: 8 batch: 11 loss: 1.213526
+epoch: 8 batch: 12 loss: 1.245902
+epoch: 8 batch: 13 loss: 1.313776
+epoch: 8 batch: 14 loss: 1.222968
+epoch: 8 batch: 15 loss: 1.285789
+epoch: 8 batch: 16 loss: 1.143912
+epoch: 8 batch: 17 loss: 1.219203
+epoch: 8 batch: 18 loss: 1.268429
+epoch: 8 batch: 19 loss: 1.258664
+epoch: 8 batch: 20 loss: 1.195018
+epoch: 8 batch: 21 loss: 1.270005
+epoch: 8 batch: 22 loss: 1.180781
+epoch: 8 batch: 23 loss: 1.166888
+epoch: 8 batch: 24 loss: 1.166779
+epoch: 8 batch: 25 loss: 1.246024
+epoch: 8 batch: 26 loss: 1.242404
+epoch: 8 batch: 27 loss: 1.291381
+epoch: 8 batch: 28 loss: 1.127239
+epoch: 8 batch: 29 loss: 1.230914
+epoch: 8 batch: 30 loss: 1.295482
+epoch: 8 batch: 31 loss: 1.078637
+epoch: 8 batch: 32 loss: 1.161252
+epoch: 8 batch: 33 loss: 1.316167
+epoch: 8 batch: 34 loss: 1.272753
+epoch: 8 batch: 35 loss: 1.311061
+epoch: 8 batch: 36 loss: 1.193495
+epoch: 8 batch: 37 loss: 1.203390
+epoch: 8 batch: 38 loss: 1.276397
+epoch: 8 batch: 39 loss: 1.163412
+epoch: 8 batch: 40 loss: 1.178786
+epoch: 8 batch: 41 loss: 1.264942
+epoch: 8 batch: 42 los2017-11-26 17:04:09.334965: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+2017-11-26 17:04:09.335758: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+s: 1.257396
+epoch: 8 batch: 43 loss: 1.314770
+epoch: 8 batch: 44 loss: 1.293078
+epoch: 8 batch: 45 loss: 1.196051
+epoch: 8 batch: 46 loss: 1.250601
+epoch: 8 batch: 47 loss: 1.224465
+epoch: 8 batch: 48 loss: 1.140173
+epoch: 8 batch: 49 loss: 1.294410
+epoch: 8 batch: 50 loss: 1.363438
+epoch: 8 batch: 51 loss: 1.203973
+epoch: 8 batch: 52 loss: 1.298878
+epoch: 8 batch: 53 loss: 1.289543
+epoch: 8 batch: 54 loss: 1.281840
+epoch: 8 batch: 55 loss: 1.304473
+epoch: 8 batch: 56 loss: 1.212852
+epoch: 8 batch: 57 loss: 1.090553
+epoch: 8 batch: 58 loss: 1.257116
+epoch: 8 batch: 59 loss: 1.147971
+epoch: 8 batch: 60 loss: 1.234437
+epoch: 8 batch: 61 loss: 1.214908
+epoch: 8 batch: 62 loss: 1.462878
+epoch: 8 batch: 63 loss: 1.273918
+epoch: 8 batch: 64 loss: 1.350871
+epoch: 8 batch: 65 loss: 1.240556
+epoch: 8 batch: 66 loss: 1.405197
+epoch: 8 batch: 67 loss: 1.173385
+epoch: 8 batch: 68 loss: 1.343110
+epoch: 8 batch: 69 loss: 1.355076
+epoch: 8 batch: 70 loss: 1.269686
+epoch: 8 batch: 71 loss: 1.080124
+epoch: 8 batch: 72 loss: 1.386296
+epoch: 8 batch: 73 loss: 1.225941
+epoch: 8 batch: 74 loss: 1.204249
+epoch: 8 batch: 75 loss: 1.295451
+epoch: 8 batch: 76 loss: 1.152136
+epoch: 8 batch: 77 loss: 1.309302
+epoch: 8 batch: 78 loss: 1.339053
+epoch: 8 batch: 79 loss: 1.332523
+epoch: 8 batch: 80 loss: 1.143411
+epoch: 8 batch: 81 loss: 1.128348
+epoch: 8 batch: 82 loss: 1.238952
+epoch: 8 batch: 83 loss: 1.129377
+epoch: 8 batch: 84 loss: 1.107214
+epoch: 8 batch: 85 loss: 1.191691
+epoch: 8 batch: 86 loss: 1.206423
+epoch: 8 batch: 87 loss: 1.290413
+epoch: 8 batch: 88 loss: 1.141375
+epoch: 8 batch: 89 loss: 1.129616
+epoch: 8 batch: 90 loss: 1.179424
+epoch: 8 batch: 91 loss: 1.293082
+epoch: 8 batch: 92 loss: 1.263909
+epoch: 8 batch: 93 loss: 1.260024
+epoch: 8 batch: 94 loss: 1.167140
+epoch: 8 batch: 95 loss: 1.147667
+epoch: 8 batch: 96 loss: 1.142264
+epoch: 8 batch: 97 loss: 1.411004
+epoch: 8 batch: 98 loss: 1.139124
+epoch: 8 batch: 99 loss: 1.221099
+epoch: 8 batch: 100 loss: 1.218621
+epoch: 8 batch: 101 loss: 1.264803
+epoch: 8 batch: 102 loss: 1.278580
+epoch: 8 batch: 103 loss: 1.339443
+epoch: 8 batch: 104 loss: 1.268713
+epoch: 8 batch: 105 loss: 1.277790
+epoch: 8 batch: 106 loss: 1.162720
+epoch: 8 batch: 107 loss: 1.266288
+epoch: 8 batch: 108 loss: 1.215580
+epoch: 8 batch: 109 loss: 1.158794
+epoch_loss: 1.234084
+epoch
+average per : 0.733396
+target : 
+['h#' 'h#' 'ax' 'm' 'uh' 's' 'h#' 't' 'ao' 'h#' 'k' 'ao' 'l' 'ix' 'h#' 'jh'
+ 'ix' 'z' 'er' 'n' 'aw' 'h#' 'k' 'ow' 'ix' 'h#' 'jh' 'ix' 'h#' 'k' 'ey'
+ 'zh' 'n' 'l' 'h#']
+predict: 
+['h#' 'h#' 'ax' 'm' 'ax' 'n' 's' 'ao' 'l' 'h#' 'd' 'ao' 'l' 'h#' 'b' 'ay'
+ 'h#' 't' 'uw' 'm' 'ey' 'h#' 't' 'ix' 'n' 'ax' 'm' 'ax' 'v' 'er' 'h#' 't'
+ 'ey' 'h#' 'k' 'ix' 'n' 'h#' 't' 's' 'h#']
+epoch
+average per : 0.749023
+target : 
+['h#' 't' 'ao' 'h#' 'p' 'l' 'ey' 's' 'h#' 't' 'ao' 'h#' 'p' 'r' 'ay' 'ao'
+ 'er' 'dx' 'iy' 'ao' 'n' 'h#' 'g' 'eh' 'dx' 'iy' 'ng' 'ix' 'z' 'h#' 'b'
+ 'ay' 'h#' 'k' 'f' 'ix' 'h#' 'k' 's' 'h#' 't' 'h#']
+predict: 
+['h#' 't' 'ao' 'h#' 'p' 'l' 'ey' 's' 'h#' 't' 'r' 'ao' 'h#' 'p' 'r' 'eh'
+ 'dx' 'ix' 'dx' 'ix' 'n' 'h#' 'eh' 'n' 'r' 'iy' 'dx' 'ix' 'ng' 'h#' 'k' 'r'
+ 'eh' 's' 'h#']
+epoch
+average per : 0.727128
+target : 
+['h#' 'v' 'eh' 'r' 'ix' 'h#' 'p' 'ix' 'h#' 'k' 'y' 'uw' 'y' 'er' 'r' 'eh'
+ 'h#' 'ch' 'er' 'h#' 'b' 'y' 'uw' 'zh' 'h#' 'n' 'ix' 'n' 'h#' 'd' 'iy' 'h#'
+ 's' 'iy' 'm' 'z' 'h#' 't' 'uw' 'ow' 'v' 'er' 'h#' 't' 'ey' 'h#' 'k' 's'
+ 'h#' 'ax' 'h#' 'ch' 'h#' 'jh' 'ow' 'h#' 'k' 'er' 's' 'h#']
+predict: 
+['h#' 'dh' 'eh' 'r' 'ix' 'h#' 'k' 'ix' 'n' 'h#' 't' 'uw' 'h#' 'eh' 'n' 'h#'
+ 't' 'r' 'ey' 'zh' 'ix' 'n' 'h#' 't' 'uw' 'm' 'ey' 'h#' 'ch' 'h#' 't' 'r'
+ 'ix' 'h#' 'ch' 'h#' 't' 'eh' 'n' 'h#' 't' 's' 'h#' 't' 'ix' 'n' 'h#' 't'
+ 's' 'h#']
+epoch
+average per : 0.729586
+target : 
+['h#' 'dh' 'ax' 'l' 'ao' 'ng' 'ix' 'n' 'h#' 'eh' 'v' 'er' 'ix' 'ng' 'h#'
+ 'k' 'r' 'iy' 's' 'ix' 'ng' 'h#' 'k' 'ao' 'l' 'ax' 'm' 'ax' 'v' 's' 'h#'
+ 'p' 'ao' 'r' 'h#' 's' 'h#' 'm' 'eh' 'n' 'h#' 'h#' 'ix' 'z' 'n' 'aw' 'm'
+ 'uw' 'v' 'ix' 'ng' 'ix' 'n' 'h#' 't' 'uw' 'ix' 'n' 'uw' 'h#' 'ix' 'r' 'ax'
+ 'h#']
+predict: 
+['h#' 'dh' 'ax' 'w' 'ao' 'ng' 'hh' 'i2017-11-26 17:04:13.445370: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+2017-11-26 17:04:13.445530: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+x' 'n' 'hh' 'ae' 'v' 'r' 'iy' 'm' 'iy'
+ 's' 'iy' 'ix' 'n' 'h#' 't' 'ao' 'r' 'dx' 'ix' 's' 'h#' 't' 'r' 'ao' 'h#'
+ 's' 'h#' 'h#' 'ao' 'n' 'h#' 't' 's' 'eh' 'n' 'h#' 't' 'ix' 'n' 'h#' 'ao'
+ 'r' 'h#']
+epoch
+average per : 0.736587
+target : 
+['h#' 'ix' 'h#' 't' 's' 'f' 'ax' 'n' 'h#' 'ax' 'r' 'ow' 's' 'h#' 'm' 'ao'
+ 'r' 'zh' 'm' 'eh' 'l' 'z' 'ao' 'n' 'ax' 'h#' 'g' 'ae' 's' 'h#' 'b' 'er'
+ 'n' 'er' 'h#']
+predict: 
+['h#' 'dh' 'ix' 'h#' 't' 'ao' 'h#' 'k' 'er' 'm' 'ax' 'n' 'h#' 'jh' 'ix' 's'
+ 'h#' 't' 'ao' 'r' 'dx' 'ix' 'h#' 'k' 'ao' 'm' 'h#' 'p' 'l' 'ay' 'z' 'ix'
+ 'n' 'h#' 's' 'h#']
+epoch_per: 0.735144
+best_per: 0.738618
+we has a better model
+best model has been saved
+epoch: 9 batch: 0 loss: 1.204235
+epoch: 9 batch: 1 loss: 1.282282
+epoch: 9 batch: 2 loss: 1.177699
+epoch: 9 batch: 3 loss: 1.235474
+epoch: 9 batch: 4 loss: 1.206212
+epoch: 9 batch: 5 loss: 1.104423
+epoch: 9 batch: 6 loss: 1.294450
+epoch: 9 batch: 7 loss: 1.142013
+epoch: 9 batch: 8 loss: 1.203994
+epoch: 9 batch: 9 loss: 1.181697
+epoch: 9 batch: 10 loss: 1.144558
+epoch: 9 batch: 11 loss: 1.153591
+epoch: 9 batch: 12 loss: 1.100420
+epoch: 9 batch: 13 loss: 1.120788
+epoch: 9 batch: 14 loss: 1.096755
+epoch: 9 batch: 15 loss: 1.206809
+epoch: 9 batch: 16 loss: 1.185363
+epoch: 9 batch: 17 loss: 1.176165
+epoch: 9 batch: 18 loss: 1.155461
+epoch: 9 batch: 19 loss: 1.180500
+epoch: 9 batch: 20 loss: 1.193802
+epoch: 9 batch: 21 loss: 1.109131
+epoch: 9 batch: 22 loss: 1.090719
+epoch: 9 batch: 23 loss: 1.220839
+epoch: 9 batch: 24 loss: 1.180499
+epoch: 9 batch: 25 loss: 1.098100
+epoch: 9 batch: 26 loss: 1.132429
+epoch: 9 batch: 27 loss: 1.171196
+epoch: 9 batch: 28 loss: 1.120890
+epoch: 9 batch: 29 loss: 1.015097
+epoch: 9 batch: 30 loss: 1.027129
+epoch: 9 batch: 31 loss: 1.197906
+epoch: 9 batch: 32 loss: 1.078917
+epoch: 9 batch: 33 loss: 1.089749
+epoch: 9 batch: 34 loss: 1.230677
+epoch: 9 batch: 35 loss: 1.201448
+epoch: 9 batch: 36 loss: 1.233693
+epoch: 9 batch: 37 loss: 1.185828
+epoch: 9 batch: 38 loss: 1.076480
+epoch: 9 batch: 39 loss: 1.258584
+epoch: 9 batch: 40 loss: 1.171671
+epoch: 9 batch: 41 loss: 1.160627
+epoch: 9 batch: 42 loss: 1.397953
+epoch: 9 batch: 43 loss: 1.266017
+epoch: 9 batch: 44 loss: 1.216905
+epoch: 9 batch: 45 loss: 1.066468
+epoch: 9 batch: 46 loss: 1.248970
+epoch: 9 batch: 47 loss: 1.263147
+epoch: 9 batch: 48 loss: 1.353718
+epoch: 9 batch: 49 loss: 1.019297
+epoch: 9 batch: 50 loss: 1.064757
+epoch: 9 batch: 51 loss: 1.133957
+epoch: 9 batch: 52 loss: 1.080054
+epoch: 9 batch: 53 loss: 1.246496
+epoch: 9 batch: 54 loss: 1.245049
+epoch: 9 batch: 55 loss: 1.216025
+epoch: 9 batch: 56 loss: 1.077925
+epoch: 9 batch: 57 loss: 1.211863
+epoch: 9 batch: 58 loss: 1.159311
+epoch: 9 batch: 59 loss: 1.098142
+epoch: 9 batch: 60 loss: 1.154954
+epoch: 9 batch: 61 loss: 1.277667
+epoch: 9 batch: 62 loss: 1.253168
+epoch: 9 batch: 63 loss: 1.072320
+epoch: 9 batch: 64 loss: 1.168595
+epoch: 9 batch: 65 loss: 1.071586
+epoch: 9 batch: 66 loss: 1.064008
+epoch: 9 batch: 67 loss: 1.105133
+epoch: 9 batch: 68 loss: 1.158860
+epoch: 9 batch: 69 loss: 1.275457
+epoch: 9 batch: 70 loss: 1.082786
+epoch: 9 batch: 71 loss: 1.174550
+epoch: 9 batch: 72 loss: 1.206043
+epoch: 9 batch: 73 loss: 1.262227
+epoch: 9 batch: 74 loss: 1.194579
+epoch: 9 batch: 75 loss: 1.236393
+epoch: 9 batch: 76 loss: 1.135316
+epoch: 9 batch: 77 loss: 1.256856
+epoch: 9 batch: 78 loss: 1.278191
+epoch: 9 batch: 79 loss: 1.134382
+epoch: 9 batch: 80 loss: 1.206566
+epoch: 9 batch: 81 loss: 1.254745
+epoch: 9 batch: 82 loss: 1.167154
+epoch: 9 batch: 83 loss: 1.279210
+epoch: 9 batch: 84 loss: 1.195789
+epoch: 9 batch: 85 loss: 1.072326
+epoch: 9 batch: 86 loss: 1.137504
+epoch: 9 batch: 87 loss: 1.110103
+epoch: 9 batch: 88 loss: 1.095875
+epoch: 9 batch: 89 loss: 1.208364
+epoch: 9 batch: 90 loss: 1.102751
+epoch: 9 batch: 91 loss: 1.084072
+epoch: 9 batch: 92 loss: 1.074291
+epoch: 9 batch: 93 loss: 1.132219
+epoch: 9 batch: 94 loss: 1.181857
+epoch: 9 batch: 95 loss: 1.046083
+epoch: 9 batch: 96 loss: 1.146977
+epoch: 9 batch: 97 loss: 1.165468
+epoch: 9 batch: 98 loss: 1.136416
+epoch: 9 batch: 99 loss: 1.124669
+epoch: 9 batch: 100 loss: 1.188909
+epoc2017-11-26 17:07:50.851201: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+2017-11-26 17:07:50.852419: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+2017-11-26 17:07:55.154836: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+h: 9 batch: 101 loss: 1.084755
+epoch: 9 batch: 102 loss: 1.231799
+epoch: 9 batch: 103 loss: 1.130418
+epoch: 9 batch: 104 loss: 1.127855
+epoch: 9 batch: 105 loss: 1.161368
+epoch: 9 batch: 106 loss: 1.020016
+epoch: 9 batch: 107 loss: 1.283275
+epoch: 9 batch: 108 loss: 1.208168
+epoch: 9 batch: 109 loss: 1.059246
+epoch_loss: 1.164961
+epoch
+average per : 0.716863
+target : 
+['h#' 'dh' 'iy' 'h#' 'k' 'er' 'iy' 'er' 'h#' 'w' 'ax' 'z' 'ix' 'h#' 'd' 'r'
+ 'ao' 'r' 'f' 'h#']
+predict: 
+['h#' 'dh' 'ey' 'h#' 'b' 'iy' 'er' 'r' 'iy' 'r' 'ow' 'v' 'er' 'h#' 't' 'iy'
+ 'ao' 'r' 'h#' 'd' 'r' 'ao' 'r' 'h#' 'h#']
+epoch
+average per : 0.680860
+target : 
+['h#' 'h#' 'ay' 'h#' 'g' 'ey' 'v' 'dh' 'ix' 'm' 's' 'eh' 'v' 'r' 'ix' 'l'
+ 'h#' 'ch' 'oy' 's' 'ix' 'z' 'ax' 'n' 'l' 'eh' 'h#' 'dh' 'eh' 'm' 's' 'eh'
+ 'h#' 'dh' 'ix' 'h#' 'p' 'r' 'ay' 'ao' 'r' 'dx' 'iy' 'z' 'h#']
+predict: 
+['h#' 'h#' 'eh' 'n' 'ix' 'n' 'ix' 'n' 'ix' 's' 'ax' 'm' 'h#' 'p' 'er' 'h#'
+ 't' 'r' 'eh' 'h#' 'k' 's' 'h#' 't' 'r' 'ay' 'm' 'ax' 'v' 'dh' 'eh' 'r' 'm'
+ 'ay' 'h#' 'k' 'r' 'eh' 'm' 'h#']
+epoch
+average per : 0.684769
+target : 
+['h#' 'w' 'ax' 'n' 'ix' 'v' 'dh' 'iy' 'z' 'ix' 'z' 'dh' 'ix' 's' 'ao' 'l'
+ 'ix' 'h#' 'd' 'eh' 'r' 'ix' 'dx' 'iy' 'h#' 'eh' 'n' 'dh' 'ix' 'h#' 'k'
+ 'ao' 'n' 'f' 'ix' 'h#' 'd' 'eh' 'n' 'zh' 'ax' 'l' 'r' 'ix' 'l' 'ey' 'zh'
+ 'n' 'zh' 'ix' 'h#' 'p' 'ax' 'v' 'm' 'eh' 'r' 'ix' 'h#' 'jh' 'h#']
+predict: 
+['h#' 'h#' 'ax' 'n' 'ax' 'h#' 'd' 'ix' 's' 'h#' 't' 'r' 'iy' 'z' 'ix' 'n'
+ 'dh' 'iy' 'eh' 'r' 'ix' 'h#' 'd' 'r' 'iy' 'h#' 'ao' 'n' 'h#' 't' 'er' 'h#'
+ 'd' 'ix' 'n' 'h#' 't' 'r' 'ix' 's' 'h#' 't' 'r' 'ix' 'n' 'h#' 't' 'r' 'ey'
+ 'zh']
+epoch
+average per : 0.699326
+target : 
+['h#' 'zh' 'iy' 'ae' 's' 'h#' 'm' 'ow' 'l' 'h#' 'd' 'er' 'ix' 'ng' 'l' 'iy'
+ 'hh' 'h#']
+predict: 
+['h#' 'd' 'uw' 'y' 'er' 'ae' 's' 'h#' 'h#' 'ao' 'r' 'dx' 'er' 'iy' 'w' 'ey'
+ 'h#' 'd' 'h#']
+epoch
+average per : 0.664495
+target : 
+['h#' 's' 'h#' 'p' 'r' 'aw' 'dx' 'ix' 'h#' 'g' 'r' 'ey' 'n' 'z' 'n' 's'
+ 'iy' 'h#' 'd' 'z' 'er' 'y' 'uw' 'z' 'h#' 'd' 'ix' 'n' 's' 'ae' 'l' 'ax'
+ 'h#' 'z' 'n' 'h#' 'd' 'ix' 'zh' 'ix' 'z' 's' 'ax' 'h#' 'ch' 'ax' 's' 'h#'
+ 'ch' 'ao' 'h#' 'p' 's' 'uw' 'iy' 'h#']
+predict: 
+['h#' 's' 'h#' 't' 'r' 'ix' 'h#' 'k' 'r' 'iy' 'z' 'ix' 'z' 'h#' 'm' 'iy'
+ 's' 'h#' 't' 'r' 'iy' 'z' 'ix' 'n' 's' 'h#' 't' 'r' 'ix' 'zh' 'ix' 'n' 'z'
+ 'ix' 'n' 's' 'h#' 't' 'r' 'iy' 'zh' 'ix' 'n' 'z' 'h#']
+epoch_per: 0.689263
+best_per: 0.735144
+we has a better model
+best model has been saved
+epoch: 10 batch: 0 loss: 1.193027
+epoch: 10 batch: 1 loss: 1.035517
+epoch: 10 batch: 2 loss: 1.053605
+epoch: 10 batch: 3 loss: 1.103606
+epoch: 10 batch: 4 loss: 1.087447
+epoch: 10 batch: 5 loss: 1.016401
+epoch: 10 batch: 6 loss: 0.976602
+epoch: 10 batch: 7 loss: 1.061278
+epoch: 10 batch: 8 loss: 1.120529
+epoch: 10 batch: 9 loss: 1.143366
+epoch: 10 batch: 10 loss: 0.981912
+epoch: 10 batch: 11 loss: 1.115199
+epoch: 10 batch: 12 loss: 1.071945
+epoch: 10 batch: 13 loss: 1.028190
+epoch: 10 batch: 14 loss: 1.021639
+epoch: 10 batch: 15 loss: 1.096377
+epoch: 10 batch: 16 loss: 1.052747
+epoch: 10 batch: 17 loss: 1.092116
+epoch: 10 batch: 18 loss: 1.177040
+epoch: 10 batch: 19 loss: 1.105038
+epoch: 10 batch: 20 loss: 0.951338
+epoch: 10 batch: 21 loss: 1.107985
+epoch: 10 batch: 22 loss: 1.194979
+epoch: 10 batch: 23 loss: 1.132347
+epoch: 10 batch: 24 loss: 1.149648
+epoch: 10 batch: 25 loss: 1.137233
+epoch: 10 batch: 26 loss: 1.136195
+epoch: 10 batch: 27 loss: 1.072140
+epoch: 10 batch: 28 loss: 1.155925
+epoch: 10 batch: 29 loss: 0.987042
+epoch: 10 batch: 30 loss: 1.092221
+epoch: 10 batch: 31 loss: 1.107571
+epoch: 10 batch: 32 loss: 1.055854
+epoch: 10 batch: 33 loss: 1.004134
+epoch: 10 batch: 34 loss: 1.097065
+epoch: 10 batch: 35 loss: 1.169528
+epoch: 10 batch: 36 loss: 1.047482
+epoch: 10 batch: 37 loss: 1.060587
+epoch: 10 batch: 38 loss: 1.141321
+epoch: 10 batch: 39 loss: 1.099065
+epoch: 10 batch: 40 loss: 0.960652
+epoch: 10 batch: 41 loss: 1.131813
+epoch: 10 batch: 42 loss: 1.212700
+epoch: 10 batch: 43 loss: 1.105589
+epoch: 10 batch: 44 loss: 1.199370
+epoch: 10 batch: 45 loss: 1.069501
+epoch: 10 batch: 46 loss: 0.939972
+epoch: 10 batch: 47 2017-11-26 17:11:31.019062: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+2017-11-26 17:11:31.019855: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+loss: 1.191730
+epoch: 10 batch: 48 loss: 1.158869
+epoch: 10 batch: 49 loss: 0.996419
+epoch: 10 batch: 50 loss: 1.107917
+epoch: 10 batch: 51 loss: 1.081940
+epoch: 10 batch: 52 loss: 1.151209
+epoch: 10 batch: 53 loss: 1.102041
+epoch: 10 batch: 54 loss: 1.150011
+epoch: 10 batch: 55 loss: 1.156206
+epoch: 10 batch: 56 loss: 1.143079
+epoch: 10 batch: 57 loss: 1.029159
+epoch: 10 batch: 58 loss: 1.097772
+epoch: 10 batch: 59 loss: 1.067611
+epoch: 10 batch: 60 loss: 1.137893
+epoch: 10 batch: 61 loss: 0.966969
+epoch: 10 batch: 62 loss: 1.175325
+epoch: 10 batch: 63 loss: 1.067614
+epoch: 10 batch: 64 loss: 1.076676
+epoch: 10 batch: 65 loss: 1.126524
+epoch: 10 batch: 66 loss: 1.267408
+epoch: 10 batch: 67 loss: 1.065961
+epoch: 10 batch: 68 loss: 1.147148
+epoch: 10 batch: 69 loss: 1.029740
+epoch: 10 batch: 70 loss: 0.964412
+epoch: 10 batch: 71 loss: 1.105899
+epoch: 10 batch: 72 loss: 1.297184
+epoch: 10 batch: 73 loss: 0.998207
+epoch: 10 batch: 74 loss: 1.193910
+epoch: 10 batch: 75 loss: 1.107895
+epoch: 10 batch: 76 loss: 1.051232
+epoch: 10 batch: 77 loss: 1.068144
+epoch: 10 batch: 78 loss: 1.028461
+epoch: 10 batch: 79 loss: 1.205928
+epoch: 10 batch: 80 loss: 1.074077
+epoch: 10 batch: 81 loss: 1.145984
+epoch: 10 batch: 82 loss: 1.308787
+epoch: 10 batch: 83 loss: 1.190402
+epoch: 10 batch: 84 loss: 1.016025
+epoch: 10 batch: 85 loss: 1.028809
+epoch: 10 batch: 86 loss: 1.027193
+epoch: 10 batch: 87 loss: 1.183672
+epoch: 10 batch: 88 loss: 1.142663
+epoch: 10 batch: 89 loss: 1.112914
+epoch: 10 batch: 90 loss: 1.020516
+epoch: 10 batch: 91 loss: 1.014051
+epoch: 10 batch: 92 loss: 1.174628
+epoch: 10 batch: 93 loss: 1.129437
+epoch: 10 batch: 94 loss: 1.089006
+epoch: 10 batch: 95 loss: 1.033361
+epoch: 10 batch: 96 loss: 1.108094
+epoch: 10 batch: 97 loss: 1.132278
+epoch: 10 batch: 98 loss: 1.109265
+epoch: 10 batch: 99 loss: 1.081912
+epoch: 10 batch: 100 loss: 1.143678
+epoch: 10 batch: 101 loss: 1.016015
+epoch: 10 batch: 102 loss: 1.217504
+epoch: 10 batch: 103 loss: 1.155302
+epoch: 10 batch: 104 loss: 1.032429
+epoch: 10 batch: 105 loss: 1.152095
+epoch: 10 batch: 106 loss: 1.095806
+epoch: 10 batch: 107 loss: 1.009192
+epoch: 10 batch: 108 loss: 1.109058
+epoch: 10 batch: 109 loss: 1.036425
+epoch_loss: 1.096908
+epoch
+average per : 0.671207
+target : 
+['h#' 't' 'ow' 'f' 'uw' 'h#' 'ix' 'z' 'h#' 'm' 'ey' 'h#' 'f' 'er' 'm' 'h#'
+ 'p' 'r' 'ao' 's' 'ix' 's' 'oy' 'h#' 'b' 'iy' 'n' 'z' 'h#']
+predict: 
+['h#' 't' 'ow' 'f' 'l' 'iy' 'n' 'z' 'ix' 'n' 'h#' 't' 'ey' 'h#' 'p' 'ax'
+ 'h#' 't' 'ey' 'h#' 'k' 's' 'ax' 'z' 'h#']
+epoch
+average per : 0.694026
+target : 
+['h#' 's' 'ax' 'm' 'ey' 'h#' 'b' 'y' 'uw' 'dx' 'ax' 'f' 'l' 'h#' 'ch' 'eh'
+ 'er' 'z' 'h#' 'k' 'ae' 'h#' 'n' 'ix' 'h#' 't' 's' 'h#' 'ch' 'eh' 's' 'h#'
+ 'd' 'ao' 'l' 'hh' 'aw' 'z' 'ix' 'z' 'ix' 'h#' 't' 's' 'eh' 'h#' 't' 'r'
+ 'ax' 'h#']
+predict: 
+['h#' 's' 'ax' 'm' 'h#' 'p' 'iy' 'h#' 'n' 'iy' 'h#' 't' 'r' 'ow' 'z' 'ix'
+ 'z' 'dh' 'eh' 'h#' 'ch' 'ae' 'h#' 'k' 's' 'h#' 'h#' 'ao' 's' 'h#' 't' 'uw'
+ 'm' 'z' 'h#']
+epoch
+average per : 0.675687
+target : 
+['h#' 's' 'ax' 'h#' 'p' 'ow' 'z' 'hh' 'iy' 'r' 'ae' 'n' 'ax' 'h#' 'dh' 'ax'
+ 'w' 'ey' 'h#' 'f' 'l' 'ae' 'h#' 'ao' 'l' 'dx' 'ix' 'h#' 'g' 'eh' 'dh' 'er'
+ 'h#']
+predict: 
+['h#' 's' 'ax' 'm' 'ow' 'z' 'h#' 'd' 'r' 'ax' 'n' 'h#' 't' 'ix' 'h#' 't'
+ 'ax' 'h#' 'p' 'l' 'ay' 'n' 'ow' 'n' 'ow' 'h#' 't' 'h#']
+epoch
+average per : 0.687663
+target : 
+['h#' 'dh' 'ix' 'iy' 'z' 'iy' 'h#' 'g' 'ow' 'ix' 'ng' 'z' 'uw' 'ao' 'l'
+ 'ax' 'h#' 'jh' 'ix' 's' 'h#' 't' 'r' 'iy' 'l' 'ae' 'h#' 's' 'th' 'r' 'ax'
+ 'aw' 'h#' 'dh' 'ax' 'v' 'oy' 'h#' 'jh' 'h#']
+predict: 
+['h#' 'y' 'uw' 'z' 'ix' 'n' 'h#' 'd' 'ow' 'l' 'h#' 'd' 'ix' 'z' 'dh' 'ax'
+ 'l' 'ow' 'h#' 'ch' 'ix' 'z' 'h#' 't' 'ix' 'h#' 'k' 'ao' 'r' 'h#' 't' 'ix'
+ 'n' 'h#' 't' 'r' 'ao' 'r' 'h#' 'jh' 'ix' 'h#' 'jh' 'h#']
+epoch
+average per : 0.682942
+target : 
+['h#' 'l' 'ix' 'dx' 'l' 'h#' 'jh' 'iy' 'iy' 'ng' 'ax' 'n' 'hh' 'ao' 'ix'
+ 'ng' 'hh' 'ae' 'v' 'h#' 'b' 'ix' 'n' 'eh' 's' 'ix' 's' 'eh' 'r' 'ix' 'h#']
+predict: 
+['h#' 'dh' 'ix' 'm' 'ix' 'n' 'h#' 't' 'iy' 'n' 'iy' 'n' 'h#' 'd' 'ix' 'ng'
+ 'h#' 'k' 'ao' 'l' 'h#' 'dh' 'ax' 'm' 'ay' 'n' 'z' 'ix' 's' 'h#' 'k' 'a2017-11-26 17:11:35.146699: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+2017-11-26 17:15:13.097004: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+2017-11-26 17:15:13.097776: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+x'
+ 'm' 'er' 'h#']
+epoch_per: 0.682305
+best_per: 0.689263
+we has a better model
+best model has been saved
+epoch: 11 batch: 0 loss: 0.998322
+epoch: 11 batch: 1 loss: 1.030986
+epoch: 11 batch: 2 loss: 1.026573
+epoch: 11 batch: 3 loss: 1.051942
+epoch: 11 batch: 4 loss: 0.944104
+epoch: 11 batch: 5 loss: 0.906582
+epoch: 11 batch: 6 loss: 0.957740
+epoch: 11 batch: 7 loss: 0.983825
+epoch: 11 batch: 8 loss: 1.081972
+epoch: 11 batch: 9 loss: 0.913835
+epoch: 11 batch: 10 loss: 1.117339
+epoch: 11 batch: 11 loss: 1.005335
+epoch: 11 batch: 12 loss: 1.152790
+epoch: 11 batch: 13 loss: 1.017184
+epoch: 11 batch: 14 loss: 0.985395
+epoch: 11 batch: 15 loss: 1.057004
+epoch: 11 batch: 16 loss: 1.147385
+epoch: 11 batch: 17 loss: 1.016949
+epoch: 11 batch: 18 loss: 0.891434
+epoch: 11 batch: 19 loss: 0.952555
+epoch: 11 batch: 20 loss: 1.113692
+epoch: 11 batch: 21 loss: 1.019078
+epoch: 11 batch: 22 loss: 0.946798
+epoch: 11 batch: 23 loss: 0.927834
+epoch: 11 batch: 24 loss: 0.984876
+epoch: 11 batch: 25 loss: 1.037426
+epoch: 11 batch: 26 loss: 1.017690
+epoch: 11 batch: 27 loss: 0.935333
+epoch: 11 batch: 28 loss: 1.099872
+epoch: 11 batch: 29 loss: 1.082629
+epoch: 11 batch: 30 loss: 1.089921
+epoch: 11 batch: 31 loss: 0.950037
+epoch: 11 batch: 32 loss: 1.041818
+epoch: 11 batch: 33 loss: 1.047582
+epoch: 11 batch: 34 loss: 1.006743
+epoch: 11 batch: 35 loss: 0.921933
+epoch: 11 batch: 36 loss: 0.955386
+epoch: 11 batch: 37 loss: 1.049332
+epoch: 11 batch: 38 loss: 0.929847
+epoch: 11 batch: 39 loss: 0.939842
+epoch: 11 batch: 40 loss: 1.191712
+epoch: 11 batch: 41 loss: 1.091028
+epoch: 11 batch: 42 loss: 1.094507
+epoch: 11 batch: 43 loss: 1.021555
+epoch: 11 batch: 44 loss: 1.001974
+epoch: 11 batch: 45 loss: 1.004338
+epoch: 11 batch: 46 loss: 0.995885
+epoch: 11 batch: 47 loss: 1.155761
+epoch: 11 batch: 48 loss: 1.065595
+epoch: 11 batch: 49 loss: 1.030862
+epoch: 11 batch: 50 loss: 0.990483
+epoch: 11 batch: 51 loss: 1.091752
+epoch: 11 batch: 52 loss: 0.995847
+epoch: 11 batch: 53 loss: 1.010715
+epoch: 11 batch: 54 loss: 1.015611
+epoch: 11 batch: 55 loss: 1.116664
+epoch: 11 batch: 56 loss: 1.088665
+epoch: 11 batch: 57 loss: 0.972574
+epoch: 11 batch: 58 loss: 1.037138
+epoch: 11 batch: 59 loss: 1.000694
+epoch: 11 batch: 60 loss: 1.023105
+epoch: 11 batch: 61 loss: 0.998810
+epoch: 11 batch: 62 loss: 1.035571
+epoch: 11 batch: 63 loss: 1.070363
+epoch: 11 batch: 64 loss: 0.979407
+epoch: 11 batch: 65 loss: 1.048373
+epoch: 11 batch: 66 loss: 1.057320
+epoch: 11 batch: 67 loss: 1.015627
+epoch: 11 batch: 68 loss: 1.074984
+epoch: 11 batch: 69 loss: 1.112713
+epoch: 11 batch: 70 loss: 1.018221
+epoch: 11 batch: 71 loss: 1.098985
+epoch: 11 batch: 72 loss: 1.036464
+epoch: 11 batch: 73 loss: 1.081315
+epoch: 11 batch: 74 loss: 0.943452
+epoch: 11 batch: 75 loss: 1.038379
+epoch: 11 batch: 76 loss: 0.944730
+epoch: 11 batch: 77 loss: 1.017936
+epoch: 11 batch: 78 loss: 1.145375
+epoch: 11 batch: 79 loss: 0.908807
+epoch: 11 batch: 80 loss: 0.971883
+epoch: 11 batch: 81 loss: 1.127112
+epoch: 11 batch: 82 loss: 1.096882
+epoch: 11 batch: 83 loss: 1.221227
+epoch: 11 batch: 84 loss: 1.065107
+epoch: 11 batch: 85 loss: 1.054819
+epoch: 11 batch: 86 loss: 1.118367
+epoch: 11 batch: 87 loss: 1.044414
+epoch: 11 batch: 88 loss: 1.127432
+epoch: 11 batch: 89 loss: 1.041153
+epoch: 11 batch: 90 loss: 0.882274
+epoch: 11 batch: 91 loss: 1.009042
+epoch: 11 batch: 92 loss: 0.960726
+epoch: 11 batch: 93 loss: 1.001632
+epoch: 11 batch: 94 loss: 0.998208
+epoch: 11 batch: 95 loss: 0.998285
+epoch: 11 batch: 96 loss: 1.045336
+epoch: 11 batch: 97 loss: 0.969907
+epoch: 11 batch: 98 loss: 1.080068
+epoch: 11 batch: 99 loss: 0.994900
+epoch: 11 batch: 100 loss: 1.047677
+epoch: 11 batch: 101 loss: 1.004796
+epoch: 11 batch: 102 loss: 0.918808
+epoch: 11 batch: 103 loss: 1.069183
+epoch: 11 batch: 104 loss: 1.083061
+epoch: 11 batch: 105 loss: 1.106745
+epoch: 11 batch: 106 loss: 1.005463
+epoch: 11 batch: 107 loss: 1.094882
+epoch: 11 batch: 108 loss: 1.029525
+epoch: 11 batch: 109 loss: 0.964086
+epoch_loss: 1.028120
+epoch
+average per : 0.646015
+target : 
+['h#' 'h#' 'ay' 'ix' 's' 'uw' 'm' 'oy' 'zh' 'h#' 'ch' 'er' 'w' 'l' 'h#' 'd'
+ 'ae2017-11-26 17:15:17.401709: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+' 'm' 'ix' 'h#' 'jh' 'dh' 'ix' 'zh' 'ix' 'h#' 'p' 's' 'hh' 'ax' 'l'
+ 'h#']
+predict: 
+['h#' 'h#' 'ay' 's' 'ix' 'm' 'ix' 'n' 'l' 'ay' 'zh' 'er' 'm' 'ix' 'n' 'h#'
+ 't' 'ae' 'h#' 'k' 'ix' 'h#' 'ch' 'h#' 'ch' 'ix' 'zh' 'h#' 'w' 'l' 'h#' 't'
+ 'h#']
+epoch
+average per : 0.652087
+target : 
+['h#' 'dh' 'ax' 'h#' 'd' 'ay' 'ix' 'h#' 'n' 'ow' 's' 'ix' 's' 'w' 'ax' 'z'
+ 'h#' 'd' 'ix' 's' 'h#' 'k' 'er' 'er' 'h#' 'jh' 'ix' 'ng' 'h#' 'hh' 'aw'
+ 'ax' 'v' 'er' 'hh' 'ix' 'w' 'ix' 'z' 'n' 'ao' 'dx' 'ow' 'v' 'er' 'l' 'iy'
+ 'w' 'er' 'ix' 'h#' 'h#']
+predict: 
+['h#' 'dh' 'ix' 'ay' 'ay' 'h#' 't' 'ix' 's' 'ax' 's' 'h#' 'p' 'l' 'ix' 's'
+ 'ix' 's' 'h#' 't' 'r' 'ey' 'dx' 'ix' 'v' 'dh' 'ey' 'h#' 'k' 'l' 'ao' 'r'
+ 'ix' 'h#' 'k' 'l' 'ow' 'ow' 'n' 'h#' 't' 'ix' 'n' 'r' 'ow' 'l' 'h#' 'd'
+ 'h#']
+epoch
+average per : 0.664121
+target : 
+['h#' 'dh' 'ax' 'w' 'ao' 'dx' 'er' 'h#' 'k' 'ax' 'n' 'h#' 't' 'ey' 'n' 'h#'
+ 'd' 'h#' 't' 'uw' 'm' 'ax' 'h#' 'ch' 'h#' 'k' 'l' 'ao' 'r' 'iy' 'n' 'ae'
+ 'n' 's' 'h#' 't' 'ax' 'ng' 'hh' 'ix' 'z' 'ay' 'z' 'h#']
+predict: 
+['h#' 'dh' 'ax' 'w' 'ao' 'dx' 'ix' 'h#' 'k' 'w' 'ix' 'h#' 'k' 'l' 'ey' 'h#'
+ 't' 'ix' 'n' 'h#' 't' 'uw' 'ae' 'h#' 't' 'ix' 'n' 'ay' 'h#' 'k' 'l' 'ey'
+ 'iy' 'z' 'h#']
+epoch
+average per : 0.685545
+target : 
+['h#' 'dh' 'ax' 'n' 'ay' 'f' 'l' 'ay' 'h#' 'p' 'ey' 'n' 'ix' 'n' 'ix' 'z'
+ 'h#' 'g' 'r' 'oy' 'n' 'ix' 'r' 'l' 'ix' 'h#' 'b' 'r' 'ao' 'h#' 't' 'hh'
+ 'ix' 'm' 'h#' 'd' 'aw' 'n' 'ix' 'h#' 'g' 'eh' 'n' 'h#']
+predict: 
+['h#' 'dh' 'ax' 'hh' 'ay' 'z' 'ay' 'h#' 't' 'ey' 'h#' 'k' 'ix' 'n' 'ix' 's'
+ 'h#' 't' 'r' 'ay' 'h#' 'eh' 'v' 'r' 'iy' 'h#' 'ao' 'h#' 'p' 'er' 'ix' 'n'
+ 'h#' 't' 'ix' 'h#' 'h#']
+epoch
+average per : 0.663710
+target : 
+['h#' 'zh' 'ax' 's' 'er' 'v' 'h#' 'd' 'f' 'er' 'n' 'ax' 'm' 'h#' 'b' 'er'
+ 'v' 'y' 'ix' 'er' 'z' 'w' 'ax' 'th' 'aw' 'h#' 'p' 'ey' 'h#' 'b' 'iy' 'y'
+ 'ao' 'n' 'er' 'h#' 't' 'r' 'ae' 'v' 'l' 'ax' 'n' 'm' 'ey' 'h#' 'n' 'ix'
+ 'n' 'h#' 's' 'h#']
+predict: 
+['h#' 's' 'er' 'm' 'ax' 'n' 's' 'f' 'er' 'm' 'er' 'h#' 'k' 'er' 'z' 'ix'
+ 'n' 'h#' 'd' 'eh' 'h#' 'k' 'l' 'ey' 'm' 'ix' 'n' 'h#' 'd' 'ix' 'h#' 'k'
+ 'ao' 'm' 'ax' 'n' 'aw' 'h#' 'dh' 'eh' 'm' 'h#' 'p' 'er' 's' 'h#']
+epoch_per: 0.662296
+best_per: 0.682305
+we has a better model
+best model has been saved
+epoch: 12 batch: 0 loss: 0.934730
+epoch: 12 batch: 1 loss: 0.969887
+epoch: 12 batch: 2 loss: 1.023983
+epoch: 12 batch: 3 loss: 0.945563
+epoch: 12 batch: 4 loss: 0.965650
+epoch: 12 batch: 5 loss: 0.907061
+epoch: 12 batch: 6 loss: 0.931765
+epoch: 12 batch: 7 loss: 1.177245
+epoch: 12 batch: 8 loss: 1.115787
+epoch: 12 batch: 9 loss: 0.978546
+epoch: 12 batch: 10 loss: 0.964865
+epoch: 12 batch: 11 loss: 1.129505
+epoch: 12 batch: 12 loss: 0.927558
+epoch: 12 batch: 13 loss: 1.083942
+epoch: 12 batch: 14 loss: 0.933702
+epoch: 12 batch: 15 loss: 1.033043
+epoch: 12 batch: 16 loss: 1.046371
+epoch: 12 batch: 17 loss: 0.921368
+epoch: 12 batch: 18 loss: 1.044321
+epoch: 12 batch: 19 loss: 0.900428
+epoch: 12 batch: 20 loss: 0.966725
+epoch: 12 batch: 21 loss: 1.082753
+epoch: 12 batch: 22 loss: 0.874881
+epoch: 12 batch: 23 loss: 1.066879
+epoch: 12 batch: 24 loss: 1.002280
+epoch: 12 batch: 25 loss: 0.911758
+epoch: 12 batch: 26 loss: 0.908093
+epoch: 12 batch: 27 loss: 0.980635
+epoch: 12 batch: 28 loss: 0.902051
+epoch: 12 batch: 29 loss: 0.877246
+epoch: 12 batch: 30 loss: 0.903139
+epoch: 12 batch: 31 loss: 0.949625
+epoch: 12 batch: 32 loss: 0.901189
+epoch: 12 batch: 33 loss: 0.933030
+epoch: 12 batch: 34 loss: 0.945489
+epoch: 12 batch: 35 loss: 0.971076
+epoch: 12 batch: 36 loss: 1.041760
+epoch: 12 batch: 37 loss: 0.946683
+epoch: 12 batch: 38 loss: 0.874022
+epoch: 12 batch: 39 loss: 0.937033
+epoch: 12 batch: 40 loss: 0.924497
+epoch: 12 batch: 41 loss: 0.903640
+epoch: 12 batch: 42 loss: 1.046720
+epoch: 12 batch: 43 loss: 1.007143
+epoch: 12 batch: 44 loss: 0.970156
+epoch: 12 batch: 45 loss: 1.065949
+epoch: 12 batch: 46 loss: 0.945584
+epoch: 12 batch: 47 loss: 1.033942
+epoch: 12 batch: 48 loss: 1.074096
+epoch: 12 batch: 49 loss: 0.974023
+epoch: 12 batch: 50 loss: 1.046341
+epoch: 12 batch: 51 loss: 1.032322
+epoch: 12 batch: 52 loss: 0.887061
+epoch: 12 batch: 53 loss: 0.900072
+epoc2017-11-26 17:18:54.329584: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+2017-11-26 17:18:54.330371: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+h: 12 batch: 54 loss: 0.848232
+epoch: 12 batch: 55 loss: 0.942871
+epoch: 12 batch: 56 loss: 0.910184
+epoch: 12 batch: 57 loss: 1.036291
+epoch: 12 batch: 58 loss: 0.910105
+epoch: 12 batch: 59 loss: 1.031074
+epoch: 12 batch: 60 loss: 0.991525
+epoch: 12 batch: 61 loss: 0.998235
+epoch: 12 batch: 62 loss: 0.842076
+epoch: 12 batch: 63 loss: 1.002631
+epoch: 12 batch: 64 loss: 0.967630
+epoch: 12 batch: 65 loss: 1.057441
+epoch: 12 batch: 66 loss: 0.928045
+epoch: 12 batch: 67 loss: 0.988918
+epoch: 12 batch: 68 loss: 0.948864
+epoch: 12 batch: 69 loss: 1.032946
+epoch: 12 batch: 70 loss: 1.014636
+epoch: 12 batch: 71 loss: 1.020705
+epoch: 12 batch: 72 loss: 1.131175
+epoch: 12 batch: 73 loss: 1.003389
+epoch: 12 batch: 74 loss: 1.000069
+epoch: 12 batch: 75 loss: 0.965400
+epoch: 12 batch: 76 loss: 0.954130
+epoch: 12 batch: 77 loss: 0.974807
+epoch: 12 batch: 78 loss: 0.920463
+epoch: 12 batch: 79 loss: 0.964208
+epoch: 12 batch: 80 loss: 0.930034
+epoch: 12 batch: 81 loss: 0.896246
+epoch: 12 batch: 82 loss: 0.906959
+epoch: 12 batch: 83 loss: 0.901207
+epoch: 12 batch: 84 loss: 0.958940
+epoch: 12 batch: 85 loss: 1.045306
+epoch: 12 batch: 86 loss: 0.959668
+epoch: 12 batch: 87 loss: 0.882802
+epoch: 12 batch: 88 loss: 0.992221
+epoch: 12 batch: 89 loss: 1.000930
+epoch: 12 batch: 90 loss: 0.859347
+epoch: 12 batch: 91 loss: 0.970524
+epoch: 12 batch: 92 loss: 1.087535
+epoch: 12 batch: 93 loss: 0.918667
+epoch: 12 batch: 94 loss: 0.964000
+epoch: 12 batch: 95 loss: 0.897927
+epoch: 12 batch: 96 loss: 0.907476
+epoch: 12 batch: 97 loss: 1.052335
+epoch: 12 batch: 98 loss: 0.830459
+epoch: 12 batch: 99 loss: 0.832460
+epoch: 12 batch: 100 loss: 0.959512
+epoch: 12 batch: 101 loss: 0.928208
+epoch: 12 batch: 102 loss: 0.870840
+epoch: 12 batch: 103 loss: 1.107937
+epoch: 12 batch: 104 loss: 1.263472
+epoch: 12 batch: 105 loss: 1.051570
+epoch: 12 batch: 106 loss: 0.915953
+epoch: 12 batch: 107 loss: 1.106788
+epoch: 12 batch: 108 loss: 0.944642
+epoch: 12 batch: 109 loss: 1.013665
+epoch_loss: 0.973335
+epoch
+average per : 0.654861
+target : 
+['h#' 'p' 'ao' 'r' 'h#' 'k' 'ix' 'h#' 'p' 'ay' 'n' 'z' 'r' 'iy' 'z' 'eh'
+ 'm' 'h#' 'b' 'l' 's' 'iy' 'h#' 'er' 'h#' 'ch' 'ix' 'n' 'z' 'h#']
+predict: 
+['h#' 'h#' 'ao' 'r' 'h#' 'k' 'ix' 'h#' 'p' 'ao' 'r' 'dx' 'ix' 'n' 's' 'h#'
+ 'm' 'eh' 'l' 'z' 'ix' 'm' 'h#' 'b' 'l' 'zh' 'iy' 'h#' 'k' 'w' 'ax' 'n'
+ 'h#' 'ch' 'er' 'z' 'h#']
+epoch
+average per : 0.642333
+target : 
+['h#' 'h#' 'ax' 'r' 'ow' 'l' 'ax' 'v' 'w' 'ay' 'er' 'l' 'ey' 'n' 'iy' 'er'
+ 'dh' 'ax' 'w' 'ao' 'l' 'h#']
+predict: 
+['h#' 'w' 'ax' 'w' 'ax' 'w' 'ax' 'w' 'ax' 'w' 'ay' 'h#' 'ay' 'ix' 'n' 'iy'
+ 'iy' 'w' 'ax' 'h#' 'b' 'ao' 'r' 'dh' 'ax' 'h#']
+epoch
+average per : 0.671272
+target : 
+['h#' 'ix' 'h#' 's' 'ix' 'm' 'h#' 'p' 'ao' 's' 'ax' 'h#' 'b' 'l' 'h#' 't'
+ 'ax' 'h#' 'd' 'iy' 'l' 'w' 'ax' 'th' 'h#' 'b' 'y' 'er' 'ao' 'h#' 'k' 'er'
+ 's' 'iy' 'h#']
+predict: 
+['h#' 'hh' 'ix' 'z' 'ix' 'z' 'h#' 'b' 'ax' 'l' 'ao' 'r' 's' 'ax' 'z' 'w'
+ 'ax' 'h#' 'b' 'y' 'uw' 'h#' 'b' 'r' 'uw' 'h#' 'b' 'aw' 'h#' 's' 'h#']
+epoch
+average per : 0.666489
+target : 
+['h#' 's' 'ax' 'm' 'ax' 'h#' 'b' 'z' 'er' 'v' 'er' 's' 'h#' 'p' 'eh' 'h#'
+ 'k' 'y' 'ix' 'l' 'ey' 'dx' 'ix' 'h#' 'dh' 'ix' 'h#' 'dh' 'ix' 's' 'h#' 'm'
+ 'ay' 'h#' 't' 'h#' 'b' 'iy' 'hh' 'ix' 'z' 'er' 'v' 'ix' 'n' 'h#' 'jh' 'ao'
+ 'n' 'ix' 'z' 'hh' 'ow' 'm' 'h#' 't' 'aw' 'n' 'h#']
+predict: 
+['h#' 's' 'ax' 'm' 'ax' 'n' 'h#' 'd' 'r' 'ay' 'h#' 'b' 'r' 'ix' 'zh' 'h#'
+ 't' 'eh' 'h#' 'd' 'iy' 'h#' 'ey' 'dx' 'ix' 'h#' 'd' 'ix' 'm' 'ix' 'n' 'h#'
+ 't' 'r' 'ay' 'h#' 'iy' 'v' 'iy' 'ix' 'n' 'iy' 'h#' 't' 'r' 'iy' 'f' 'er'
+ 'f' 'iy']
+epoch
+average per : 0.689086
+target : 
+['h#' 'h#' 'ae' 'l' 'r' 'ix' 's' 'iy' 'v' 'h#' 'd' 'h#' 'ix' 'h#' 'jh' 'oy'
+ 'n' 'h#' 't' 'ix' 'h#' 'p' 'oy' 'n' 'h#' 'm' 'ix' 'n' 'h#' 'h#' 'ix' 'n'
+ 'dh' 'ax' 'h#' 'b' 'ay' 'ae' 'l' 'ax' 'h#' 'jh' 'iy' 'h#' 'ae' 'n' 'dh'
+ 'ix' 'h#' 'ix' 'n' 'h#' 'jh' 'ix' 'n' 'ix' 'r' 'ix' 'ng' 'h#' 'd' 'ix'
+ 'h#' 'p' 'ao' 'r' 'h#' 'm' 'ix' 'n' 'h#' 's' 'h#']
+predict: 
+['h#' 'n' 'ao' 'r' 'dh' 'ix' 's' 'iy' 'uw' 'h#' 'd' 'uw' 'h#' 't' 'ay' 'h#'
+ 'ch' 'ix' 'n' 'w' 'er' 'th' 'ix' 'ng' 'dh' 'eh' 'r' 'h#' 'ao' 'r' 'h#' 'd'
+ '2017-11-26 17:18:58.784103: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+2017-11-26 17:22:35.775441: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+ix' 'n' 'iy' 'h#' 't' 'eh' 'h#' 'jh' 'ix' 'n' 'iy' 'h#' 'eh' 'n' 'h#' 'd'
+ 'ix' 'n']
+epoch_per: 0.664808
+best_per: 0.662296
+epoch: 13 batch: 0 loss: 0.828577
+epoch: 13 batch: 1 loss: 1.044564
+epoch: 13 batch: 2 loss: 1.022165
+epoch: 13 batch: 3 loss: 0.944149
+epoch: 13 batch: 4 loss: 0.860946
+epoch: 13 batch: 5 loss: 0.884332
+epoch: 13 batch: 6 loss: 0.849947
+epoch: 13 batch: 7 loss: 0.889892
+epoch: 13 batch: 8 loss: 0.942924
+epoch: 13 batch: 9 loss: 0.837859
+epoch: 13 batch: 10 loss: 0.883341
+epoch: 13 batch: 11 loss: 1.086541
+epoch: 13 batch: 12 loss: 0.910048
+epoch: 13 batch: 13 loss: 0.876091
+epoch: 13 batch: 14 loss: 0.916194
+epoch: 13 batch: 15 loss: 0.940798
+epoch: 13 batch: 16 loss: 1.122686
+epoch: 13 batch: 17 loss: 0.934280
+epoch: 13 batch: 18 loss: 0.896450
+epoch: 13 batch: 19 loss: 0.898741
+epoch: 13 batch: 20 loss: 1.020409
+epoch: 13 batch: 21 loss: 0.832422
+epoch: 13 batch: 22 loss: 0.909294
+epoch: 13 batch: 23 loss: 0.845005
+epoch: 13 batch: 24 loss: 0.976567
+epoch: 13 batch: 25 loss: 0.910762
+epoch: 13 batch: 26 loss: 0.910275
+epoch: 13 batch: 27 loss: 0.891259
+epoch: 13 batch: 28 loss: 0.901546
+epoch: 13 batch: 29 loss: 0.837566
+epoch: 13 batch: 30 loss: 0.871786
+epoch: 13 batch: 31 loss: 0.954826
+epoch: 13 batch: 32 loss: 1.004754
+epoch: 13 batch: 33 loss: 0.864610
+epoch: 13 batch: 34 loss: 0.872316
+epoch: 13 batch: 35 loss: 0.787927
+epoch: 13 batch: 36 loss: 0.797343
+epoch: 13 batch: 37 loss: 0.838429
+epoch: 13 batch: 38 loss: 0.993947
+epoch: 13 batch: 39 loss: 0.862573
+epoch: 13 batch: 40 loss: 0.942420
+epoch: 13 batch: 41 loss: 0.865072
+epoch: 13 batch: 42 loss: 0.892723
+epoch: 13 batch: 43 loss: 0.834328
+epoch: 13 batch: 44 loss: 0.959067
+epoch: 13 batch: 45 loss: 0.931943
+epoch: 13 batch: 46 loss: 0.866313
+epoch: 13 batch: 47 loss: 0.890620
+epoch: 13 batch: 48 loss: 0.898675
+epoch: 13 batch: 49 loss: 1.055464
+epoch: 13 batch: 50 loss: 1.128598
+epoch: 13 batch: 51 loss: 1.049984
+epoch: 13 batch: 52 loss: 0.912609
+epoch: 13 batch: 53 loss: 0.957729
+epoch: 13 batch: 54 loss: 0.830708
+epoch: 13 batch: 55 loss: 0.837908
+epoch: 13 batch: 56 loss: 0.910129
+epoch: 13 batch: 57 loss: 0.983795
+epoch: 13 batch: 58 loss: 0.938933
+epoch: 13 batch: 59 loss: 1.075356
+epoch: 13 batch: 60 loss: 0.844130
+epoch: 13 batch: 61 loss: 0.928396
+epoch: 13 batch: 62 loss: 0.928367
+epoch: 13 batch: 63 loss: 1.098622
+epoch: 13 batch: 64 loss: 0.914621
+epoch: 13 batch: 65 loss: 0.962328
+epoch: 13 batch: 66 loss: 0.978739
+epoch: 13 batch: 67 loss: 0.914743
+epoch: 13 batch: 68 loss: 0.773616
+epoch: 13 batch: 69 loss: 0.917120
+epoch: 13 batch: 70 loss: 0.813394
+epoch: 13 batch: 71 loss: 0.995246
+epoch: 13 batch: 72 loss: 0.987727
+epoch: 13 batch: 73 loss: 0.832214
+epoch: 13 batch: 74 loss: 0.923902
+epoch: 13 batch: 75 loss: 0.828369
+epoch: 13 batch: 76 loss: 0.875999
+epoch: 13 batch: 77 loss: 0.829864
+epoch: 13 batch: 78 loss: 0.992810
+epoch: 13 batch: 79 loss: 0.931931
+epoch: 13 batch: 80 loss: 0.863178
+epoch: 13 batch: 81 loss: 0.925302
+epoch: 13 batch: 82 loss: 1.037873
+epoch: 13 batch: 83 loss: 1.004912
+epoch: 13 batch: 84 loss: 0.968315
+epoch: 13 batch: 85 loss: 1.046103
+epoch: 13 batch: 86 loss: 0.934986
+epoch: 13 batch: 87 loss: 0.934377
+epoch: 13 batch: 88 loss: 0.916982
+epoch: 13 batch: 89 loss: 0.848624
+epoch: 13 batch: 90 loss: 0.877547
+epoch: 13 batch: 91 loss: 0.909426
+epoch: 13 batch: 92 loss: 0.924657
+epoch: 13 batch: 93 loss: 0.938966
+epoch: 13 batch: 94 loss: 0.810761
+epoch: 13 batch: 95 loss: 0.836084
+epoch: 13 batch: 96 loss: 0.996827
+epoch: 13 batch: 97 loss: 0.943793
+epoch: 13 batch: 98 loss: 0.881573
+epoch: 13 batch: 99 loss: 0.954217
+epoch: 13 batch: 100 loss: 0.839082
+epoch: 13 batch: 101 loss: 0.912118
+epoch: 13 batch: 102 loss: 0.917418
+epoch: 13 batch: 103 loss: 0.853198
+epoch: 13 batch: 104 loss: 0.993765
+epoch: 13 batch: 105 loss: 0.985593
+epoch: 13 batch: 106 loss: 0.921526
+epoch: 13 batch: 107 loss: 0.832134
+epoch: 13 batch: 108 loss: 0.790623
+epoch: 13 batch: 109 loss: 0.938629
+epoch_loss: 0.918429
+epoch
+average per : 0.613768
+target : 
+['h#' 'w' 'ix' 'm' 'ix' 'n' 'm' 'ey' 'n' 'eh' 'v' 'er' 'h#' 'iy' 'h#' 'k'
+ 'ax' 'm' 'h#' 'k' 'ax' 'm' 'h#' 'p' 'l' 'iy' 'h#' 'l' 'iy' 'h#' 'iy' 'h#'
+ 'k' 'w' 'l' 'h#' 't' 'ix' 'm' 'eh' 'n' 'h#']
+predict: 
+['h#' 'w' 'ix' 'l' 'eh' 'n' 'h#' 'ey' 'n' 'eh' 'v' 'er' 'h#' 'k' 'm' 'h#'
+ 'p' 'ax' 'h#' 'p' 'l' 'iy' 'h#' 'iy' 'v' 'n' 'ix' 'n' 'h#' 't' 'ix' 'n'
+ 'ix' 'n' 'h#' 't' 'h#']
+epoch
+average per : 0.633154
+target : 
+['h#' 'w' 'l' 'y' 'uw' 'h#' 'p' 'l' 'iy' 'z' 'h#' 'k' 'ix' 'n' 'h#' 'f'
+ 'er' 'm' 'h#' 'g' 'ax' 'v' 'er' 'm' 'ix' 'n' 'h#' 'p' 'ao' 'l' 'ax' 's'
+ 'iy' 'r' 'ix' 'h#' 'g' 'ao' 'r' 'dx' 'ix' 'ng' 'w' 'ey' 's' 'h#' 't' 'er'
+ 'm' 'ow' 'v' 'l' 'h#']
+predict: 
+['h#' 'w' 'iy' 'y' 'uw' 'h#' 'p' 'ey' 'n' 'z' 'n' 'ix' 'm' 'ao' 'r' 'm' 'm'
+ 'eh' 'v' 'ax' 'v' 'ax' 'l' 'iy' 's' 'h#' 't' 'ix' 'n' 'r' 'iy' 'l' 'iy'
+ 'ix' 'z' 'h#' 'b' 'ow' 'l' 'ax' 'v' 'er' 'h#']
+epoch
+average per : 0.626591
+target : 
+['h#' 'w' 'ax' 'n' 'ix' 'v' 'dh' 'iy' 'z' 'ix' 'z' 'dh' 'ix' 's' 'ao' 'l'
+ 'ix' 'h#' 'd' 'eh' 'r' 'ix' 'dx' 'iy' 'h#' 'eh' 'n' 'dh' 'ix' 'h#' 'k'
+ 'ao' 'n' 'f' 'ix' 'h#' 'd' 'eh' 'n' 'zh' 'ax' 'l' 'r' 'ix' 'l' 'ey' 'zh'
+ 'n' 'zh' 'ix' 'h#' 'p' 'ax' 'v' 'm' 'eh' 'r' 'ix' 'h#' 'jh' 'h#']
+predict: 
+['h#' 'h#' 'ao' 'n' 'ax' 'v' 'dh' 'iy' 'ix' 'h#' 's' 'ix' 'z' 'h#' 't' 'ao'
+ 'r' 'h#' 'd' 'eh' 'n' 'iy' 'ix' 'n' 'h#' 't' 'ix' 'm' 'ax' 'n' 'h#' 't'
+ 'ix' 'n' 's' 'h#' 't' 'r' 'ey' 'zh' 'n' 'h#' 'd' 'ix' 'zh' 'ix' 'n' 'h#']
+epoch
+average per : 0.647522
+target : 
+['h#' 'h#' 'ay' 'ao' 'n' 'er' 'm' 'ay' 'm' 'ao' 'm' 'h#']
+predict: 
+['h#' 'h#' 'ay' 'h#' 'ao' 'n' 'ax' 'm' 'ao' 'm' 'ax' 'm' 'h#']
+epoch
+average per : 0.631760
+target : 
+['h#' 'y' 'eh' 's' 'y' 'eh' 's' 'h#' 'w' 'l' 'l' 'eh' 'h#' 'y' 'uw' 'n'
+ 'ow' 'h#']
+predict: 
+['h#' 'd' 'eh' 's' 'h#' 't' 'eh' 'z' 'h#' 'dh' 'ax' 'w' 'ax' 'th' 'th' 'ix'
+ 'n' 'aw' 'h#']
+epoch_per: 0.630559
+best_per: 0.662296
+we has a better model
+best model has been saved
+epoch: 14 batch: 0 loss: 0.902182
+epoch: 14 batch: 1 loss: 0.962014
+epoch: 14 batch: 2 loss: 0.778525
+epoch: 14 batch: 3 loss: 0.865810
+epoch: 14 batch: 4 loss: 0.932835
+epoch: 14 batch: 5 loss: 0.761827
+epoch: 14 batch: 6 loss: 0.894204
+epoch: 14 batch: 7 loss: 0.861610
+epoch: 14 batch: 8 loss: 0.922135
+epoch: 14 batch: 9 loss: 0.825515
+epoch: 14 batch: 10 loss: 0.815338
+epoch: 14 batch: 11 loss: 0.936572
+epoch: 14 batch: 12 loss: 0.821933
+epoch: 14 batch: 13 loss: 0.944069
+epoch: 14 batch: 14 loss: 0.987933
+epoch: 14 batch: 15 loss: 0.863527
+epoch: 14 batch: 16 loss: 0.807089
+epoch: 14 batch: 17 loss: 0.821622
+epoch: 14 batch: 18 loss: 0.857434
+epoch: 14 batch: 19 loss: 0.809986
+epoch: 14 batch: 20 loss: 0.808612
+epoch: 14 batch: 21 loss: 0.824886
+epoch: 14 batch: 22 loss: 0.839448
+epoch: 14 batch: 23 loss: 0.781141
+epoch: 14 batch: 24 loss: 0.757137
+epoch: 14 batch: 25 loss: 0.949831
+epoch: 14 batch: 26 loss: 0.903752
+epoch: 14 batch: 27 loss: 0.868123
+epoch: 14 batch: 28 loss: 0.832151
+epoch: 14 batch: 29 loss: 1.009007
+epoch: 14 batch: 30 loss: 0.846726
+epoch: 14 batch: 31 loss: 0.806658
+epoch: 14 batch: 32 loss: 0.872726
+epoch: 14 batch: 33 loss: 0.738315
+epoch: 14 batch: 34 loss: 0.695570
+epoch: 14 batch: 35 loss: 0.812159
+epoch: 14 batch: 36 loss: 0.836154
+epoch: 14 batch: 37 loss: 0.787523
+epoch: 14 batch: 38 loss: 0.816290
+epoch: 14 batch: 39 loss: 0.845203
+epoch: 14 batch: 40 loss: 0.937528
+epoch: 14 batch: 41 loss: 0.819848
+epoch: 14 batch: 42 loss: 0.889278
+epoch: 14 batch: 43 loss: 0.752674
+epoch: 14 batch: 44 loss: 0.894900
+epoch: 14 batch: 45 loss: 0.815517
+epoch: 14 batch: 46 loss: 0.788481
+epoch: 14 batch: 47 loss: 0.867018
+epoch: 14 batch: 48 loss: 0.899710
+epoch: 14 batch: 49 loss: 0.914098
+epoch: 14 batch: 50 loss: 0.768954
+epoch: 14 batch: 51 loss: 0.975411
+epoch: 14 batch: 52 loss: 0.785189
+epoch: 14 batch: 53 loss: 0.800957
+epoch: 14 batch: 54 loss: 0.806667
+epoch: 14 batch: 55 loss: 0.924194
+epoch: 14 batch: 56 loss: 0.835309
+epoch: 14 batch: 57 loss: 0.838862
+epoch: 14 batch: 58 loss: 0.955766
+epoch: 14 batch: 59 loss: 0.826741
+epoch: 14 batch: 60 loss: 0.831400
+epoch: 14 batch: 61 loss: 0.893340
+epoch: 14 batch: 62 loss: 0.827326
+epoch: 14 batch: 63 loss: 0.861306
+epoch: 14 batch: 642017-11-26 17:26:17.702659: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+2017-11-26 17:26:17.703345: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+ loss: 0.747235
+epoch: 14 batch: 65 loss: 0.820172
+epoch: 14 batch: 66 loss: 0.913514
+epoch: 14 batch: 67 loss: 0.961956
+epoch: 14 batch: 68 loss: 0.906792
+epoch: 14 batch: 69 loss: 0.759899
+epoch: 14 batch: 70 loss: 0.746251
+epoch: 14 batch: 71 loss: 0.952737
+epoch: 14 batch: 72 loss: 0.860780
+epoch: 14 batch: 73 loss: 0.901155
+epoch: 14 batch: 74 loss: 1.026746
+epoch: 14 batch: 75 loss: 0.954907
+epoch: 14 batch: 76 loss: 0.885760
+epoch: 14 batch: 77 loss: 0.961715
+epoch: 14 batch: 78 loss: 0.942202
+epoch: 14 batch: 79 loss: 0.780435
+epoch: 14 batch: 80 loss: 0.997947
+epoch: 14 batch: 81 loss: 0.811564
+epoch: 14 batch: 82 loss: 0.898726
+epoch: 14 batch: 83 loss: 0.895648
+epoch: 14 batch: 84 loss: 0.760172
+epoch: 14 batch: 85 loss: 0.816043
+epoch: 14 batch: 86 loss: 0.784462
+epoch: 14 batch: 87 loss: 0.806575
+epoch: 14 batch: 88 loss: 0.887775
+epoch: 14 batch: 89 loss: 0.895724
+epoch: 14 batch: 90 loss: 0.869447
+epoch: 14 batch: 91 loss: 1.084307
+epoch: 14 batch: 92 loss: 0.870113
+epoch: 14 batch: 93 loss: 0.858109
+epoch: 14 batch: 94 loss: 0.857482
+epoch: 14 batch: 95 loss: 0.998044
+epoch: 14 batch: 96 loss: 0.906877
+epoch: 14 batch: 97 loss: 0.961226
+epoch: 14 batch: 98 loss: 0.901959
+epoch: 14 batch: 99 loss: 0.920323
+epoch: 14 batch: 100 loss: 0.948044
+epoch: 14 batch: 101 loss: 0.848589
+epoch: 14 batch: 102 loss: 0.867169
+epoch: 14 batch: 103 loss: 0.905472
+epoch: 14 batch: 104 loss: 0.953416
+epoch: 14 batch: 105 loss: 0.870667
+epoch: 14 batch: 106 loss: 0.879344
+epoch: 14 batch: 107 loss: 0.953712
+epoch: 14 batch: 108 loss: 0.872832
+epoch: 14 batch: 109 loss: 1.038806
+epoch_loss: 0.868699
+epoch
+average per : 0.631051
+target : 
+['h#' 'h#' 'ay' 'ix' 's' 'uw' 'm' 'oy' 'zh' 'h#' 'ch' 'er' 'w' 'l' 'h#' 'd'
+ 'ae' 'm' 'ix' 'h#' 'jh' 'dh' 'ix' 'zh' 'ix' 'h#' 'p' 's' 'hh' 'ax' 'l'
+ 'h#']
+predict: 
+['h#' 'h#' 'ay' 'z' 'ix' 'm' 'h#' 'p' 'oy' 'zh' 'h#' 't' 'er' 'm' 'ow' 'v'
+ 'er' 'dh' 'ae' 'h#' 'k' 'ae' 'zh' 'h#' 'p' 'ix' 'zh' 'l' 'eh' 'r' 'ow'
+ 'h#']
+epoch
+average per : 0.622376
+target : 
+['h#' 'w' 'iy' 'ix' 'h#' 'p' 'l' 'ay' 'h#' 'ao' 'dx' 'ix' 'h#' 't' 'ao' 'r'
+ 'iy' 'm' 'ao' 'h#' 'd' 'l' 'iy' 'ng' 'h#' 't' 'ix' 'h#' 'k' 'ax' 'm' 'h#'
+ 'p' 'y' 'uw' 'dx' 'er' 's' 'h#' 'p' 'iy' 'h#' 'ch' 'h#' 'r' 'eh' 'h#' 'k'
+ 'ix' 'h#' 'n' 'ix' 'zh' 'ax' 'n' 'ax' 'h#']
+predict: 
+['h#' 'w' 'iy' 'ix' 'h#' 'p' 'ao' 'r' 'l' 'ao' 'h#' 'ax' 'h#' 'k' 'oy' 'n'
+ 'h#' 'ao' 'r' 'm' 'ao' 'r' 'm' 'ix' 'ng' 'h#' 't' 'ix' 'h#' 'g' 'r' 'ix'
+ 'm' 'ix' 'h#' 'k' 'ix' 'm' 'h#' 'p' 'r' 'uw' 'zh' 'er' 'ix' 'ng' 'h#']
+epoch
+average per : 0.644278
+target : 
+['h#' 'h#' 'ey' 'l' 'oy' 'er' 'w' 'ix' 'z' 'ix' 'h#' 'p' 'oy' 'n' 'eh' 'h#'
+ 't' 'uw' 'h#' 'eh' 'h#' 'k' 's' 'ix' 'h#' 'k' 'y' 'uw' 'h#' 't' 'hh' 'er'
+ 'w' 'eh' 'l' 'h#']
+predict: 
+['h#' 'ey' 'y' 'uw' 'oy' 'l' 'er' 'z' 'ix' 'n' 'ax' 'h#' 'b' 'oy' 'h#' 'l'
+ 'ix' 'n' 'h#' 't' 'ix' 'n' 'h#' 't' 'er' 'h#' 'd' 'ix' 's' 'h#' 't' 'er'
+ 'h#' 'ix' 'n' 'w' 'er' 'l' 'ow' 'h#']
+epoch
+average per : 0.651884
+target : 
+['h#' 'p' 'l' 'eh' 'h#' 'jh' 'h#' 't' 'ax' 'h#' 'p' 'er' 'h#' 't' 'ix' 's'
+ 'ix' 'h#' 'p' 'ey' 'dx' 'ix' 'n' 'ax' 'v' 'ae' 'dx' 'ax' 'z' 'ix' 'h#' 'k'
+ 'w' 'ao' 'dx' 'ix' 'h#' 'k' 'ao' 'm' 'h#' 'p' 'ax' 'h#' 't' 'ix' 'zh' 'n'
+ 'h#']
+predict: 
+['h#' 'p' 'l' 'eh' 'h#' 'ch' 'h#' 't' 'r' 'ix' 'h#' 'k' 'ix' 'n' 's' 'eh'
+ 'm' 'r' 'ix' 'h#' 'd' 'ax' 'm' 'ix' 'n' 'ix' 'l' 'ae' 'h#' 't' 'ix' 'h#'
+ 'k' 'w' 'ay' 'h#' 'k' 'ao' 'l' 'ax' 'm' 'ix' 'h#' 'k' 'ix' 'h#' 'k' 'ix'
+ 'zh' 'ix']
+epoch
+average per : 0.607277
+target : 
+['h#' 'n' 'ao' 'dx' 'ix' 'h#' 'k' 'ao' 'r' 'n' 'er' 'ix' 'z' 'h#' 'b' 'ix'
+ 'n' 'v' 'ix' 'z' 'ix' 'h#' 'b' 'l' 'iy' 'h#' 'k' 'ax' 'h#' 'ix' 'n' 'ix'
+ 's' 'w' 'ax' 'n' 'h#']
+predict: 
+['h#' 'h#' 'ao' 'dx' 'er' 'h#' 'k' 'ao' 'r' 'dx' 'er' 'z' 'h#' 'dh' 'ix'
+ 'n' 'ix' 'z' 'ix' 'h#' 'p' 'l' 'ae' 'n' 'h#' 'd' 'ix' 'dh' 'ix' 's' 'hh'
+ 'ao' 'r' 'h#']
+epoch_per: 0.631373
+best_per: 0.630559
+epoch: 15 batch: 0 loss: 0.862476
+epoch: 15 batch: 1 loss: 0.827167
+epoch: 15 batch: 2 loss: 0.833480
+epoch: 15 batch: 3 loss: 0.806131
+epoch: 15 batch: 4 loss: 0.826334
+epoch: 15 batch: 5 loss: 0.737478
+epoch: 15 batch: 6 loss2017-11-26 17:29:57.883823: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+2017-11-26 17:29:57.890795: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+: 0.687115
+epoch: 15 batch: 7 loss: 0.884401
+epoch: 15 batch: 8 loss: 0.700135
+epoch: 15 batch: 9 loss: 0.721112
+epoch: 15 batch: 10 loss: 0.851196
+epoch: 15 batch: 11 loss: 0.747121
+epoch: 15 batch: 12 loss: 0.820023
+epoch: 15 batch: 13 loss: 0.820479
+epoch: 15 batch: 14 loss: 0.667258
+epoch: 15 batch: 15 loss: 0.686222
+epoch: 15 batch: 16 loss: 0.815436
+epoch: 15 batch: 17 loss: 0.674336
+epoch: 15 batch: 18 loss: 0.838841
+epoch: 15 batch: 19 loss: 0.813168
+epoch: 15 batch: 20 loss: 0.787218
+epoch: 15 batch: 21 loss: 0.890100
+epoch: 15 batch: 22 loss: 0.755297
+epoch: 15 batch: 23 loss: 0.835766
+epoch: 15 batch: 24 loss: 0.777880
+epoch: 15 batch: 25 loss: 0.772669
+epoch: 15 batch: 26 loss: 0.750059
+epoch: 15 batch: 27 loss: 0.805603
+epoch: 15 batch: 28 loss: 0.904816
+epoch: 15 batch: 29 loss: 0.898862
+epoch: 15 batch: 30 loss: 0.732729
+epoch: 15 batch: 31 loss: 0.767950
+epoch: 15 batch: 32 loss: 0.850015
+epoch: 15 batch: 33 loss: 0.949511
+epoch: 15 batch: 34 loss: 0.828860
+epoch: 15 batch: 35 loss: 0.974846
+epoch: 15 batch: 36 loss: 0.748521
+epoch: 15 batch: 37 loss: 0.797127
+epoch: 15 batch: 38 loss: 0.791629
+epoch: 15 batch: 39 loss: 0.751766
+epoch: 15 batch: 40 loss: 0.800131
+epoch: 15 batch: 41 loss: 0.812051
+epoch: 15 batch: 42 loss: 0.829010
+epoch: 15 batch: 43 loss: 0.719896
+epoch: 15 batch: 44 loss: 0.824991
+epoch: 15 batch: 45 loss: 0.782199
+epoch: 15 batch: 46 loss: 0.718303
+epoch: 15 batch: 47 loss: 0.741860
+epoch: 15 batch: 48 loss: 0.761138
+epoch: 15 batch: 49 loss: 0.773034
+epoch: 15 batch: 50 loss: 0.929236
+epoch: 15 batch: 51 loss: 0.743325
+epoch: 15 batch: 52 loss: 0.868422
+epoch: 15 batch: 53 loss: 0.831332
+epoch: 15 batch: 54 loss: 0.800890
+epoch: 15 batch: 55 loss: 0.804706
+epoch: 15 batch: 56 loss: 0.838596
+epoch: 15 batch: 57 loss: 0.803245
+epoch: 15 batch: 58 loss: 0.798327
+epoch: 15 batch: 59 loss: 0.700640
+epoch: 15 batch: 60 loss: 0.764005
+epoch: 15 batch: 61 loss: 0.829193
+epoch: 15 batch: 62 loss: 0.767886
+epoch: 15 batch: 63 loss: 0.802047
+epoch: 15 batch: 64 loss: 0.934849
+epoch: 15 batch: 65 loss: 0.877067
+epoch: 15 batch: 66 loss: 0.910585
+epoch: 15 batch: 67 loss: 0.754825
+epoch: 15 batch: 68 loss: 0.763922
+epoch: 15 batch: 69 loss: 0.794807
+epoch: 15 batch: 70 loss: 0.780773
+epoch: 15 batch: 71 loss: 0.874360
+epoch: 15 batch: 72 loss: 0.818306
+epoch: 15 batch: 73 loss: 0.942498
+epoch: 15 batch: 74 loss: 0.867422
+epoch: 15 batch: 75 loss: 0.845295
+epoch: 15 batch: 76 loss: 0.846047
+epoch: 15 batch: 77 loss: 0.804544
+epoch: 15 batch: 78 loss: 0.774229
+epoch: 15 batch: 79 loss: 0.770241
+epoch: 15 batch: 80 loss: 0.759168
+epoch: 15 batch: 81 loss: 0.874483
+epoch: 15 batch: 82 loss: 0.925081
+epoch: 15 batch: 83 loss: 0.798070
+epoch: 15 batch: 84 loss: 0.774655
+epoch: 15 batch: 85 loss: 0.887026
+epoch: 15 batch: 86 loss: 0.728111
+epoch: 15 batch: 87 loss: 0.865564
+epoch: 15 batch: 88 loss: 0.904608
+epoch: 15 batch: 89 loss: 0.801355
+epoch: 15 batch: 90 loss: 0.942173
+epoch: 15 batch: 91 loss: 0.913504
+epoch: 15 batch: 92 loss: 0.769502
+epoch: 15 batch: 93 loss: 0.836568
+epoch: 15 batch: 94 loss: 0.867246
+epoch: 15 batch: 95 loss: 0.761409
+epoch: 15 batch: 96 loss: 0.752581
+epoch: 15 batch: 97 loss: 0.875878
+epoch: 15 batch: 98 loss: 0.826614
+epoch: 15 batch: 99 loss: 0.869764
+epoch: 15 batch: 100 loss: 1.006328
+epoch: 15 batch: 101 loss: 0.853715
+epoch: 15 batch: 102 loss: 0.840870
+epoch: 15 batch: 103 loss: 0.826846
+epoch: 15 batch: 104 loss: 0.827744
+epoch: 15 batch: 105 loss: 0.783935
+epoch: 15 batch: 106 loss: 0.768215
+epoch: 15 batch: 107 loss: 0.822726
+epoch: 15 batch: 108 loss: 0.789910
+epoch: 15 batch: 109 loss: 0.820623
+epoch_loss: 0.813360
+epoch
+average per : 0.637936
+target : 
+['h#' 'd' 'ax' 'z' 'hh' 'ix' 'n' 'h#' 'd' 'uw' 'h#' 'ay' 'dx' 'iy' 'ao' 'l'
+ 'ax' 'h#' 'jh' 'iy' 'h#' 'ao' 'n' 'er' 'h#' 'k' 'aw' 'z' 'h#']
+predict: 
+['h#' 'd' 'ax' 's' 'hh' 'ix' 'n' 'h#' 'd' 'uw' 'l' 'ay' 'h#' 'ao' 'l' 'iy'
+ 'ao' 'h#' 't' 'iy' 'h#' 'ao' 'n' 'h#' 'eh' 'n' 'h#' 't' 'er' 'l' 'ey' 'h#']
+epoch
+average per : 0.605495
+target : 
+['h#' 'p' 'uh' 'dx' 'ax' 'h#' 'd' 'ao' 'l' 'er' 'ix' 'n' 's' 'eh' 'n' 's2017-11-26 17:30:02.266688: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+'
+ 'h#' 'l' 'ix' 'm' 'ix' 'dx' 'ao' 'n' 'h#' 'b' 'eh' 'n' 'ix' 'f' 'ix' 'h#'
+ 's' 'h#']
+predict: 
+['h#' 'p' 'ax' 'dx' 'ax' 'h#' 'd' 'ao' 'l' 'ay' 'z' 'ay' 'z' 'h#' 'm' 'ax'
+ 'l' 'ax' 'n' 'm' 'ae' 'n' 'er' 'ix' 'z' 'h#']
+epoch
+average per : 0.591266
+target : 
+['h#' 'r' 'ao' 'h#' 'b' 'h#' 'm' 'ey' 'h#' 'd' 'hh' 'ax' 'ng' 'h#' 'g' 'eh'
+ 'r' 'ix' 'ix' 'n' 'h#' 'g' 'uw' 'l' 'ao' 'zh' 'f' 'ax' 'h#' 'd' 'ix' 'n'
+ 'er' 'h#' 'h#' 'ix' 'ng' 'h#' 'g' 'uw' 's' 'h#' 'b' 'eh' 'r' 'ix' 'h#' 'p'
+ 'ay' 'f' 'ao' 'h#' 'd' 'ix' 'z' 'er' 'h#' 't' 'h#']
+predict: 
+['h#' 'ao' 'r' 'hh' 'ix' 'v' 'h#' 'p' 'r' 'iy' 'v' 'eh' 'n' 'ix' 'v' 'er'
+ 'iy' 'ix' 'n' 'hh' 'iy' 'l' 'ao' 'r' 'h#' 'jh' 'ix' 'h#' 'k' 'l' 'ey' 'm'
+ 'ix' 'n' 'ix' 'n' 'h#' 'ix' 'n' 'h#' 'b' 'ix' 'h#' 'g' 'r' 'ix' 'z' 'ix'
+ 'n' 'h#']
+epoch
+average per : 0.590067
+target : 
+['h#' 't' 'ow' 'f' 'uw' 'h#' 'ix' 'z' 'h#' 'm' 'ey' 'h#' 'f' 'er' 'm' 'h#'
+ 'p' 'r' 'ao' 's' 'ix' 's' 'oy' 'h#' 'b' 'iy' 'n' 'z' 'h#']
+predict: 
+['h#' 't' 'ow' 'f' 'l' 'iy' 'ix' 'z' 'h#' 'b' 'ey' 'th' 'f' 'er' 'h#' 'k'
+ 'l' 'eh' 's' 'f' 'eh' 's' 'h#' 't' 'r' 'ey' 'h#' 'd' 'h#']
+epoch
+average per : 0.613156
+target : 
+['h#' 'dh' 'ix' 'r' 'ix' 'h#' 'ch' 'zh' 'uh' 'dx' 'ix' 'n' 'v' 'eh' 's'
+ 'h#' 't' 'ix' 'n' 'h#' 'b' 'l' 'ae' 'h#' 'k' 'z' 'er' 'h#' 'k' 'ao' 'n'
+ 'z' 'n' 's' 'h#' 't' 'eh' 'dx' 'ax' 'v' 's' 'h#' 't' 'ay' 'l' 'iy' 'zh'
+ 'h#' 'zh' 'uw' 'z' 'h#']
+predict: 
+['h#' 'dh' 'ax' 'r' 'ix' 'zh' 'zh' 'iy' 'dx' 'ix' 'z' 'ae' 'h#' 'k' 's'
+ 'h#' 't' 'h#' 'b' 'ay' 'h#' 'k' 's' 'eh' 'l' 'er' 'z' 'ax' 'h#' 'k' 'ao'
+ 'm' 'h#' 'p' 's' 'ao' 'h#' 's' 'ix' 'v' 's' 'h#' 't' 'ay' 'ix' 'zh' 'iy'
+ 'z' 'h#']
+epoch_per: 0.607584
+best_per: 0.630559
+we has a better model
+best model has been saved
+epoch: 16 batch: 0 loss: 0.771700
+epoch: 16 batch: 1 loss: 0.638627
+epoch: 16 batch: 2 loss: 0.691309
+epoch: 16 batch: 3 loss: 0.790355
+epoch: 16 batch: 4 loss: 0.688684
+epoch: 16 batch: 5 loss: 0.841392
+epoch: 16 batch: 6 loss: 0.666264
+epoch: 16 batch: 7 loss: 0.709567
+epoch: 16 batch: 8 loss: 0.749308
+epoch: 16 batch: 9 loss: 0.778895
+epoch: 16 batch: 10 loss: 0.823366
+epoch: 16 batch: 11 loss: 0.732077
+epoch: 16 batch: 12 loss: 0.789873
+epoch: 16 batch: 13 loss: 0.749143
+epoch: 16 batch: 14 loss: 0.712700
+epoch: 16 batch: 15 loss: 0.870873
+epoch: 16 batch: 16 loss: 0.766816
+epoch: 16 batch: 17 loss: 0.663635
+epoch: 16 batch: 18 loss: 0.917778
+epoch: 16 batch: 19 loss: 0.779430
+epoch: 16 batch: 20 loss: 0.786295
+epoch: 16 batch: 21 loss: 0.715181
+epoch: 16 batch: 22 loss: 0.761250
+epoch: 16 batch: 23 loss: 0.793758
+epoch: 16 batch: 24 loss: 0.793901
+epoch: 16 batch: 25 loss: 0.764143
+epoch: 16 batch: 26 loss: 0.723834
+epoch: 16 batch: 27 loss: 0.667924
+epoch: 16 batch: 28 loss: 0.725778
+epoch: 16 batch: 29 loss: 0.760074
+epoch: 16 batch: 30 loss: 0.739428
+epoch: 16 batch: 31 loss: 0.721192
+epoch: 16 batch: 32 loss: 0.851283
+epoch: 16 batch: 33 loss: 0.652664
+epoch: 16 batch: 34 loss: 0.714399
+epoch: 16 batch: 35 loss: 0.802192
+epoch: 16 batch: 36 loss: 0.689082
+epoch: 16 batch: 37 loss: 0.693429
+epoch: 16 batch: 38 loss: 0.792023
+epoch: 16 batch: 39 loss: 0.704173
+epoch: 16 batch: 40 loss: 0.734977
+epoch: 16 batch: 41 loss: 0.730428
+epoch: 16 batch: 42 loss: 0.790062
+epoch: 16 batch: 43 loss: 0.766227
+epoch: 16 batch: 44 loss: 0.757344
+epoch: 16 batch: 45 loss: 0.690188
+epoch: 16 batch: 46 loss: 0.743752
+epoch: 16 batch: 47 loss: 0.812213
+epoch: 16 batch: 48 loss: 0.667931
+epoch: 16 batch: 49 loss: 0.856794
+epoch: 16 batch: 50 loss: 0.711428
+epoch: 16 batch: 51 loss: 0.851320
+epoch: 16 batch: 52 loss: 0.819948
+epoch: 16 batch: 53 loss: 0.836962
+epoch: 16 batch: 54 loss: 0.723837
+epoch: 16 batch: 55 loss: 0.839012
+epoch: 16 batch: 56 loss: 0.808151
+epoch: 16 batch: 57 loss: 0.680158
+epoch: 16 batch: 58 loss: 0.827531
+epoch: 16 batch: 59 loss: 0.758350
+epoch: 16 batch: 60 loss: 0.679903
+epoch: 16 batch: 61 loss: 0.844712
+epoch: 16 batch: 62 loss: 0.719040
+epoch: 16 batch: 63 loss: 0.905736
+epoch: 16 batch: 64 loss: 0.729133
+epoch: 16 batch: 65 loss: 0.811702
+epoch: 16 batch: 66 loss: 0.770051
+epoch: 16 batch: 67 loss: 0.759887
+epoch: 16 batch2017-11-26 17:33:40.549279: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+2017-11-26 17:33:44.831375: W tensorflow/core/framework/op_kernel.cc:1192] Out of range: End of sequence
+	 [[Node: IteratorGetNext = IteratorGetNext[output_shapes=[[?,?,123], [?,?], [?,?], [?], [?]], output_types=[DT_FLOAT, DT_INT64, DT_INT64, DT_INT64, DT_INT64], _device="/job:localhost/replica:0/task:0/device:CPU:0"](Iterator)]]
+: 68 loss: 0.730449
+epoch: 16 batch: 69 loss: 0.793353
+epoch: 16 batch: 70 loss: 0.725864
+epoch: 16 batch: 71 loss: 0.825359
+epoch: 16 batch: 72 loss: 0.774399
+epoch: 16 batch: 73 loss: 0.771872
+epoch: 16 batch: 74 loss: 0.757780
+epoch: 16 batch: 75 loss: 0.805093
+epoch: 16 batch: 76 loss: 0.811977
+epoch: 16 batch: 77 loss: 0.848823
+epoch: 16 batch: 78 loss: 0.710660
+epoch: 16 batch: 79 loss: 0.718374
+epoch: 16 batch: 80 loss: 0.711200
+epoch: 16 batch: 81 loss: 0.814649
+epoch: 16 batch: 82 loss: 0.823346
+epoch: 16 batch: 83 loss: 0.852592
+epoch: 16 batch: 84 loss: 0.670808
+epoch: 16 batch: 85 loss: 0.849934
+epoch: 16 batch: 86 loss: 0.765154
+epoch: 16 batch: 87 loss: 0.782270
+epoch: 16 batch: 88 loss: 0.798013
+epoch: 16 batch: 89 loss: 0.791024
+epoch: 16 batch: 90 loss: 0.881582
+epoch: 16 batch: 91 loss: 0.806855
+epoch: 16 batch: 92 loss: 0.730474
+epoch: 16 batch: 93 loss: 0.709630
+epoch: 16 batch: 94 loss: 0.864898
+epoch: 16 batch: 95 loss: 0.713612
+epoch: 16 batch: 96 loss: 0.673427
+epoch: 16 batch: 97 loss: 0.803981
+epoch: 16 batch: 98 loss: 0.688876
+epoch: 16 batch: 99 loss: 0.758776
+epoch: 16 batch: 100 loss: 0.801017
+epoch: 16 batch: 101 loss: 0.785881
+epoch: 16 batch: 102 loss: 0.854945
+epoch: 16 batch: 103 loss: 0.816390
+epoch: 16 batch: 104 loss: 0.785106
+epoch: 16 batch: 105 loss: 0.682628
+epoch: 16 batch: 106 loss: 0.731270
+epoch: 16 batch: 107 loss: 0.743387
+epoch: 16 batch: 108 loss: 0.821195
+epoch: 16 batch: 109 loss: 0.934364
+epoch_loss: 0.766653
+epoch
+average per : 0.592690
+target : 
+['h#' 'm' 'uw' 'v' 'dh' 'ix' 'h#' 'g' 'ao' 'r' 'h#' 'b' 'ix' 'h#' 'jh' 'h#'
+ 'n' 'ix' 'er' 'h#' 't' 'ix' 'dh' 'ax' 'l' 'ao' 'r' 'h#' 'jh' 'w' 'ix' 'n'
+ 'h#' 'd' 'ow' 'h#']
+predict: 
+['h#' 'w' 'ax' 'z' 'dh' 'ix' 'h#' 'g' 'eh' 'v' 'er' 'h#' 'ch' 'ix' 'n' 'h#'
+ 'd' 'ix' 'er' 'h#' 'k' 'ix' 'n' 'dh' 'ax' 'r' 'ao' 'h#' 't' 'uw' 'ax' 'h#'
+ 'b' 'l' 'h#']
+epoch
+average per : 0.595227
+target : 
+['h#' 'dh' 'ax' 'w' 'ao' 'dx' 'er' 'h#' 'k' 'ax' 'n' 'h#' 't' 'ey' 'n' 'h#'
+ 'd' 'h#' 't' 'uw' 'm' 'ax' 'h#' 'ch' 'h#' 'k' 'l' 'ao' 'r' 'iy' 'n' 'ae'
+ 'n' 's' 'h#' 't' 'ax' 'ng' 'hh' 'ix' 'z' 'ay' 'z' 'h#']
+predict: 
+['h#' 'dh' 'ax' 'w' 'er' 'dx' 'er' 'h#' 'k' 'ix' 'n' 'h#' 't' 'ey' 'n' 'h#'
+ 't' 'uw' 'h#' 'd' 'ix' 'l' 'ay' 'h#' 't' 'ax' 'h#' 'k' 'l' 'ao' 'r' 'iy'
+ 'ix' 'n' 'ix' 'n' 'h#' 't' 's' 'h#' 'k' 'ao' 'm' 'ix' 'n' 's' 'ix' 'h#'
+ 'k' 'ao']
+epoch
+average per : 0.605168
+target : 
+['h#' 'ax' 'f' 'r' 'ey' 'h#' 'd' 'ix' 'h#' 'y' 'uh' 'l' 'uw' 'z' 'h#' 'y'
+ 'ao' 'r' 'h#' 'jh' 'ao' 'h#' 'b' 'h#' 'ix' 'f' 'y' 'uw' 'h#' 'd' 'ow' 'n'
+ 'h#' 'k' 'iy' 'h#' 'p' 'y' 'ao' 'r' 'm' 'aw' 'th' 'zh' 'ax' 'h#' 't' 'h#']
+predict: 
+['h#' 'h#' 'ax' 'f' 'r' 'ey' 'h#' 'ix' 'n' 'h#' 'dh' 'iy' 'ow' 'v' 'y' 'uw'
+ 'z' 'h#' 'h#' 'eh' 'n' 'h#' 't' 'aw' 'h#' 'd' 'ix' 'h#' 'jh' 'h#' 'd' 'ix'
+ 'h#' 'p' 'ow' 'h#' 't' 'ix' 'v' 'er' 'h#' 'k' 'eh' 'r' 'er' 'h#' 't' 'h#']
+epoch
+average per : 0.589581
+target : 
+['h#' 'h#' 'ey' 'hh' 'y' 'uw' 'h#' 'jh' 'h#' 't' 'ae' 'h#' 'p' 'ix' 's'
+ 'h#' 't' 'r' 'iy' 'hh' 'ax' 'ng' 'ix' 'n' 'er' 'hh' 'ao' 'l' 'w' 'ey' 'h#']
+predict: 
+['h#' 'm' 'iy' 'n' 'iy' 'h#' 'ch' 'h#' 't' 'ae' 'h#' 'p' 's' 'h#' 't' 'uw'
+ 'm' 'iy' 'n' 'ao' 'r' 'n' 'y' 'er' 'w' 'ao' 'h#' 'k' 'er' 'h#']
+epoch
+average per : 0.621473
+target : 
+['h#' 'w' 'ix' 'l' 'y' 'uw' 'h#' 'p' 'l' 'iy' 'z' 'h#' 'k' 'n' 'f' 'er' 'm'
+ 'h#' 'g' 'ax' 'v' 'er' 'n' 'h#' 'p' 'ao' 'l' 'ax' 's' 'ix' 'r' 'ix' 'h#'
+ 'g' 'ao' 'r' 'dx' 'ix' 'ng' 'w' 'ey' 's' 'h#' 't' 'r' 'ix' 'm' 'uw' 'v'
+ 'l' 'h#']
+predict: 
+['h#' 'b' 'ax' 'dx' 'iy' 'n' 'h#' 'd' 'ey' 's' 'h#' 'p' 'r' 'ix' 'n' 'h#'
+ 't' 'er' 'v' 'er' 'h#' 'k' 'ax' 'm' 'h#' 'p' 'l' 'ao' 'zh' 'h#' 'ch' 'ix'
+ 'n' 'r' 'eh' 'h#' 'g' 'r' 'ey' 's' 'h#' 'k' 'r' 'ow' 'm' 'ax' 'h#' 'k' 'l'
+ 'h#']
+epoch_per: 0.600828
+best_per: 0.607584
+we has a better model
+best model has been saved
+epoch: 17 batch: 0 loss: 0.643450
+epoch: 17 batch: 1 loss: 0.749906
+epoch: 17 batch: 2 loss: 0.673829
+epoch: 17 batch: 3 loss: 0.764349
+epoch: 17 batch: 4 loss: 0.656739
+epoch: 17 batch: 5 loss: 0.866182
+epoch: 17 batch: 6 loss: 0.774636
+epoch: 17 batch: 7 loss: 0.740116
+epoch: 17 batch: 8 loss: 0.784649
+epoch: 17 batch: 9 loss: 0.725702
+epoch: 17 batch: 10 loss: 0.722402
+epoch: 17 batch: 11 loss: 0.707574
+epoch: 17 batch: 12 loss: 0.826109
+epoch: 17 batch: 13 loss: 0.793814
+epoch: 17 batch: 14 loss: 0.763038
+epoch: 17 batch: 15 loss: 0.792342
+epoch: 17 batch: 16 loss: 0.593507
+epoch: 17 batch: 17 loss: 0.718155
+epoch: 17 batch: 18 loss: 0.736533
+epoch: 17 batch: 19 loss: 0.754228
+epoch: 17 batch: 20 loss: 0.645697
+epoch: 17 batch: 21 loss: 0.805242
+epoch: 17 batch: 22 loss: 0.693169
+epoch: 17 batch: 23 loss: 0.755840
+epoch: 17 batch: 24 loss: 0.700114
+epoch: 17 batch: 25 loss: 0.686541
+epoch: 17 batch: 26 loss: 0.661709
+epoch: 17 batch: 27 loss: 0.809650
+epoch: 17 batch: 28 loss: 0.754918
+epoch: 17 batch: 29 loss: 0.732423
+epoch: 17 batch: 30 loss: 0.701803
+epoch: 17 batch: 31 loss: 0.755500
+epoch: 17 batch: 32 loss: 0.757605
+epoch: 17 batch: 33 loss: 0.667549
+epoch: 17 batch: 34 loss: 0.671903
+epoch: 17 batch: 35 loss: 0.806268
+epoch: 17 batch: 36 loss: 0.634586
+epoch: 17 batch: 37 loss: 0.728302
+epoch: 17 batch: 38 loss: 0.652765
+epoch: 17 batch: 39 loss: 0.703501
+epoch: 17 batch: 40 loss: 0.679618
+epoch: 17 batch: 41 loss: 0.719628
+epoch: 17 batch: 42 loss: 0.740388
+epoch: 17 batch: 43 loss: 0.851857
+epoch: 17 batch: 44 loss: 0.936936
+epoch: 17 batch: 45 loss: 0.812202
+epoch: 17 batch: 46 loss: 0.646371
+epoch: 17 batch: 47 loss: 0.805287
+epoch: 17 batch: 48 loss: 0.789019
+epoch: 17 batch: 49 loss: 0.713765
+epoch: 17 batch: 50 loss: 0.717488
+epoch: 17 batch: 51 loss: 0.700950
+epoch: 17 batch: 52 loss: 0.880463
+epoch: 17 batch: 53 loss: 0.719709
+epoch: 17 batch: 54 loss: 0.709262
+epoch: 17 batch: 55 loss: 0.663360
+epoch: 17 batch: 56 loss: 0.741189
+epoch: 17 batch: 57 loss: 0.733237
+epoch: 17 batch: 58 loss: 0.662154
+epoch: 17 batch: 59 loss: 0.629469
+epoch: 17 batch: 60 loss: 0.691958
+epoch: 17 batch: 61 loss: 0.630982
+epoch: 17 batch: 62 loss: 0.665488
+epoch: 17 batch: 63 loss: 0.772716
+epoch: 17 batch: 64 loss: 0.726950
+epoch: 17 batch: 65 loss: 0.636188
+epoch: 17 batch: 66 loss: 0.770402
+epoch: 17 batch: 67 loss: 0.686226
+epoch: 17 batch: 68 loss: 0.768995
+epoch: 17 batch: 69 loss: 0.807068
+epoch: 17 batch: 70 loss: 0.766340
+epoch: 17 batch: 71 loss: 0.710457
+epoch: 17 batch: 72 loss: 0.781631
+epoch: 17 batch: 73 loss: 0.760517
+epoch: 17 batch: 74 loss: 0.635305
+epoch: 17 batch: 75 loss: 0.622584
+epoch: 17 batch: 76 loss: 0.750870
+epoch: 17 batch: 77 loss: 0.645720
+epoch: 17 batch: 78 loss: 0.752601
+epoch: 17 batch: 79 loss: 0.726926
+epoch: 17 batch: 80 loss: 0.711261
+epoch: 17 batch: 81 loss: 0.719646
+epoch: 17 batch: 82 loss: 0.768152
+epoch: 17 batch: 83 loss: 0.903789
+epoch: 17 batch: 84 loss: 0.771745
+epoch: 17 batch: 85 loss: 0.772031
+epoch: 17 batch: 86 loss: 0.731875
+epoch: 17 batch: 87 loss: 0.708311
+epoch: 17 batch: 88 loss: 0.744590
+epoch: 17 batch: 89 loss: 0.652570
+epoch: 17 batch: 90 loss: 0.696028
+epoch: 17 batch: 91 loss: 0.712673
+epoch: 17 batch: 92 loss: 0.684559
+epoch: 17 batch: 93 loss: 0.675443
+epoch: 17 batch: 94 loss: 0.765055
+epoch: 17 batch: 95 loss: 0.654740
+epoch: 17 batch: 96 loss: 0.733428
+epoch: 17 batch: 97 loss: 0.706818
+epoch: 17 batch: 98 loss: 0.636829
+Traceback (most recent call last):
+  File "timit.py", line 46, in <module>
+    _, batch_loss, summary = sess.run([attention_model.update, attention_model.loss, attention_model.summary])
+  File "/usr/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 889, in run
+    run_metadata_ptr)
+  File "/usr/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 1120, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/usr/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 1317, in _do_run
+    options, run_metadata)
+  File "/usr/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 1323, in _do_call
+    return fn(*args)
+  File "/usr/lib/python2.7/site-packages/tensorflow/python/client/session.py", line 1302, in _run_fn
+    status, run_metadata)
+KeyboardInterrupt
